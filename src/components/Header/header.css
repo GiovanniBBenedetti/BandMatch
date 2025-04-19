@@ -1,0 +1,22 @@
+:root{
+    --pallete-color1:#D01D3E;
+    --pallete-color2:#e31339;
+    --pallete-color3:#F1F1F1;
+    --pallete-color4:#fff;
+}
+
+.text-nav{
+    color: var(--pallete-color2) !important;
+}
+
+.input-nav{
+    border-color: var(--pallete-color2);
+}
+
+.bi-search{
+    color: var(--pallete-color2);
+    font-weight: bolder;
+    position: absolute;
+    margin-left: -24vh;
+    margin-top: 0.4vh;
+}
