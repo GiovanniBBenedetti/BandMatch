@@ -10,7 +10,7 @@ export default function Users() {
   const [instrumentosSelecionados, setInstrumentosSelecionados] = useState([])
   const [estilosSelecionados, setEstilosSelecionados] = useState([])
   const [generoSelecionado, setGeneroSelecionado] = useState([])
-  const instrumentosCheckBox = [ "guitarra", "baixo", "bateria", "vocal", "piano", "teclado", "saxofone", "controladora"]
+  const instrumentosCheckBox = ["guitarra", "baixo", "bateria", "vocal", "piano", "teclado", "saxofone", "controladora"]
   const estilosMusicaisCheckbox = ["rock", "pop", "raggae", "jazz", "funk", "eletronica"]
   const instrumentoImagens = {
     guitarra: "/guitarra.png",
@@ -42,9 +42,9 @@ export default function Users() {
         estilosSelecionados.length === 0 ||
         estilosSelecionados.every(estilo => user.estilos_musicais.includes(estilo))
 
-        const atendeGenero =
+      const atendeGenero =
         generoSelecionado.length === 0 ||
-        generoSelecionado.every(genero => user.genero.includes(genero))  
+        generoSelecionado.every(genero => user.genero.includes(genero))
 
       return atendeIdade && atendeInstrumentos && atendeEstilos && atendeGenero
     })
@@ -72,47 +72,39 @@ export default function Users() {
 
             <div className="mb-3">
               <label>Idade</label>
-              <div className="d-flex align-items-center gap-2">
-                <input
-                  type="range"
-                  min="18"
-                  max="90"
-                  value={idade}
-                  onChange={(e) => setIdade(Number(e.target.value))}
-                  className="form-control"
-                  style={{ width: "150px" }}
-                />
+              <div className="PB-range-slider-div">
+                <input type="range" min={18} max={80} defaultValue={18} className="PB-range-slider" id="myRange"  onChange={(e) => setIdade(Number(e.target.value))}/>
               </div>
               <span>{idade} anos</span>
             </div>
+           
 
 
-
-       <div className="mb-3">
+            <div className="mb-3">
               <label>Genêro</label>
-         
-                <div  className="form-check d-flex align-items-center gap-2 p-0">
-                  <input
-                    type="checkbox"
-                    className="ui-checkbox"
-                    value="Masculino"
-                    onChange={(e) => handleCheckbox(e, setGeneroSelecionado)}
-                  />
-                  <label className="form-check-label">
-                    Masculino
-                  </label>
-                </div>
-                <div  className="form-check d-flex align-items-center gap-2 p-0">
-                  <input
-                    type="checkbox"
-                    className="ui-checkbox"
-                    value="Feminino"
-                    onChange={(e) => handleCheckbox(e, setGeneroSelecionado)}
-                  />
-                  <label className="form-check-label">
-                    Feminino
-                  </label>
-                </div>
+
+              <div className="form-check d-flex align-items-center gap-2 p-0">
+                <input
+                  type="checkbox"
+                  className="ui-checkbox"
+                  value="Masculino"
+                  onChange={(e) => handleCheckbox(e, setGeneroSelecionado)}
+                />
+                <label className="form-check-label">
+                  Masculino
+                </label>
+              </div>
+              <div className="form-check d-flex align-items-center gap-2 p-0">
+                <input
+                  type="checkbox"
+                  className="ui-checkbox"
+                  value="Feminino"
+                  onChange={(e) => handleCheckbox(e, setGeneroSelecionado)}
+                />
+                <label className="form-check-label">
+                  Feminino
+                </label>
+              </div>
 
             </div>
 
@@ -126,11 +118,11 @@ export default function Users() {
                   <input
                     type="checkbox"
                     className="ui-checkbox"
-                    value={estilo}  
+                    value={estilo}
                     onChange={(e) => handleCheckbox(e, setEstilosSelecionados)}
                   />
                   <label className="form-check-label">
-                    { estilo.charAt(0).toUpperCase() + estilo.slice(1).toLowerCase()}
+                    {estilo.charAt(0).toUpperCase() + estilo.slice(1).toLowerCase()}
                   </label>
                 </div>
               ))}
@@ -148,7 +140,7 @@ export default function Users() {
                     onChange={(e) => handleCheckbox(e, setInstrumentosSelecionados)}
                   />
                   <label className="form-check-label">
-                  { instrumento.charAt(0).toUpperCase() + instrumento.slice(1).toLowerCase()}
+                    {instrumento.charAt(0).toUpperCase() + instrumento.slice(1).toLowerCase()}
                   </label>
                 </div>
               ))}
@@ -156,8 +148,8 @@ export default function Users() {
 
 
 
-            
-     
+
+
             <button className="btn-verperfil w-100 mt-2" onClick={filtragem}>
               Filtrar
             </button>
