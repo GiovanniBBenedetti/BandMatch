@@ -10,17 +10,19 @@ export default function navbar() {
   <Link className="navbar-brand" href='/'>
   <img className='logo' src="/logo.png" alt="" />
   </Link>
-    <button
-      className="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
+  <div className="hamburgers d-lg-none">
+        <label className="hamburger"      
+data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent"
       aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span className="navbar-toggler-icon" />
-    </button>
+      aria-label="Toggle naviga">
+          <input type="checkbox" />
+          <span className="bar" />
+          <span className="bar" />
+          <span className="bar" />
+        </label>
+      </div>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
  
