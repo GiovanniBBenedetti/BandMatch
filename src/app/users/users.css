@@ -1,132 +1,242 @@
 .custom-card {
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 20px 15px 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-  }
-  .row{
-    margin-top: 50px;
-  }
-  .top-section {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 120px;
-    width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  
- 
-  
-  .profile-pic {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid white;
-    margin: 20px auto 10px;
-    position: relative;
-    z-index: 2;
-    display: block;
-  }
-  
-  .user-name {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  .user-location {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .user-description {
-    font-size: 0.9rem;
-    margin: 10px 0 20px;
-    padding: 0 10px;
-    color: #444;
-  }
-  
-  .icon-section {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .icon {
-    font-size: 1.5rem;
-    padding: 10px;
-    border-radius: 50%;
-    color: white;
-  }
-  
-  .icon.music {
-    background-color: #1ccfc9;
-  }
-  .icon.voice {
-    background-color: #f94f66;
-  }
-  .icon.guitar {
-    background-color: #947de0;
-  }
-  
-  .btn-verperfil {
-    background-color: #f0274b;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 25px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
- 
-  .instrumento{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    gap: 20px;
-  }
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 15px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
 
-  .instrumento-img{
-    width: 50px;
-  }
+.row {
+  margin-top: 50px;
+}
+
+.top-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
-  .container-btn{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-   
-  .btn-vermais {
-    font-weight: bold;
-    background-color: none;
-    border: none;
-  }
-  .filtros {
-    margin-top: 50px;
-    background-color: #fff;
-    border-radius: 10px;
-  }
-  
-  .btn-vermais {
-    margin-top: 20px;
-  }
-  
-  .instrumento-img {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
-  }
-  
+
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: 20px auto 10px;
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.user-location {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-description {
+  font-size: 0.9rem;
+  margin: 10px 0 20px;
+  padding: 0 10px;
+  color: #444;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+.icon.music {
+  background-color: #1ccfc9;
+}
+
+.icon.voice {
+  background-color: #f94f66;
+}
+
+.icon.guitar {
+  background-color: #947de0;
+}
+
+.btn-verperfil {
+  background-color: #f0274b;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.instrumento {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+.instrumento-img {
+  width: 50px;
+}
+
+
+.container-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-vermais {
+  font-weight: bold;
+  background-color: none;
+  border: none;
+}
+
+.filtros {
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+
+.btn-vermais {
+  margin-top: 20px;
+}
+
+
+
+/* Inicio estilizaçãao CheckBox */
+.ui-checkbox {
+  --primary-color: #f94f66;
+  --secondary-color: #fff;
+  --primary-hover-color: #4096ff;
+  /* checkbox */
+  --checkbox-diameter: 20px;
+  --checkbox-border-radius: 5px;
+  --checkbox-border-color: #d9d9d9;
+  --checkbox-border-width: 1px;
+  --checkbox-border-style: solid;
+  /* checkmark */
+  --checkmark-size: 1.2;
+}
+
+.ui-checkbox,
+.ui-checkbox *,
+.ui-checkbox *::before,
+.ui-checkbox *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ui-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: var(--checkbox-diameter);
+  height: var(--checkbox-diameter);
+  border-radius: var(--checkbox-border-radius);
+  background: var(--secondary-color);
+  border: var(--checkbox-border-width) var(--checkbox-border-style) var(--checkbox-border-color);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.ui-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);
+  box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);
+  border-radius: inherit;
+  opacity: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+  -o-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+  transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+}
+
+.ui-checkbox::before {
+  top: 40%;
+  left: 50%;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  border-right: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(0);
+  -ms-transform: translate(-50%, -50%) rotate(45deg) scale(0);
+  transform: translate(-50%, -50%) rotate(45deg) scale(0);
+  opacity: 0;
+  -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+  -o-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+  transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+}
+
+/* actions */
+
+.ui-checkbox:hover {
+  border-color: var(--primary-color);
+}
+
+.ui-checkbox:checked {
+  background: var(--primary-color);
+  border-color: transparent;
+}
+
+.ui-checkbox:checked::before {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+  -ms-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+  transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+  -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  -o-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+}
+
+.ui-checkbox:active:not(:checked)::after {
+  -webkit-transition: none;
+  -o-transition: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  transition: none;
+  opacity: 1;
+}
+
+/* Fim estilizaçãao CheckBox */
+
+
+
+
