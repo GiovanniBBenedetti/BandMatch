@@ -1,0 +1,16 @@
+.background-img {
+    margin-top: -6vh;
+}
+
+.perfil-img {
+    margin-top: -18vh;
+    height: 36vh;
+    z-index: 100;
+}
+
+.back-perfil{
+    z-index: 1000;
+    margin-top: -18vh;
+    background-color: black;
+    height: 40vh;
+}
