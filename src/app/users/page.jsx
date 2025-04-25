@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import './users.css'
+import './users.css';
+import Link from 'next/link';
 
 export default function Users() {
   const [usuarios, setUsuario] = useState([])
@@ -184,8 +185,10 @@ export default function Users() {
                           />
                         ))}
                       </div>
-
-                      <button className="btn-verperfil">Ver Perfil</button>
+                        <Link href={`./user/${cards.id}`}>
+                        <button className="btn-verperfil">Ver Perfil</button>
+                        </Link>
+                      
                       <div className="icon-section mb-3"></div>
                     </div>
                   </div>
