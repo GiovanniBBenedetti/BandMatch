@@ -185,7 +185,7 @@ export default function Users() {
                           />
                         ))}
                       </div>
-                        <Link href={`./user/${cards.id}`}>
+                        <Link href={`./users/${cards.id}`}>
                         <button className="btn-verperfil">Ver Perfil</button>
                         </Link>
                       
