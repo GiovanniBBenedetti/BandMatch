@@ -32,63 +32,10 @@ data-bs-toggle="collapse"
             Usuarios
             </Link>
         </li>
-
-        <li className="nav-item dropdown">
-          <a
-            className="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Gêneros
-          </a>
-          <ul className="dropdown-menu">
-        
-            <li>
-              <a className="dropdown-item" href="#">
-                Pop
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Rock
-              </a>
-            </li>
-            <li>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Jazz
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Raggae
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Eletrônica
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Funk
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Rap
-              </a>
-            </li>
-          </ul>
-        </li>
         <li className="nav-item">
-          <Link href='#' className="nav-link">
-       
-       Contatos
-            
+          <Link className='nav-link' href=''>
+        
+            Bandas
             </Link>
         </li>
         <li className="nav-item">
@@ -97,6 +44,15 @@ data-bs-toggle="collapse"
        Como funciona
             
             </Link>
+            
+        </li>
+        <li className="nav-item">
+          <Link href='/cifras' className="nav-link">
+       
+       Cifras
+            
+            </Link>
+            
         </li>
       </ul>
 <Busca></Busca>

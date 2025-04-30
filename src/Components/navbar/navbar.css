@@ -1,3 +1,7 @@
+.navbar{
+  z-index: 1100; 
+}
+
 .navbar-expand-lg {
 padding:40px ; 
  border-radius: 0px 0px 30px 30px;

@@ -2,6 +2,12 @@
 
 import { useState, useEffect } from 'react'
 import './users.css'
+import { League_Spartan } from 'next/font/google'
+
+const LeagueSpartan = League_Spartan({
+  weight: '700',
+  subsets: ['latin'],
+})
 
 export default function Users() {
   const [usuarios, setUsuario] = useState([])
@@ -68,7 +74,7 @@ export default function Users() {
       <div className="row">
         <div className="col-md-3">
           <div className="filtros p-3 bg-white shadow rounded">
-            <h5>Categorias relacionadas</h5>
+            <h3 className={LeagueSpartan.className}>Categorias relacionadas</h3>
 
             <div className="mb-3">
               <label>Idade</label>
