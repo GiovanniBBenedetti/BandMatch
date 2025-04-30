@@ -1828,5 +1828,987 @@
       "cidade": "Florianópolis",
       "fundo": "https://picsum.photos/seed/rafael_teixeira/600/200"
     }
-  ]
+  ], 
+  "bandas":[
+  {
+    "nome": "Banda 1",
+    "foto_banda": "https://picsum.photos/seed/banda_1/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_1/200/200",
+    "descricao": "A Banda 1 é conhecida por seu estilo vibrante e fusão única de reggae, eletronica, rock.",
+    "estilos_musicais": [
+      "reggae",
+      "eletronica",
+      "rock"
+    ],
+    "integrantes": [
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "bateria",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "controladora",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "nome": "Lucas Teixeira",
+        "instrumentos": [
+          "guitarra",
+          "controladora"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "saxofone",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "teclado",
+      "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 2",
+    "foto_banda": "https://picsum.photos/seed/banda_2/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_2/200/200",
+    "descricao": "A Banda 2 é conhecida por seu estilo vibrante e fusão única de reggae, funk, rock.",
+    "estilos_musicais": [
+      "reggae",
+      "funk",
+      "rock"
+    ],
+    "integrantes": [
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "guitarra",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "controladora",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "Amanda Araújo",
+        "instrumentos": [
+          "baixo",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "controladora",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "vocal",
+      "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 3",
+    "foto_banda": "https://picsum.photos/seed/banda_3/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_3/200/200",
+    "descricao": "A Banda 3 é conhecida por seu estilo vibrante e fusão única de funk, jazz, rock.",
+    "estilos_musicais": [
+      "funk",
+      "jazz",
+      "rock"
+    ],
+    "integrantes": [
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "bateria",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "vocal",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "piano",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      {
+        "nome": "João Nascimento",
+        "instrumentos": [
+          "guitarra",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "teclado",
+      "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 4",
+    "foto_banda": "https://picsum.photos/seed/banda_4/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_4/200/200",
+    "descricao": "A Banda 4 é conhecida por seu estilo vibrante e fusão única de rock, rap, eletronica.",
+    "estilos_musicais": [
+      "rock",
+      "rap",
+      "eletronica"
+    ],
+    "integrantes": [
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "guitarra",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "baixo",
+          "controladora"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "nome": "Lucas Teixeira",
+        "instrumentos": [
+          "controladora",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "piano",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "vocal",
+      "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 5",
+    "foto_banda": "https://picsum.photos/seed/banda_5/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_5/200/200",
+    "descricao": "A Banda 5 é conhecida por seu estilo vibrante e fusão única de funk, reggae, eletronica.",
+    "estilos_musicais": [
+      "funk",
+      "reggae",
+      "eletronica"
+    ],
+    "integrantes": [
+      {
+        "nome": "Lucas Teixeira",
+        "instrumentos": [
+          "teclado",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      {
+        "nome": "Amanda Araújo",
+        "instrumentos": [
+          "bateria",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "guitarra",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "controladora",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "baixo",
+      "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 6",
+    "foto_banda": "https://picsum.photos/seed/banda_6/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_6/200/200",
+    "descricao": "A Banda 6 é conhecida por seu estilo vibrante e fusão única de jazz, funk, pop.",
+    "estilos_musicais": [
+      "jazz",
+      "funk",
+      "pop"
+    ],
+    "integrantes": [
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "bateria",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "nome": "João Nascimento",
+        "instrumentos": [
+          "controladora",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "piano",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      {
+        "nome": "Amanda Araújo",
+        "instrumentos": [
+          "piano",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "saxofone",
+      "descricao": "Procuramos um(a) músico(a) que toque saxofone para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 7",
+    "foto_banda": "https://picsum.photos/seed/banda_7/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_7/200/200",
+    "descricao": "A Banda 7 é conhecida por seu estilo vibrante e fusão única de jazz, rock, rap.",
+    "estilos_musicais": [
+      "jazz",
+      "rock",
+      "rap"
+    ],
+    "integrantes": [
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "guitarra",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "bateria",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "baixo",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "vocal",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "teclado",
+      "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 8",
+    "foto_banda": "https://picsum.photos/seed/banda_8/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_8/200/200",
+    "descricao": "A Banda 8 é conhecida por seu estilo vibrante e fusão única de funk, rap, jazz.",
+    "estilos_musicais": [
+      "funk",
+      "rap",
+      "jazz"
+    ],
+    "integrantes": [
+      {
+        "nome": "João Nascimento",
+        "instrumentos": [
+          "controladora",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "vocal",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "guitarra",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "saxofone",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "baixo",
+      "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 9",
+    "foto_banda": "https://picsum.photos/seed/banda_9/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_9/200/200",
+    "descricao": "A Banda 9 é conhecida por seu estilo vibrante e fusão única de rap, reggae, funk.",
+    "estilos_musicais": [
+      "rap",
+      "reggae",
+      "funk"
+    ],
+    "integrantes": [
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "teclado",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      {
+        "nome": "Amanda Araújo",
+        "instrumentos": [
+          "saxofone",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      {
+        "nome": "Lucas Teixeira",
+        "instrumentos": [
+          "guitarra",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "guitarra",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "vocal",
+      "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 10",
+    "foto_banda": "https://picsum.photos/seed/banda_10/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_10/200/200",
+    "descricao": "A Banda 10 é conhecida por seu estilo vibrante e fusão única de funk, reggae, rap.",
+    "estilos_musicais": [
+      "funk",
+      "reggae",
+      "rap"
+    ],
+    "integrantes": [
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "controladora",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "Amanda Araújo",
+        "instrumentos": [
+          "baixo",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "controladora",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "teclado",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "guitarra",
+      "descricao": "Procuramos um(a) músico(a) que toque guitarra para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 11",
+    "foto_banda": "https://picsum.photos/seed/banda_11/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_11/200/200",
+    "descricao": "A Banda 11 é conhecida por seu estilo vibrante e fusão única de funk, rock, jazz.",
+    "estilos_musicais": [
+      "funk",
+      "rock",
+      "jazz"
+    ],
+    "integrantes": [
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "teclado",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      {
+        "nome": "João Nascimento",
+        "instrumentos": [
+          "saxofone",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "controladora",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "controladora",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "baixo",
+      "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 12",
+    "foto_banda": "https://picsum.photos/seed/banda_12/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_12/200/200",
+    "descricao": "A Banda 12 é conhecida por seu estilo vibrante e fusão única de reggae, pop, eletronica.",
+    "estilos_musicais": [
+      "reggae",
+      "pop",
+      "eletronica"
+    ],
+    "integrantes": [
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "controladora",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "baixo",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "controladora",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      {
+        "nome": "Lucas Teixeira",
+        "instrumentos": [
+          "guitarra",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "vocal",
+      "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 13",
+    "foto_banda": "https://picsum.photos/seed/banda_13/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_13/200/200",
+    "descricao": "A Banda 13 é conhecida por seu estilo vibrante e fusão única de jazz, funk, rap.",
+    "estilos_musicais": [
+      "jazz",
+      "funk",
+      "rap"
+    ],
+    "integrantes": [
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "baixo",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "bateria",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "João Nascimento",
+        "instrumentos": [
+          "guitarra",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "saxofone",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "controladora",
+      "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 14",
+    "foto_banda": "https://picsum.photos/seed/banda_14/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_14/200/200",
+    "descricao": "A Banda 14 é conhecida por seu estilo vibrante e fusão única de jazz, funk, pop.",
+    "estilos_musicais": [
+      "jazz",
+      "funk",
+      "pop"
+    ],
+    "integrantes": [
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "vocal",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "Lucas Teixeira",
+        "instrumentos": [
+          "vocal",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "bateria",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "Amanda Araújo",
+        "instrumentos": [
+          "baixo",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "controladora",
+      "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 15",
+    "foto_banda": "https://picsum.photos/seed/banda_15/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_15/200/200",
+    "descricao": "A Banda 15 é conhecida por seu estilo vibrante e fusão única de jazz, rap, funk.",
+    "estilos_musicais": [
+      "jazz",
+      "rap",
+      "funk"
+    ],
+    "integrantes": [
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "piano",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "piano",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      {
+        "nome": "João Nascimento",
+        "instrumentos": [
+          "bateria",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      {
+        "nome": "Lucas Teixeira",
+        "instrumentos": [
+          "guitarra",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "controladora",
+      "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 16",
+    "foto_banda": "https://picsum.photos/seed/banda_16/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_16/200/200",
+    "descricao": "A Banda 16 é conhecida por seu estilo vibrante e fusão única de jazz, rock, pop.",
+    "estilos_musicais": [
+      "jazz",
+      "rock",
+      "pop"
+    ],
+    "integrantes": [
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "teclado",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      },
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "baixo",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "nome": "Lucas Teixeira",
+        "instrumentos": [
+          "teclado",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "piano",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "guitarra",
+      "descricao": "Procuramos um(a) músico(a) que toque guitarra para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 17",
+    "foto_banda": "https://picsum.photos/seed/banda_17/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_17/200/200",
+    "descricao": "A Banda 17 é conhecida por seu estilo vibrante e fusão única de eletronica, pop, funk.",
+    "estilos_musicais": [
+      "eletronica",
+      "pop",
+      "funk"
+    ],
+    "integrantes": [
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "bateria",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "João Nascimento",
+        "instrumentos": [
+          "baixo",
+          "controladora"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "bateria",
+          "controladora"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "controladora",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "piano",
+      "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 18",
+    "foto_banda": "https://picsum.photos/seed/banda_18/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_18/200/200",
+    "descricao": "A Banda 18 é conhecida por seu estilo vibrante e fusão única de jazz, reggae, eletronica.",
+    "estilos_musicais": [
+      "jazz",
+      "reggae",
+      "eletronica"
+    ],
+    "integrantes": [
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "vocal",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "vocal",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "João Araújo",
+        "instrumentos": [
+          "baixo",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "vocal",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "piano",
+      "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 19",
+    "foto_banda": "https://picsum.photos/seed/banda_19/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_19/200/200",
+    "descricao": "A Banda 19 é conhecida por seu estilo vibrante e fusão única de jazz, funk, pop.",
+    "estilos_musicais": [
+      "jazz",
+      "funk",
+      "pop"
+    ],
+    "integrantes": [
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "piano",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "Amanda Araújo",
+        "instrumentos": [
+          "teclado",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "vocal",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "controladora",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "bateria",
+      "descricao": "Procuramos um(a) músico(a) que toque bateria para completar nosso time criativo e performático."
+    }
+  },
+  {
+    "nome": "Banda 20",
+    "foto_banda": "https://picsum.photos/seed/banda_20/800/400",
+    "logo_banda": "https://picsum.photos/seed/logo_banda_20/200/200",
+    "descricao": "A Banda 20 é conhecida por seu estilo vibrante e fusão única de rock, jazz, rap.",
+    "estilos_musicais": [
+      "rock",
+      "jazz",
+      "rap"
+    ],
+    "integrantes": [
+      {
+        "nome": "Carlos Costa",
+        "instrumentos": [
+          "saxofone",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      {
+        "nome": "Bruna Batista",
+        "instrumentos": [
+          "guitarra",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      {
+        "nome": "Mariana Gomes",
+        "instrumentos": [
+          "teclado",
+          "vocal"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
+      },
+      {
+        "nome": "Tatiane Castro",
+        "instrumentos": [
+          "vocal",
+          "controladora"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+      }
+    ],
+    "integrante_faltante": {
+      "instrumento": "piano",
+      "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
+    }
+  }
+]
 }
