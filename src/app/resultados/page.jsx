@@ -3,7 +3,7 @@
 import { useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import './resultados.css'
-
+import Link from "next/link";
 
 export default function Results() {
   const searchParams = useSearchParams();
@@ -83,7 +83,9 @@ export default function Results() {
 
     <p className="user-description">{cards.descricao}</p>
 
-    <button className="btn-vermais">Ver Perfil</button>
+   <Link href={`./users/${cards.id}`}>
+                        <button className="btn-vermais">Ver Perfil</button>
+                        </Link>
     <div className="icon-section mb-3"></div>
   </div>
 </div>

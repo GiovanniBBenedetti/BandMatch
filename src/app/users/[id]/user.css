@@ -1,0 +1,22 @@
+.background-img {
+    margin-top: -30px;
+
+}
+
+
+
+.FotoUsuario img{
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.FotoUsuario{
+    margin-top: -140px;
+    display: flex;
+    justify-content: center;
+}
+
+.back-circle{
+    background-color: rgb(255, 255, 255);
+    margin-top: -17vh;
+}

@@ -10,6 +10,11 @@ export default function Footer() {
         <p>Conectando músicos e bandas pelo mundo. Encontre sua próxima jam aqui!
         </p>
       </div>
+      <div className='redesSociais d-flex gap-5 mt-2'>
+      <i className="bi bi-instagram"></i>
+      <i className="bi bi-twitter-x"></i>
+      <i className="bi bi-facebook"></i>
+      </div>
     </div>
     <ul className="footer-list">
       <li>
@@ -58,6 +63,7 @@ export default function Footer() {
         <input type="email" id="email" placeholder="Seu email..." />
         <button>
           <i className="bi bi-envelope" />
+          
         </button>
       </div>
     </div>

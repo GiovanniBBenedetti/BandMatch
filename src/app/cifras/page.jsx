@@ -54,66 +54,122 @@ export default function Cifras() {
 
       <div className='marginNegativa'>
 
-
-        <div id="carouselExample" className="carousel slide">
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img
+      <div id="carouselExampleIndicators" className="carousel slide desktop">
+  <div className="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to={0}
+      className="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    />
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to={1}
+      aria-label="Slide 2"
+    />
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to={2}
+      aria-label="Slide 3"
+    />
+        <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to={3}
+      aria-label="Slide 4"
+    />
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+    <img
                 src="./fundoDjavan.png"
-                className="d-block w-100"
+                className="d-none d-lg-block w-100"
                 alt="Djavan"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('djavan', 'eu te devoro')}
               />
-            </div>
-
-            <div className="carousel-item">
-              <img
+          <img
+                src="./fundoDjavanCell.png"
+                className="d-block d-lg-none w-100"
+                alt="Djavan"
+                style={{ cursor: 'pointer' }}
+                onClick={() => handleBannerClick('djavan', 'eu te devoro')}
+              />
+    </div>
+    <div className="carousel-item">
+    <img
                 src="/fundoBillie.png"
-                className="d-block w-100"
+                className="d-none d-lg-block w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('billie eilish', 'happier than ever')}
               />
-            </div>
-            <div className="carousel-item">
-              <img
+      <img
+                src="/fundoBellieCell.png"
+                className="d-block d-lg-none w-100"
+                alt="Mais Artista"
+                style={{ cursor: 'pointer' }}
+                onClick={() => handleBannerClick('billie eilish', 'happier than ever')}
+              />
+    </div>
+    <div className="carousel-item">
+    <img
                 src="./fundoNirvana.png"
-                className="d-block w-100"
+                className="d-none d-lg-block w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('nirvana', 'smells like teen spirit')}
               />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://placehold.co/1600x600"
-                className="d-block w-100"
+        <img
+                src="./fundoNirvanaCell.png"
+                className="d-block d-lg-none w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('MaisArtista', 'MaisMusica')}
+                onClick={() => handleBannerClick('nirvana', 'smells like teen spirit')}
               />
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
+    </div>
+    <div className="carousel-item">
+    <img
+                src="./fundoCharlie.png"
+                className="d-none d-lg-block w-100"
+                alt="Mais Artista"
+                style={{ cursor: 'pointer' }}
+                onClick={() => handleBannerClick('charlie brown jr', 'so os loucos sabem')}
+              />
+        <img
+                src="./fundoCharlieCell.png"
+                className="d-block d-lg-none w-100"
+                alt="Mais Artista"
+                style={{ cursor: 'pointer' }}
+                onClick={() => handleBannerClick('charlie brown jr', 'so os loucos sabem')}
+              />
+    </div>
+  </div>
+  <button
+    className="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="prev"
+  >
+    <span className="carousel-control-prev-icon" aria-hidden="true" />
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button
+    className="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="next"
+  >
+    <span className="carousel-control-next-icon" aria-hidden="true" />
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+
+    
       </div>
 
 

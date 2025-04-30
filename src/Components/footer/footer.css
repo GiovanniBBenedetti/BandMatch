@@ -31,7 +31,9 @@ footer {
 ul{
     padding: 0;
 }
-
+.redesSociais{
+    font-size: 25px;
+}
 #footer_content {
     background-color: var(--cor-1);
     display: grid;

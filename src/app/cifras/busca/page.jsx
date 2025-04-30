@@ -24,6 +24,7 @@ export default function CifraPage() {
       }
     }
 
+
     if (artist && song) {
       fetchCifra();
     }
@@ -32,9 +33,26 @@ export default function CifraPage() {
 
 
   return (
-    <div>
-      <h1>Cifra de {artist} - {song}</h1>
-      <pre>{JSON.stringify(resultado, null, 2)}</pre>
-    </div>
+    <>
+      {loading ? (<>
+
+
+        <Loader></Loader>
+
+
+      </>)
+        : (<>
+
+          <div>
+            <h1>Cifra de {artist} - {song}</h1>
+            <pre>{JSON.stringify(resultado, null, 2)}</pre>
+          </div>
+
+
+        </>)}
+
+
+    </>
+
   );
 }

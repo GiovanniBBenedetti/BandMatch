@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import './users.css'
 import { League_Spartan } from 'next/font/google'
+import Link from 'next/link'
 
 const LeagueSpartan = League_Spartan({
   weight: '700',
@@ -191,7 +192,9 @@ export default function Users() {
                         ))}
                       </div>
 
-                      <button className="btn-verperfil">Ver Perfil</button>
+                      <Link href={`./users/${cards.id}`}>
+                        <button className="btn-verperfil">Ver Perfil</button>
+                        </Link>
                       <div className="icon-section mb-3"></div>
                     </div>
                   </div>

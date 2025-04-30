@@ -16,7 +16,7 @@
       "foto": "https://randomuser.me/api/portraits/women/1.jpg",
       "descricao": "Sou Natália Nogueira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
       "cidade": "Florianópolis",
-      "fundo": "https://picsum.photos/seed/natália_barros/600/200"
+      "fundo": "/fundoUsuario/1.png"
     },
     {
       "id": 2,
@@ -34,45 +34,10 @@
       "foto": "https://randomuser.me/api/portraits/men/2.jpg",
       "descricao": "João Rocha, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
       "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/joão_araújo/600/200"
+      "fundo": "/fundoUsuario/2.png"
     },
     {
       "id": 3,
-      "nome": "Amanda Araújo",
-      "idade": 54,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "raggae",
-        "funk"
-      ],
-      "instrumentos": [
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/3.jpg",
-      "descricao": "Me chamo Amanda Lima e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Goiânia",
-      "fundo": "https://picsum.photos/seed/amanda_araújo/600/200"
-    },
-    {
-      "id": 4,
-      "nome": "Mariana Gomes",
-      "idade": 45,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rock",
-        "rap"
-      ],
-      "instrumentos": [
-        "piano",
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/4.jpg",
-      "descricao": "Sou Mariana Mendes, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Porto Alegre",
-      "fundo": "https://picsum.photos/seed/mariana_gomes/600/200"
-    },
-    {
-      "id": 5,
       "nome": "Lucas Teixeira",
       "idade": 43,
       "genero": "Masculino",
@@ -87,10 +52,10 @@
       "foto": "https://randomuser.me/api/portraits/men/5.jpg",
       "descricao": "Lucas Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
       "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/lucas_teixeira/600/200"
+      "fundo": "/fundoUsuario/3.png"
     },
     {
-      "id": 6,
+      "id": 4,
       "nome": "Carlos Costa",
       "idade": 35,
       "genero": "Masculino",
@@ -107,10 +72,10 @@
       "foto": "https://randomuser.me/api/portraits/men/6.jpg",
       "descricao": "Sou Carlos Silva, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
       "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/carlos_costa/600/200"
+      "fundo": "/fundoUsuario/9.png"
     },
     {
-      "id": 7,
+      "id": 5,
       "nome": "Gisele Rocha",
       "idade": 53,
       "genero": "Feminino",
@@ -125,29 +90,10 @@
       "foto": "https://randomuser.me/api/portraits/women/7.jpg",
       "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
       "cidade": "Fortaleza",
-      "fundo": "https://picsum.photos/seed/gisele_rocha/600/200"
+      "fundo": "/fundoUsuario/8.png"
     },
     {
-      "id": 8,
-      "nome": "Lucas Mendes",
-      "idade": 51,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rock",
-        "funk",
-        "pop",
-        "rap"
-      ],
-      "instrumentos": [
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/8.jpg",
-      "descricao": "Lucas Rocha, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/lucas_mendes/600/200"
-    },
-    {
-      "id": 9,
+      "id": 6,
       "nome": "João Nascimento",
       "idade": 22,
       "genero": "Masculino",
@@ -164,10 +110,10 @@
       "foto": "https://randomuser.me/api/portraits/men/9.jpg",
       "descricao": "Sou João Oliveira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
       "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/joão_nascimento/600/200"
+      "fundo": "/fundoUsuario/16.png"
     },
     {
-      "id": 10,
+      "id": 7,
       "nome": "Felipe Batista",
       "idade": 36,
       "genero": "Masculino",
@@ -182,10 +128,10 @@
       "foto": "https://randomuser.me/api/portraits/men/10.jpg",
       "descricao": "Sou Felipe Rocha, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
       "cidade": "Porto Alegre",
-      "fundo": "https://picsum.photos/seed/felipe_batista/600/200"
+      "fundo": "/fundoUsuario/10.png"
     },
     {
-      "id": 11,
+      "id": 8,
       "nome": "Gisele Lima",
       "idade": 49,
       "genero": "Feminino",
@@ -200,10 +146,10 @@
       "foto": "https://randomuser.me/api/portraits/women/11.jpg",
       "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
       "cidade": "Rio de Janeiro",
-      "fundo": "https://picsum.photos/seed/gisele_lima/600/200"
+      "fundo": "/fundoUsuario/13.png"
     },
     {
-      "id": 12,
+      "id": 9,
       "nome": "Rafael Batista",
       "idade": 57,
       "genero": "Masculino",
@@ -219,10 +165,10 @@
       "foto": "https://randomuser.me/api/portraits/men/12.jpg",
       "descricao": "Me chamo Rafael Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
       "cidade": "Salvador",
-      "fundo": "https://picsum.photos/seed/rafael_batista/600/200"
+      "fundo": "/fundoUsuario/14.png"
     },
     {
-      "id": 13,
+      "id": 10,
       "nome": "Bruna Batista",
       "idade": 56,
       "genero": "Feminino",
@@ -238,27 +184,10 @@
       "foto": "https://randomuser.me/api/portraits/women/13.jpg",
       "descricao": "Sou Bruna Ramos, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
       "cidade": "São Paulo",
-      "fundo": "https://picsum.photos/seed/bruna_batista/600/200"
+      "fundo": "/fundoUsuario/6.png"
     },
     {
-      "id": 14,
-      "nome": "Lucas Barros",
-      "idade": 40,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "raggae"
-      ],
-      "instrumentos": [
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/14.jpg",
-      "descricao": "Lucas Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/lucas_barros/600/200"
-    },
-    {
-      "id": 15,
+      "id": 11,
       "nome": "Tatiane Castro",
       "idade": 45,
       "genero": "Feminino",
@@ -275,28 +204,10 @@
       "foto": "https://randomuser.me/api/portraits/women/15.jpg",
       "descricao": "Sou Tatiane Castro, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
       "cidade": "Belém",
-      "fundo": "https://picsum.photos/seed/tatiane_castro/600/200"
+      "fundo": "/fundoUsuario/11.png"
     },
     {
-      "id": 16,
-      "nome": "João Costa",
-      "idade": 45,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "rock"
-      ],
-      "instrumentos": [
-        "teclado",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/16.jpg",
-      "descricao": "Sou João Oliveira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Porto Alegre",
-      "fundo": "https://picsum.photos/seed/joão_costa/600/200"
-    },
-    {
-      "id": 17,
+      "id": 12,
       "nome": "Vanessa Almeida",
       "idade": 42,
       "genero": "Feminino",
@@ -312,10 +223,10 @@
       "foto": "https://randomuser.me/api/portraits/women/17.jpg",
       "descricao": "Sou Vanessa Costa, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
       "cidade": "Natal",
-      "fundo": "https://picsum.photos/seed/vanessa_almeida/600/200"
+      "fundo": "/fundoUsuario/17.png"
     },
     {
-      "id": 18,
+      "id": 13,
       "nome": "Fernanda Costa",
       "idade": 23,
       "genero": "Feminino",
@@ -330,10 +241,10 @@
       "foto": "https://randomuser.me/api/portraits/women/18.jpg",
       "descricao": "Sou Fernanda Duarte, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
       "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/fernanda_costa/600/200"
+      "fundo": "/fundoUsuario/15.png"
     },
     {
-      "id": 19,
+      "id": 14,
       "nome": "Felipe Costa",
       "idade": 47,
       "genero": "Masculino",
@@ -349,47 +260,10 @@
       "foto": "https://randomuser.me/api/portraits/men/19.jpg",
       "descricao": "Felipe Martins, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
       "cidade": "Rio de Janeiro",
-      "fundo": "https://picsum.photos/seed/felipe_costa/600/200"
+      "fundo": "/fundoUsuario/19.png"
     },
     {
-      "id": 20,
-      "nome": "Felipe Almeida",
-      "idade": 36,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "rock",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "piano",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/20.jpg",
-      "descricao": "Felipe Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/felipe_almeida/600/200"
-    },
-    {
-      "id": 21,
-      "nome": "Felipe Lima",
-      "idade": 59,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rap",
-        "jazz"
-      ],
-      "instrumentos": [
-        "piano",
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/21.jpg",
-      "descricao": "Sou Felipe Martins, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Manaus",
-      "fundo": "https://picsum.photos/seed/felipe_lima/600/200"
-    },
-    {
-      "id": 22,
+      "id": 15,
       "nome": "Bruno Santos",
       "idade": 22,
       "genero": "Masculino",
@@ -403,45 +277,10 @@
       "foto": "https://randomuser.me/api/portraits/men/22.jpg",
       "descricao": "Sou Bruno Rocha, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
       "cidade": "Fortaleza",
-      "fundo": "https://picsum.photos/seed/bruno_santos/600/200"
+      "fundo": "/fundoUsuario/20.png"
     },
     {
-      "id": 23,
-      "nome": "Gisele Andrade",
-      "idade": 55,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "pop",
-        "raggae"
-      ],
-      "instrumentos": [
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/23.jpg",
-      "descricao": "Me chamo Gisele Andrade e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Salvador",
-      "fundo": "https://picsum.photos/seed/gisele_andrade/600/200"
-    },
-    {
-      "id": 24,
-      "nome": "Flávia Martins",
-      "idade": 54,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "raggae",
-        "pop"
-      ],
-      "instrumentos": [
-        "controladora",
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/24.jpg",
-      "descricao": "Sou Flávia Rodrigues, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Manaus",
-      "fundo": "https://picsum.photos/seed/flávia_martins/600/200"
-    },
-    {
-      "id": 25,
+      "id": 16,
       "nome": "Juliana Moreira",
       "idade": 44,
       "genero": "Feminino",
@@ -457,66 +296,10 @@
       "foto": "https://randomuser.me/api/portraits/women/25.jpg",
       "descricao": "Sou Juliana Souza, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
       "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/juliana_moreira/600/200"
+      "fundo": "/fundoUsuario/12.png"
     },
     {
-      "id": 26,
-      "nome": "Pedro Moreira",
-      "idade": 55,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "raggae",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/26.jpg",
-      "descricao": "Sou Pedro Rocha, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Manaus",
-      "fundo": "https://picsum.photos/seed/pedro_moreira/600/200"
-    },
-    {
-      "id": 27,
-      "nome": "Mateus Dias",
-      "idade": 59,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "jazz",
-        "rock",
-        "eletronica",
-        "pop"
-      ],
-      "instrumentos": [
-        "piano",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/27.jpg",
-      "descricao": "Mateus Silva, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/mateus_dias/600/200"
-    },
-    {
-      "id": 28,
-      "nome": "Mariana Castro",
-      "idade": 23,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "jazz",
-        "funk"
-      ],
-      "instrumentos": [
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/28.jpg",
-      "descricao": "Mariana Mendes, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Goiânia",
-      "fundo": "https://picsum.photos/seed/mariana_castro/600/200"
-    },
-    {
-      "id": 29,
+      "id": 17,
       "nome": "Pedro Teixeira",
       "idade": 60,
       "genero": "Masculino",
@@ -532,10 +315,10 @@
       "foto": "https://randomuser.me/api/portraits/men/29.jpg",
       "descricao": "Pedro Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
       "cidade": "Recife",
-      "fundo": "https://picsum.photos/seed/pedro_teixeira/600/200"
+      "fundo": "/fundoUsuario/4.png"
     },
     {
-      "id": 30,
+      "id": 18,
       "nome": "João Rocha",
       "idade": 27,
       "genero": "Masculino",
@@ -550,65 +333,10 @@
       "foto": "https://randomuser.me/api/portraits/men/30.jpg",
       "descricao": "João Silva, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
       "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/joão_rocha/600/200"
+      "fundo": "/fundoUsuario/18.png"
     },
     {
-      "id": 31,
-      "nome": "Mateus Cardoso",
-      "idade": 20,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "raggae",
-        "funk"
-      ],
-      "instrumentos": [
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/31.jpg",
-      "descricao": "Mateus Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Goiânia",
-      "fundo": "https://picsum.photos/seed/mateus_cardoso/600/200"
-    },
-    {
-      "id": 32,
-      "nome": "João Campos",
-      "idade": 29,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "pop",
-        "raggae",
-        "rap"
-      ],
-      "instrumentos": [
-        "vocal"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/32.jpg",
-      "descricao": "João Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/joão_campos/600/200"
-    },
-    {
-      "id": 33,
-      "nome": "Pedro Souza",
-      "idade": 53,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rap",
-        "raggae",
-        "funk"
-      ],
-      "instrumentos": [
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/33.jpg",
-      "descricao": "Me chamo Pedro Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/pedro_souza/600/200"
-    },
-    {
-      "id": 34,
+      "id": 19,
       "nome": "Gisele Castro",
       "idade": 50,
       "genero": "Feminino",
@@ -623,28 +351,10 @@
       "foto": "https://randomuser.me/api/portraits/women/34.jpg",
       "descricao": "Me chamo Gisele Andrade e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
       "cidade": "Goiânia",
-      "fundo": "https://picsum.photos/seed/gisele_castro/600/200"
+      "fundo": "/fundoUsuario/7.png"
     },
     {
-      "id": 35,
-      "nome": "Mateus Carvalho",
-      "idade": 29,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "rap"
-      ],
-      "instrumentos": [
-        "bateria",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/35.jpg",
-      "descricao": "Me chamo Mateus Oliveira e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/mateus_carvalho/600/200"
-    },
-    {
-      "id": 36,
+      "id": 20,
       "nome": "Carlos Dias",
       "idade": 24,
       "genero": "Masculino",
@@ -661,1172 +371,7 @@
       "foto": "https://randomuser.me/api/portraits/men/36.jpg",
       "descricao": "Carlos Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
       "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/carlos_dias/600/200"
-    },
-    {
-      "id": 37,
-      "nome": "Fernanda Castro",
-      "idade": 27,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "funk",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "saxofone",
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/37.jpg",
-      "descricao": "Sou Fernanda Duarte, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Recife",
-      "fundo": "https://picsum.photos/seed/fernanda_castro/600/200"
-    },
-    {
-      "id": 38,
-      "nome": "Mariana Dias",
-      "idade": 56,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "funk",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "piano",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/38.jpg",
-      "descricao": "Sou Mariana Mendes, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Belém",
-      "fundo": "https://picsum.photos/seed/mariana_dias/600/200"
-    },
-    {
-      "id": 39,
-      "nome": "Carlos Gomes",
-      "idade": 36,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "guitarra",
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/39.jpg",
-      "descricao": "Carlos Martins, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/carlos_gomes/600/200"
-    },
-    {
-      "id": 40,
-      "nome": "João Carvalho",
-      "idade": 60,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "jazz",
-        "rock"
-      ],
-      "instrumentos": [
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/40.jpg",
-      "descricao": "João Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Belém",
-      "fundo": "https://picsum.photos/seed/joão_carvalho/600/200"
-    },
-    {
-      "id": 41,
-      "nome": "Pedro Martins",
-      "idade": 47,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "jazz",
-        "pop",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "teclado",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/41.jpg",
-      "descricao": "Sou Pedro Martins, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Recife",
-      "fundo": "https://picsum.photos/seed/pedro_martins/600/200"
-    },
-    {
-      "id": 42,
-      "nome": "Pedro Barros",
-      "idade": 58,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "eletronica",
-        "rap",
-        "raggae"
-      ],
-      "instrumentos": [
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/42.jpg",
-      "descricao": "Me chamo Pedro Silva e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Recife",
-      "fundo": "https://picsum.photos/seed/pedro_barros/600/200"
-    },
-    {
-      "id": 43,
-      "nome": "Patrícia Cardoso",
-      "idade": 28,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "raggae",
-        "jazz",
-        "rock"
-      ],
-      "instrumentos": [
-        "teclado",
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/43.jpg",
-      "descricao": "Sou Patrícia Silva, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Rio de Janeiro",
-      "fundo": "https://picsum.photos/seed/patrícia_cardoso/600/200"
-    },
-    {
-      "id": 44,
-      "nome": "Mariana Farias",
-      "idade": 35,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "jazz",
-        "rap"
-      ],
-      "instrumentos": [
-        "vocal",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/44.jpg",
-      "descricao": "Mariana Mendes, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Natal",
-      "fundo": "https://picsum.photos/seed/mariana_farias/600/200"
-    },
-    {
-      "id": 45,
-      "nome": "Mariana Mendes",
-      "idade": 44,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "funk",
-        "rock"
-      ],
-      "instrumentos": [
-        "controladora",
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/45.jpg",
-      "descricao": "Mariana Mendes, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Fortaleza",
-      "fundo": "https://picsum.photos/seed/mariana_mendes/600/200"
-    },
-    {
-      "id": 46,
-      "nome": "Fernanda Barros",
-      "idade": 25,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rap",
-        "pop",
-        "rock",
-        "jazz"
-      ],
-      "instrumentos": [
-        "piano",
-        "vocal"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/46.jpg",
-      "descricao": "Sou Fernanda Duarte, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Rio de Janeiro",
-      "fundo": "https://picsum.photos/seed/fernanda_barros/600/200"
-    },
-    {
-      "id": 47,
-      "nome": "Carlos Barros",
-      "idade": 48,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "eletronica",
-        "raggae"
-      ],
-      "instrumentos": [
-        "bateria",
-        "vocal"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/47.jpg",
-      "descricao": "Me chamo Carlos Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/carlos_barros/600/200"
-    },
-    {
-      "id": 48,
-      "nome": "Pedro Rocha",
-      "idade": 47,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rock",
-        "funk",
-        "jazz"
-      ],
-      "instrumentos": [
-        "vocal",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/48.jpg",
-      "descricao": "Pedro Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Belo Horizonte",
-      "fundo": "https://picsum.photos/seed/pedro_rocha/600/200"
-    },
-    {
-      "id": 49,
-      "nome": "Felipe Gomes",
-      "idade": 21,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "rock"
-      ],
-      "instrumentos": [
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/49.jpg",
-      "descricao": "Sou Felipe Silva, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Natal",
-      "fundo": "https://picsum.photos/seed/felipe_gomes/600/200"
-    },
-    {
-      "id": 50,
-      "nome": "Bruno Vieira",
-      "idade": 49,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "rock",
-        "rap"
-      ],
-      "instrumentos": [
-        "saxofone",
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/50.jpg",
-      "descricao": "Me chamo Bruno Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/bruno_vieira/600/200"
-    },
-    {
-      "id": 51,
-      "nome": "João Farias",
-      "idade": 23,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rap",
-        "raggae"
-      ],
-      "instrumentos": [
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/51.jpg",
-      "descricao": "Sou João Oliveira, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Florianópolis",
-      "fundo": "https://picsum.photos/seed/joão_farias/600/200"
-    },
-    {
-      "id": 52,
-      "nome": "Renata Ferreira",
-      "idade": 43,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rock",
-        "eletronica",
-        "rap"
-      ],
-      "instrumentos": [
-        "baixo",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/52.jpg",
-      "descricao": "Sou Renata Oliveira, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Florianópolis",
-      "fundo": "https://picsum.photos/seed/renata_ferreira/600/200"
-    },
-    {
-      "id": 53,
-      "nome": "Felipe Moreira",
-      "idade": 54,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "rap",
-        "rock",
-        "jazz"
-      ],
-      "instrumentos": [
-        "saxofone",
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/53.jpg",
-      "descricao": "Felipe Oliveira, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "São Paulo",
-      "fundo": "https://picsum.photos/seed/felipe_moreira/600/200"
-    },
-    {
-      "id": 54,
-      "nome": "Aline Martins",
-      "idade": 26,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "funk",
-        "jazz"
-      ],
-      "instrumentos": [
-        "vocal",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/54.jpg",
-      "descricao": "Sou Aline Cardoso, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Goiânia",
-      "fundo": "https://picsum.photos/seed/aline_martins/600/200"
-    },
-    {
-      "id": 55,
-      "nome": "Lucas Souza",
-      "idade": 52,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "eletronica",
-        "funk"
-      ],
-      "instrumentos": [
-        "saxofone",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/55.jpg",
-      "descricao": "Me chamo Lucas Silva e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/lucas_souza/600/200"
-    },
-    {
-      "id": 56,
-      "nome": "Amanda Pereira",
-      "idade": 45,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rap",
-        "pop",
-        "jazz"
-      ],
-      "instrumentos": [
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/56.jpg",
-      "descricao": "Sou Amanda Lima, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Belo Horizonte",
-      "fundo": "https://picsum.photos/seed/amanda_pereira/600/200"
-    },
-    {
-      "id": 57,
-      "nome": "Lucas Castro",
-      "idade": 27,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "eletronica",
-        "jazz",
-        "rock"
-      ],
-      "instrumentos": [
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/57.jpg",
-      "descricao": "Lucas Martins, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Belém",
-      "fundo": "https://picsum.photos/seed/lucas_castro/600/200"
-    },
-    {
-      "id": 58,
-      "nome": "Rafael Carvalho",
-      "idade": 49,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "eletronica",
-        "rap"
-      ],
-      "instrumentos": [
-        "vocal"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/58.jpg",
-      "descricao": "Me chamo Rafael Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/rafael_carvalho/600/200"
-    },
-    {
-      "id": 59,
-      "nome": "Carla Pereira",
-      "idade": 43,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rap",
-        "rock"
-      ],
-      "instrumentos": [
-        "baixo",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/59.jpg",
-      "descricao": "Sou Carla Martins, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/carla_pereira/600/200"
-    },
-    {
-      "id": 60,
-      "nome": "Lucas Silva",
-      "idade": 52,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "raggae",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/60.jpg",
-      "descricao": "Lucas Oliveira, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/lucas_silva/600/200"
-    },
-    {
-      "id": 61,
-      "nome": "Bruno Nascimento",
-      "idade": 39,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "pop",
-        "rap",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/61.jpg",
-      "descricao": "Bruno Souza, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/bruno_nascimento/600/200"
-    },
-    {
-      "id": 62,
-      "nome": "Carla Mendes",
-      "idade": 34,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rap",
-        "funk"
-      ],
-      "instrumentos": [
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/62.jpg",
-      "descricao": "Carla Martins, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Porto Alegre",
-      "fundo": "https://picsum.photos/seed/carla_mendes/600/200"
-    },
-    {
-      "id": 63,
-      "nome": "Carlos Nascimento",
-      "idade": 38,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "eletronica",
-        "pop",
-        "funk"
-      ],
-      "instrumentos": [
-        "teclado",
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/63.jpg",
-      "descricao": "Me chamo Carlos Rocha e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Belém",
-      "fundo": "https://picsum.photos/seed/carlos_nascimento/600/200"
-    },
-    {
-      "id": 64,
-      "nome": "Mariana Campos",
-      "idade": 42,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "funk",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/64.jpg",
-      "descricao": "Mariana Mendes, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Recife",
-      "fundo": "https://picsum.photos/seed/mariana_campos/600/200"
-    },
-    {
-      "id": 65,
-      "nome": "Carlos Rocha",
-      "idade": 41,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "jazz",
-        "rock",
-        "pop"
-      ],
-      "instrumentos": [
-        "baixo",
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/65.jpg",
-      "descricao": "Carlos Souza, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Belém",
-      "fundo": "https://picsum.photos/seed/carlos_rocha/600/200"
-    },
-    {
-      "id": 66,
-      "nome": "Mateus Martins",
-      "idade": 57,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "eletronica",
-        "rock"
-      ],
-      "instrumentos": [
-        "piano",
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/66.jpg",
-      "descricao": "Mateus Souza, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Porto Alegre",
-      "fundo": "https://picsum.photos/seed/mateus_martins/600/200"
-    },
-    {
-      "id": 67,
-      "nome": "Carla Gomes",
-      "idade": 50,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "jazz",
-        "raggae",
-        "rap"
-      ],
-      "instrumentos": [
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/67.jpg",
-      "descricao": "Me chamo Carla Martins e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Porto Alegre",
-      "fundo": "https://picsum.photos/seed/carla_gomes/600/200"
-    },
-    {
-      "id": 68,
-      "nome": "Aline Costa",
-      "idade": 25,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rap",
-        "funk",
-        "jazz",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/68.jpg",
-      "descricao": "Aline Cardoso, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Belo Horizonte",
-      "fundo": "https://picsum.photos/seed/aline_costa/600/200"
-    },
-    {
-      "id": 69,
-      "nome": "João Vieira",
-      "idade": 39,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "funk"
-      ],
-      "instrumentos": [
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/69.jpg",
-      "descricao": "Sou João Silva, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Salvador",
-      "fundo": "https://picsum.photos/seed/joão_vieira/600/200"
-    },
-    {
-      "id": 70,
-      "nome": "Aline Barros",
-      "idade": 30,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "pop",
-        "jazz",
-        "raggae",
-        "rock"
-      ],
-      "instrumentos": [
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/70.jpg",
-      "descricao": "Sou Aline Cardoso, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Natal",
-      "fundo": "https://picsum.photos/seed/aline_barros/600/200"
-    },
-    {
-      "id": 71,
-      "nome": "Rafael Mendes",
-      "idade": 46,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "rap",
-        "funk"
-      ],
-      "instrumentos": [
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/71.jpg",
-      "descricao": "Sou Rafael Souza, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Manaus",
-      "fundo": "https://picsum.photos/seed/rafael_mendes/600/200"
-    },
-    {
-      "id": 72,
-      "nome": "Bruna Ferreira",
-      "idade": 57,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rock",
-        "eletronica",
-        "pop"
-      ],
-      "instrumentos": [
-        "controladora",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/72.jpg",
-      "descricao": "Sou Bruna Ramos, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "São Paulo",
-      "fundo": "https://picsum.photos/seed/bruna_ferreira/600/200"
-    },
-    {
-      "id": 73,
-      "nome": "Felipe Dias",
-      "idade": 54,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "raggae",
-        "rock",
-        "pop"
-      ],
-      "instrumentos": [
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/73.jpg",
-      "descricao": "Felipe Oliveira, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Rio de Janeiro",
-      "fundo": "https://picsum.photos/seed/felipe_dias/600/200"
-    },
-    {
-      "id": 74,
-      "nome": "Juliana Martins",
-      "idade": 34,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rock",
-        "raggae"
-      ],
-      "instrumentos": [
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/74.jpg",
-      "descricao": "Juliana Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/juliana_martins/600/200"
-    },
-    {
-      "id": 75,
-      "nome": "Mariana Carvalho",
-      "idade": 59,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "raggae",
-        "funk"
-      ],
-      "instrumentos": [
-        "guitarra",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/75.jpg",
-      "descricao": "Me chamo Mariana Mendes e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Curitiba",
-      "fundo": "https://picsum.photos/seed/mariana_carvalho/600/200"
-    },
-    {
-      "id": 76,
-      "nome": "Patrícia Ferreira",
-      "idade": 52,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "raggae",
-        "funk",
-        "pop",
-        "rap"
-      ],
-      "instrumentos": [
-        "bateria",
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/76.jpg",
-      "descricao": "Me chamo Patrícia Silva e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Manaus",
-      "fundo": "https://picsum.photos/seed/patrícia_ferreira/600/200"
-    },
-    {
-      "id": 77,
-      "nome": "Bruno Ferreira",
-      "idade": 30,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rap",
-        "funk"
-      ],
-      "instrumentos": [
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/77.jpg",
-      "descricao": "Sou Bruno Silva, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Fortaleza",
-      "fundo": "https://picsum.photos/seed/bruno_ferreira/600/200"
-    },
-    {
-      "id": 78,
-      "nome": "Mateus Lima",
-      "idade": 20,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "eletronica",
-        "jazz",
-        "pop"
-      ],
-      "instrumentos": [
-        "bateria",
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/78.jpg",
-      "descricao": "Me chamo Mateus Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Fortaleza",
-      "fundo": "https://picsum.photos/seed/mateus_lima/600/200"
-    },
-    {
-      "id": 79,
-      "nome": "Carlos Batista",
-      "idade": 39,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rock",
-        "funk",
-        "rap",
-        "raggae"
-      ],
-      "instrumentos": [
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/79.jpg",
-      "descricao": "Sou Carlos Martins, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Goiânia",
-      "fundo": "https://picsum.photos/seed/carlos_batista/600/200"
-    },
-    {
-      "id": 80,
-      "nome": "Aline Santos",
-      "idade": 49,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rock",
-        "rap"
-      ],
-      "instrumentos": [
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/80.jpg",
-      "descricao": "Sou Aline Cardoso, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "São Paulo",
-      "fundo": "https://picsum.photos/seed/aline_santos/600/200"
-    },
-    {
-      "id": 81,
-      "nome": "Aline Castro",
-      "idade": 57,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "rap"
-      ],
-      "instrumentos": [
-        "piano",
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/81.jpg",
-      "descricao": "Sou Aline Cardoso, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "São Paulo",
-      "fundo": "https://picsum.photos/seed/aline_castro/600/200"
-    },
-    {
-      "id": 82,
-      "nome": "Gisele Martins",
-      "idade": 31,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rock",
-        "eletronica",
-        "jazz",
-        "raggae"
-      ],
-      "instrumentos": [
-        "vocal",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/82.jpg",
-      "descricao": "Gisele Andrade, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/gisele_martins/600/200"
-    },
-    {
-      "id": 83,
-      "nome": "Bruno Farias",
-      "idade": 46,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rock",
-        "pop",
-        "jazz"
-      ],
-      "instrumentos": [
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/83.jpg",
-      "descricao": "Sou Bruno Oliveira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Porto Alegre",
-      "fundo": "https://picsum.photos/seed/bruno_farias/600/200"
-    },
-    {
-      "id": 84,
-      "nome": "Tatiane Costa",
-      "idade": 26,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "pop",
-        "raggae",
-        "rock",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "bateria",
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/84.jpg",
-      "descricao": "Tatiane Castro, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Belo Horizonte",
-      "fundo": "https://picsum.photos/seed/tatiane_costa/600/200"
-    },
-    {
-      "id": 85,
-      "nome": "Bruno Campos",
-      "idade": 18,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "eletronica",
-        "funk",
-        "jazz"
-      ],
-      "instrumentos": [
-        "teclado",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/85.jpg",
-      "descricao": "Bruno Rocha, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Recife",
-      "fundo": "https://picsum.photos/seed/bruno_campos/600/200"
-    },
-    {
-      "id": 86,
-      "nome": "Carla Vieira",
-      "idade": 42,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "jazz",
-        "raggae",
-        "eletronica",
-        "funk"
-      ],
-      "instrumentos": [
-        "baixo",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/86.jpg",
-      "descricao": "Me chamo Carla Martins e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Goiânia",
-      "fundo": "https://picsum.photos/seed/carla_vieira/600/200"
-    },
-    {
-      "id": 87,
-      "nome": "Bruno Gomes",
-      "idade": 48,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "rock",
-        "pop",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "saxofone",
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/87.jpg",
-      "descricao": "Sou Bruno Silva, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Rio de Janeiro",
-      "fundo": "https://picsum.photos/seed/bruno_gomes/600/200"
-    },
-    {
-      "id": 88,
-      "nome": "Lucas Martins",
-      "idade": 23,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "jazz",
-        "funk",
-        "rock"
-      ],
-      "instrumentos": [
-        "teclado",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/88.jpg",
-      "descricao": "Sou Lucas Oliveira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Rio de Janeiro",
-      "fundo": "https://picsum.photos/seed/lucas_martins/600/200"
-    },
-    {
-      "id": 89,
-      "nome": "Tatiane Machado",
-      "idade": 54,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "raggae",
-        "funk"
-      ],
-      "instrumentos": [
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/89.jpg",
-      "descricao": "Sou Tatiane Castro, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Belo Horizonte",
-      "fundo": "https://picsum.photos/seed/tatiane_machado/600/200"
-    },
-    {
-      "id": 90,
-      "nome": "Mateus Andrade",
-      "idade": 49,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "rock",
-        "eletronica",
-        "rap"
-      ],
-      "instrumentos": [
-        "baixo",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/90.jpg",
-      "descricao": "Mateus Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Rio de Janeiro",
-      "fundo": "https://picsum.photos/seed/mateus_andrade/600/200"
-    },
-    {
-      "id": 91,
-      "nome": "Bianca Machado",
-      "idade": 21,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "pop",
-        "jazz"
-      ],
-      "instrumentos": [
-        "controladora",
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/91.jpg",
-      "descricao": "Sou Bianca Rocha, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/bianca_machado/600/200"
-    },
-    {
-      "id": 92,
-      "nome": "Mateus Souza",
-      "idade": 24,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "funk"
-      ],
-      "instrumentos": [
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/92.jpg",
-      "descricao": "Sou Mateus Martins, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/mateus_souza/600/200"
-    },
-    {
-      "id": 93,
-      "nome": "Renata Dias",
-      "idade": 49,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "raggae",
-        "pop",
-        "jazz"
-      ],
-      "instrumentos": [
-        "controladora",
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/93.jpg",
-      "descricao": "Me chamo Renata Oliveira e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Brasília",
-      "fundo": "https://picsum.photos/seed/renata_dias/600/200"
-    },
-    {
-      "id": 94,
-      "nome": "Natália Correia",
-      "idade": 52,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "raggae",
-        "rap"
-      ],
-      "instrumentos": [
-        "controladora",
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/94.jpg",
-      "descricao": "Me chamo Natália Nogueira e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Florianópolis",
-      "fundo": "https://picsum.photos/seed/natália_correia/600/200"
-    },
-    {
-      "id": 95,
-      "nome": "Renata Costa",
-      "idade": 20,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rap",
-        "funk",
-        "pop"
-      ],
-      "instrumentos": [
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/95.jpg",
-      "descricao": "Sou Renata Oliveira, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Goiânia",
-      "fundo": "https://picsum.photos/seed/renata_costa/600/200"
-    },
-    {
-      "id": 96,
-      "nome": "Carlos Ferreira",
-      "idade": 31,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rap",
-        "eletronica",
-        "pop"
-      ],
-      "instrumentos": [
-        "saxofone",
-        "vocal"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/96.jpg",
-      "descricao": "Carlos Oliveira, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Campinas",
-      "fundo": "https://picsum.photos/seed/carlos_ferreira/600/200"
-    },
-    {
-      "id": 97,
-      "nome": "Carla Teixeira",
-      "idade": 48,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "funk",
-        "raggae",
-        "jazz"
-      ],
-      "instrumentos": [
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/97.jpg",
-      "descricao": "Me chamo Carla Martins e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Salvador",
-      "fundo": "https://picsum.photos/seed/carla_teixeira/600/200"
-    },
-    {
-      "id": 98,
-      "nome": "Rafael Andrade",
-      "idade": 20,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "raggae",
-        "funk"
-      ],
-      "instrumentos": [
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/98.jpg",
-      "descricao": "Me chamo Rafael Martins e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Natal",
-      "fundo": "https://picsum.photos/seed/rafael_andrade/600/200"
-    },
-    {
-      "id": 99,
-      "nome": "Rafael Teixeira",
-      "idade": 22,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "raggae",
-        "pop"
-      ],
-      "instrumentos": [
-        "vocal"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/99.jpg",
-      "descricao": "Rafael Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Florianópolis",
-      "fundo": "https://picsum.photos/seed/rafael_teixeira/600/200"
+      "fundo": "/fundoUsuario/5.png"
     }
   ], 
   "bandas":[
