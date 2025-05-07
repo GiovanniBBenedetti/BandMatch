@@ -2,6 +2,13 @@
 
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
+import { League_Spartan } from 'next/font/google'
+
+const leagueSpartan = League_Spartan({
+  weight: ['700'],
+  subsets: ['latin'],
+})
+
 import Loader from '@/Components/loader/loader';
 export default function CifraPage() {
   const searchParams = useSearchParams();
@@ -43,9 +50,9 @@ export default function CifraPage() {
       </>)
         : (<>
 
-          <div>
-            <h1>Cifra de {artist} - {song}</h1>
-            <pre>{JSON.stringify(resultado, null, 2)}</pre>
+          <div className='container mt-5 mb-5'>
+            <h1 className={leagueSpartan.className}>Cifra de {resultado.artist} - {resultado.name} </h1>
+            <pre>{JSON.stringify(resultado.cifra, null, 2)}</pre>
           </div>
 
 

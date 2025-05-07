@@ -20,8 +20,11 @@ export default function Home() {
         </div>
       </Link>
 
-      <main className="vh-100">
-
+      <main className="ConteudoPrincipal">
+        <div className="text-white SobreNos">
+          <h1 className={`mt-5 ${leagueSpartan.className}`}>Sobre Nós</h1>
+          <p>Conheça mais sobre a empresa</p>
+        </div>
       </main>
 
       <div className="d-none d-lg-block">

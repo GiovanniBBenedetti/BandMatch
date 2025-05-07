@@ -1,38 +1,27 @@
 .home-background {
     margin-top: -30px;
   }
-  .sobre-nos {
-    background-color: #e21339;
-    color: white;
-  }
+ .ConteudoPrincipal{
+  background-image: url('/BackgroundSobreNos.png');
+  background-size: cover;
+  height: 1000px;
+display: flex;
+ }
+ .SobreNos{
+  display: flex;
+  flex-direction: column;
+width: 100%;
+align-items: center;
+ }
+ .SobreNos h1{
+  margin: 0;
+  font-size: 40px;
+ }
+
+
 
   .feature-icon {
     width: 80px;
     height: 80px;
   }
   
-  .testimonials blockquote {
-    background-color: #fff;
-    border-left: 5px solid #e21339;
-    padding: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .stats h2 {
-    font-size: 2rem;
-    color: #e21339;
-  }
-  
-  .features h2 {
-    font-size: 1.25rem;
-    color: #e21339;
-  }
-  
-  .how-it-works ol {
-    list-style-position: inside;
-  }
-  
-  .mobile-app a {
-    font-size: 1.25rem;
-    padding: 0.75rem 1.5rem;
-  }

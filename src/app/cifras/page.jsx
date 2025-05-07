@@ -1,13 +1,12 @@
 'use client';
 
 import { League_Spartan } from 'next/font/google'
+import { useState } from 'react';
 
 const LeagueSpartan = League_Spartan({
   weight: '800',
   subsets: ['latin'],
 })
-
-
 
 import { useRouter } from 'next/navigation';
 import './cifraHome.css';
@@ -15,6 +14,15 @@ import './cifraHome.css';
 export default function Cifras() {
   const router = useRouter();
 
+  const [artista, setArtista] = useState("");
+  const [musica, setMusica] = useState("");
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (artista && musica.trim()) {
+      router.push(`/cifras/busca?artist=${encodeURIComponent(artista)}&song=${encodeURIComponent(musica)}`);
+    }
+  };
   const handleBannerClick = (artista, musica) => {
     router.push(`/cifras/busca?artist=${encodeURIComponent(artista)}&song=${encodeURIComponent(musica)}`);
   };
@@ -54,126 +62,154 @@ export default function Cifras() {
 
       <div className='marginNegativa'>
 
-      <div id="carouselExampleIndicators" className="carousel slide desktop">
-  <div className="carousel-indicators">
-    <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to={0}
-      className="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    />
-    <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to={1}
-      aria-label="Slide 2"
-    />
-    <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to={2}
-      aria-label="Slide 3"
-    />
-        <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to={3}
-      aria-label="Slide 4"
-    />
-  </div>
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-    <img
+        <div id="carouselExampleIndicators" className="carousel slide desktop">
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to={0}
+              className="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            />
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to={1}
+              aria-label="Slide 2"
+            />
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to={2}
+              aria-label="Slide 3"
+            />
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to={3}
+              aria-label="Slide 4"
+            />
+          </div>
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img
                 src="./fundoDjavan.png"
                 className="d-none d-lg-block w-100"
                 alt="Djavan"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('djavan', 'eu te devoro')}
               />
-          <img
+              <img
                 src="./fundoDjavanCell.png"
                 className="d-block d-lg-none w-100"
                 alt="Djavan"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('djavan', 'eu te devoro')}
               />
-    </div>
-    <div className="carousel-item">
-    <img
+            </div>
+            <div className="carousel-item">
+              <img
                 src="/fundoBillie.png"
                 className="d-none d-lg-block w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('billie eilish', 'happier than ever')}
               />
-      <img
+              <img
                 src="/fundoBellieCell.png"
                 className="d-block d-lg-none w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('billie eilish', 'happier than ever')}
               />
-    </div>
-    <div className="carousel-item">
-    <img
+            </div>
+            <div className="carousel-item">
+              <img
                 src="./fundoNirvana.png"
                 className="d-none d-lg-block w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('nirvana', 'smells like teen spirit')}
               />
-        <img
+              <img
                 src="./fundoNirvanaCell.png"
                 className="d-block d-lg-none w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('nirvana', 'smells like teen spirit')}
               />
-    </div>
-    <div className="carousel-item">
-    <img
+            </div>
+            <div className="carousel-item">
+              <img
                 src="./fundoCharlie.png"
                 className="d-none d-lg-block w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('charlie brown jr', 'so os loucos sabem')}
               />
-        <img
+              <img
                 src="./fundoCharlieCell.png"
                 className="d-block d-lg-none w-100"
                 alt="Mais Artista"
                 style={{ cursor: 'pointer' }}
                 onClick={() => handleBannerClick('charlie brown jr', 'so os loucos sabem')}
               />
-    </div>
-  </div>
-  <button
-    className="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide="prev"
-  >
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button
-    className="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide="next"
-  >
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true" />
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true" />
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
 
-    
+
       </div>
 
 
       <div className="container mt-5">
+        <form className='containerInputs d-flex justify-content-center' onSubmit={handleSearch}>
+          <div className="input-wrapper">
+            <input
+              type="text"
+              placeholder="Digite o artista ..."
+              name="text"
+              className="inputs"
+              value={artista}
+              onChange={(e) => setArtista(e.target.value)}
+              required
+            />
+          </div>
+          <div className="input-wrapper">
+            <input
+              type="text"
+              placeholder="Digite a musíca ..."
+              name="text"
+              className="inputs"
+              value={musica}
+              onChange={(e) => setMusica(e.target.value)}
+              required
+            />
+
+          </div>
+          <button type="submit">Buscar</button>
+        </form>
+
+
         <h2 className={`${LeagueSpartan.className} ps-2 tituloMaisAcessados`}>
           Mais acessados
         </h2>

@@ -46,7 +46,36 @@ export default async function user({ params }) {
         <div className="nomeUsuario d-flex justify-content-center mt-3">
           <h1 className={LeagueSpartan.className}>{userExibido.nome}</h1>
         </div>
-       
+
+
+
+        <div className=" container mt-4">
+          <div className="row justify-content-center gap-4">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-7 mb-4">
+                  <p className="mb-3">{userExibido.bio}</p>
+                </div>
+
+                <div className="col-lg-5">
+                  <div className="row g-3">
+                    {userExibido.screenshot.map((shot) => (
+                      <div className="col-6 m-0 mt-3" key={shot}>
+                        <img src={`/${shot}`} className="img-fluid rounded shadow" />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="portifolio d-flex justify-content-center p-5 mt-5 mb-5">
+                <h1 className={LeagueSpartan.className}>Portifólio</h1>
+              </div>
+            </div>
+          </div>
+          </div>
         
 
      

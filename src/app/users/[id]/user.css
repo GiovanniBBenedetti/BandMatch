@@ -3,15 +3,24 @@
 
 }
 
+.portifolio{
+    background: #E21339;
+background: linear-gradient(57deg, rgba(226, 19, 57, 1) 28%, rgba(255, 144, 33, 1) 58%);
+color: white;
+border-radius: 30px;
+font-style: italic;
+font-weight:;
+}
+
 
 
 .FotoUsuario img{
-    width: 200px;
+
     border-radius: 50%;
     border: 10px solid white;
 }
 .FotoUsuario{
-    margin-top: -140px;
+    margin-top: -90px;
     display: flex;
     justify-content: center;
 }

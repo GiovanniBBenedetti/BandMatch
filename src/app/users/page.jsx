@@ -164,7 +164,7 @@ export default function Users() {
         </div>
 
 
-        <div className="col-md-9">
+        <div className="col-md-9 marginTop">
           <div className='container mb-5'>
             <div className="row">
               {usuariosFiltrados.length > 0 ? (

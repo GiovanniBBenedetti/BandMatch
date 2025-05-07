@@ -1,379 +1,519 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "nome": "Natália Barros",
-      "idade": 31,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rock",
-        "rap"
-      ],
-      "instrumentos": [
-        "bateria",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/1.jpg",
-      "descricao": "Sou Natália Nogueira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Florianópolis",
-      "fundo": "/fundoUsuario/1.png"
-    },
-    {
-      "id": 2,
-      "nome": "João Araújo",
-      "idade": 31,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rap",
-        "raggae"
-      ],
-      "instrumentos": [
-        "saxofone",
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/2.jpg",
-      "descricao": "João Rocha, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Curitiba",
-      "fundo": "/fundoUsuario/2.png"
-    },
-    {
-      "id": 3,
-      "nome": "Lucas Teixeira",
-      "idade": 43,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rock",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "baixo",
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/5.jpg",
-      "descricao": "Lucas Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Curitiba",
-      "fundo": "/fundoUsuario/3.png"
-    },
-    {
-      "id": 4,
-      "nome": "Carlos Costa",
-      "idade": 35,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "jazz",
-        "funk",
-        "rap",
-        "raggae"
-      ],
-      "instrumentos": [
-        "piano",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/6.jpg",
-      "descricao": "Sou Carlos Silva, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Brasília",
-      "fundo": "/fundoUsuario/9.png"
-    },
-    {
-      "id": 5,
-      "nome": "Gisele Rocha",
-      "idade": 53,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "pop",
-        "raggae",
-        "rock"
-      ],
-      "instrumentos": [
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/7.jpg",
-      "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Fortaleza",
-      "fundo": "/fundoUsuario/8.png"
-    },
-    {
-      "id": 6,
-      "nome": "João Nascimento",
-      "idade": 22,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "eletronica",
-        "raggae",
-        "rap",
-        "jazz"
-      ],
-      "instrumentos": [
-        "bateria",
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/9.jpg",
-      "descricao": "Sou João Oliveira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Curitiba",
-      "fundo": "/fundoUsuario/16.png"
-    },
-    {
-      "id": 7,
-      "nome": "Felipe Batista",
-      "idade": 36,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rock",
-        "funk"
-      ],
-      "instrumentos": [
-        "piano",
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/10.jpg",
-      "descricao": "Sou Felipe Rocha, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Porto Alegre",
-      "fundo": "/fundoUsuario/10.png"
-    },
-    {
-      "id": 8,
-      "nome": "Gisele Lima",
-      "idade": 49,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "funk"
-      ],
-      "instrumentos": [
-        "guitarra",
-        "teclado"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/11.jpg",
-      "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Rio de Janeiro",
-      "fundo": "/fundoUsuario/13.png"
-    },
-    {
-      "id": 9,
-      "nome": "Rafael Batista",
-      "idade": 57,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "rap",
-        "raggae",
-        "rock"
-      ],
-      "instrumentos": [
-        "vocal",
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/12.jpg",
-      "descricao": "Me chamo Rafael Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Salvador",
-      "fundo": "/fundoUsuario/14.png"
-    },
-    {
-      "id": 10,
-      "nome": "Bruna Batista",
-      "idade": 56,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "rock",
-        "pop",
-        "rap"
-      ],
-      "instrumentos": [
-        "bateria",
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/13.jpg",
-      "descricao": "Sou Bruna Ramos, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "São Paulo",
-      "fundo": "/fundoUsuario/6.png"
-    },
-    {
-      "id": 11,
-      "nome": "Tatiane Castro",
-      "idade": 45,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "raggae",
-        "rock",
-        "jazz",
-        "rap"
-      ],
-      "instrumentos": [
-        "vocal",
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/15.jpg",
-      "descricao": "Sou Tatiane Castro, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Belém",
-      "fundo": "/fundoUsuario/11.png"
-    },
-    {
-      "id": 12,
-      "nome": "Vanessa Almeida",
-      "idade": 42,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "jazz",
-        "funk",
-        "rap"
-      ],
-      "instrumentos": [
-        "piano"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/17.jpg",
-      "descricao": "Sou Vanessa Costa, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Natal",
-      "fundo": "/fundoUsuario/17.png"
-    },
-    {
-      "id": 13,
-      "nome": "Fernanda Costa",
-      "idade": 23,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "eletronica",
-        "jazz"
-      ],
-      "instrumentos": [
-        "bateria",
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/18.jpg",
-      "descricao": "Sou Fernanda Duarte, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Campinas",
-      "fundo": "/fundoUsuario/15.png"
-    },
-    {
-      "id": 14,
-      "nome": "Felipe Costa",
-      "idade": 47,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "funk",
-        "raggae",
-        "rock"
-      ],
-      "instrumentos": [
-        "controladora"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/19.jpg",
-      "descricao": "Felipe Martins, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Rio de Janeiro",
-      "fundo": "/fundoUsuario/19.png"
-    },
-    {
-      "id": 15,
-      "nome": "Bruno Santos",
-      "idade": 22,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "pop",
-        "rock"
-      ],
-      "instrumentos": [
-        "saxofone"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/22.jpg",
-      "descricao": "Sou Bruno Rocha, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-      "cidade": "Fortaleza",
-      "fundo": "/fundoUsuario/20.png"
-    },
-    {
-      "id": 16,
-      "nome": "Juliana Moreira",
-      "idade": 44,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "pop",
-        "eletronica",
-        "rap",
-        "jazz"
-      ],
-      "instrumentos": [
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/25.jpg",
-      "descricao": "Sou Juliana Souza, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-      "cidade": "Brasília",
-      "fundo": "/fundoUsuario/12.png"
-    },
-    {
-      "id": 17,
-      "nome": "Pedro Teixeira",
-      "idade": 60,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "eletronica",
-        "rock",
-        "pop",
-        "raggae"
-      ],
-      "instrumentos": [
-        "bateria"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/29.jpg",
-      "descricao": "Pedro Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Recife",
-      "fundo": "/fundoUsuario/4.png"
-    },
-    {
-      "id": 18,
-      "nome": "João Rocha",
-      "idade": 27,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "jazz",
-        "pop"
-      ],
-      "instrumentos": [
-        "teclado",
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/30.jpg",
-      "descricao": "João Silva, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-      "cidade": "Curitiba",
-      "fundo": "/fundoUsuario/18.png"
-    },
-    {
-      "id": 19,
-      "nome": "Gisele Castro",
-      "idade": 50,
-      "genero": "Feminino",
-      "estilos_musicais": [
-        "pop",
-        "eletronica"
-      ],
-      "instrumentos": [
-        "vocal",
-        "baixo"
-      ],
-      "foto": "https://randomuser.me/api/portraits/women/34.jpg",
-      "descricao": "Me chamo Gisele Andrade e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-      "cidade": "Goiânia",
-      "fundo": "/fundoUsuario/7.png"
-    },
-    {
-      "id": 20,
-      "nome": "Carlos Dias",
-      "idade": 24,
-      "genero": "Masculino",
-      "estilos_musicais": [
-        "funk",
-        "pop",
-        "raggae",
-        "jazz"
-      ],
-      "instrumentos": [
-        "baixo",
-        "guitarra"
-      ],
-      "foto": "https://randomuser.me/api/portraits/men/36.jpg",
-      "descricao": "Carlos Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-      "cidade": "Brasília",
-      "fundo": "/fundoUsuario/5.png"
-    }
-  ], 
+  {
+    "users": [
+      {
+        "id": 1,
+        "nome": "Natália Barros",
+        "idade": 31,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "rock",
+          "rap"
+        ],
+        "instrumentos": [
+          "bateria",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/1.jpg",
+        "descricao": "Sou Natália Nogueira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+        "cidade": "Florianópolis",
+        "fundo": "/fundoUsuario/1.png",
+        "bio": "Sou Natália Barros, um(a) artista dedicado(a) natural de Florianópolis, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 2,
+        "nome": "João Araújo",
+        "idade": 31,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "rap",
+          "raggae"
+        ],
+        "instrumentos": [
+          "saxofone",
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+        "descricao": "João Rocha, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
+        "cidade": "Curitiba",
+        "fundo": "/fundoUsuario/2.png",
+        "bio": "Sou João Araújo, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com saxofone, bateria, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 3,
+        "nome": "Lucas Teixeira",
+        "idade": 43,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "rock",
+          "eletronica"
+        ],
+        "instrumentos": [
+          "baixo",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/5.jpg",
+        "descricao": "Lucas Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
+        "cidade": "Curitiba",
+        "fundo": "/fundoUsuario/3.png",
+        "bio": "Sou Lucas Teixeira, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com baixo, guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 4,
+        "nome": "Carlos Costa",
+        "idade": 35,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "jazz",
+          "funk",
+          "rap",
+          "raggae"
+        ],
+        "instrumentos": [
+          "piano",
+          "controladora"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg",
+        "descricao": "Sou Carlos Silva, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+        "cidade": "Brasília",
+        "fundo": "/fundoUsuario/9.png",
+        "bio": "Sou Carlos Costa, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 5,
+        "nome": "Gisele Rocha",
+        "idade": 53,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "pop",
+          "raggae",
+          "rock"
+        ],
+        "instrumentos": [
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/7.jpg",
+        "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+        "cidade": "Fortaleza",
+        "fundo": "/fundoUsuario/8.png",
+        "bio": "Sou Gisele Rocha, um(a) artista dedicado(a) natural de Fortaleza, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 6,
+        "nome": "João Nascimento",
+        "idade": 22,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "eletronica",
+          "raggae",
+          "rap",
+          "jazz"
+        ],
+        "instrumentos": [
+          "bateria",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg",
+        "descricao": "Sou João Oliveira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+        "cidade": "Curitiba",
+        "fundo": "/fundoUsuario/16.png",
+        "bio": "Sou João Nascimento, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 7,
+        "nome": "Felipe Batista",
+        "idade": 36,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "rock",
+          "funk"
+        ],
+        "instrumentos": [
+          "piano",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/10.jpg",
+        "descricao": "Sou Felipe Rocha, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+        "cidade": "Porto Alegre",
+        "fundo": "/fundoUsuario/10.png",
+        "bio": "Sou Felipe Batista, um(a) artista dedicado(a) natural de Porto Alegre, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 8,
+        "nome": "Gisele Lima",
+        "idade": 49,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "eletronica",
+          "funk"
+        ],
+        "instrumentos": [
+          "guitarra",
+          "teclado"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/11.jpg",
+        "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+        "cidade": "Rio de Janeiro",
+        "fundo": "/fundoUsuario/13.png",
+        "bio": "Sou Gisele Lima, um(a) artista dedicado(a) natural de Rio de Janeiro, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com guitarra, teclado, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 9,
+        "nome": "Rafael Batista",
+        "idade": 57,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "rap",
+          "raggae",
+          "rock"
+        ],
+        "instrumentos": [
+          "vocal",
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/12.jpg",
+        "descricao": "Me chamo Rafael Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
+        "cidade": "Salvador",
+        "fundo": "/fundoUsuario/14.png",
+        "bio": "Sou Rafael Batista, um(a) artista dedicado(a) natural de Salvador, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 10,
+        "nome": "Bruna Batista",
+        "idade": 56,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "rock",
+          "pop",
+          "rap"
+        ],
+        "instrumentos": [
+          "bateria",
+          "controladora"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg",
+        "descricao": "Sou Bruna Ramos, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+        "cidade": "São Paulo",
+        "fundo": "/fundoUsuario/6.png",
+        "bio": "Sou Bruna Batista, um(a) artista dedicado(a) natural de São Paulo, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 11,
+        "nome": "Tatiane Castro",
+        "idade": 45,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "raggae",
+          "rock",
+          "jazz",
+          "rap"
+        ],
+        "instrumentos": [
+          "vocal",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg",
+        "descricao": "Sou Tatiane Castro, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+        "cidade": "Belém",
+        "fundo": "/fundoUsuario/11.png",
+        "bio": "Sou Tatiane Castro, um(a) artista dedicado(a) natural de Belém, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 12,
+        "nome": "Vanessa Almeida",
+        "idade": 42,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "eletronica",
+          "jazz",
+          "funk",
+          "rap"
+        ],
+        "instrumentos": [
+          "piano"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/17.jpg",
+        "descricao": "Sou Vanessa Costa, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+        "cidade": "Natal",
+        "fundo": "/fundoUsuario/17.png",
+        "bio": "Sou Vanessa Almeida, um(a) artista dedicado(a) natural de Natal, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 13,
+        "nome": "Fernanda Costa",
+        "idade": 23,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "eletronica",
+          "jazz"
+        ],
+        "instrumentos": [
+          "bateria",
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/18.jpg",
+        "descricao": "Sou Fernanda Duarte, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+        "cidade": "Campinas",
+        "fundo": "/fundoUsuario/15.png",
+        "bio": "Sou Fernanda Costa, um(a) artista dedicado(a) natural de Campinas, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 14,
+        "nome": "Felipe Costa",
+        "idade": 47,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "pop",
+          "funk",
+          "raggae",
+          "rock"
+        ],
+        "instrumentos": [
+          "controladora"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/19.jpg",
+        "descricao": "Felipe Martins, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
+        "cidade": "Rio de Janeiro",
+        "fundo": "/fundoUsuario/19.png",
+        "bio": "Sou Felipe Costa, um(a) artista dedicado(a) natural de Rio de Janeiro, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 15,
+        "nome": "Bruno Santos",
+        "idade": 22,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "pop",
+          "rock"
+        ],
+        "instrumentos": [
+          "saxofone"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/22.jpg",
+        "descricao": "Sou Bruno Rocha, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+        "cidade": "Fortaleza",
+        "fundo": "/fundoUsuario/20.png",
+        "bio": "Sou Bruno Santos, um(a) artista dedicado(a) natural de Fortaleza, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 16,
+        "nome": "Juliana Moreira",
+        "idade": 44,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "pop",
+          "eletronica",
+          "rap",
+          "jazz"
+        ],
+        "instrumentos": [
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/25.jpg",
+        "descricao": "Sou Juliana Souza, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+        "cidade": "Brasília",
+        "fundo": "/fundoUsuario/12.png",
+        "bio": "Sou Juliana Moreira, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 17,
+        "nome": "Pedro Teixeira",
+        "idade": 60,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "eletronica",
+          "rock",
+          "pop",
+          "raggae"
+        ],
+        "instrumentos": [
+          "bateria"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/29.jpg",
+        "descricao": "Pedro Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
+        "cidade": "Recife",
+        "fundo": "/fundoUsuario/4.png",
+        "bio": "Sou Pedro Teixeira, um(a) artista dedicado(a) natural de Recife, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 18,
+        "nome": "João Rocha",
+        "idade": 27,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "jazz",
+          "pop"
+        ],
+        "instrumentos": [
+          "teclado",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/30.jpg",
+        "descricao": "João Silva, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
+        "cidade": "Curitiba",
+        "fundo": "/fundoUsuario/18.png",
+        "bio": "Sou João Rocha, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com teclado, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 19,
+        "nome": "Gisele Castro",
+        "idade": 50,
+        "genero": "Feminino",
+        "estilos_musicais": [
+          "pop",
+          "eletronica"
+        ],
+        "instrumentos": [
+          "vocal",
+          "baixo"
+        ],
+        "foto": "https://randomuser.me/api/portraits/women/34.jpg",
+        "descricao": "Me chamo Gisele Andrade e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
+        "cidade": "Goiânia",
+        "fundo": "/fundoUsuario/7.png",
+        "bio": "Sou Gisele Castro, um(a) artista dedicado(a) natural de Goiânia, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      },
+      {
+        "id": 20,
+        "nome": "Carlos Dias",
+        "idade": 24,
+        "genero": "Masculino",
+        "estilos_musicais": [
+          "funk",
+          "pop",
+          "raggae",
+          "jazz"
+        ],
+        "instrumentos": [
+          "baixo",
+          "guitarra"
+        ],
+        "foto": "https://randomuser.me/api/portraits/men/36.jpg",
+        "descricao": "Carlos Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
+        "cidade": "Brasília",
+        "fundo": "/fundoUsuario/5.png",
+        "bio": "Sou Carlos Dias, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com baixo, guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+        "screenshot": [
+          "screenshot/1.png",
+          "screenshot/2.png",
+          "screenshot/3.png",
+          "screenshot/4.png"
+        ]
+      }
+    ],
   "bandas":[
   {
     "nome": "Banda 1",
