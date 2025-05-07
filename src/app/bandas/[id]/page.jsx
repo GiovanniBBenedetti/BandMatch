@@ -110,19 +110,7 @@ export default async function user({ params }) {
           <div className="row">
             <div className="col-md-12 d-flex">
               <div className="w-25">
-                {bandaExibido.integrante_faltante.instrumento.map(
-                  (item, index) => {
-                    return (
-                      <>
-                        <img
-                        key={index}
-                          src={faltantesImagens[item]}
-                          className="img-faltante img-fluid"
-                        />
-                      </>
-                    );
-                  }
-                )}
+               <img src={faltantesImagens.bateria} alt="" />
               </div>
 
               <div className="d-grid">
