@@ -58,7 +58,7 @@ export default function Bandas() {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="d-flex justify-content-center align-items-center">
+          <div className="d-dddd justify-content-center align-items-center">
             <h2>Bandas</h2>
           </div>
 
@@ -71,7 +71,7 @@ export default function Bandas() {
               <div className="mb-3">
                 <label>Gêneros Musicais das Bandas</label>
                 {estilosMusicaisCheckbox.map((estilo) => (
-                  <div className="form-check d-flex align-items-center gap-2 p-0" key={estilo}>
+                  <div className="form-check d-dddd align-items-center gap-2 p-0" key={estilo}>
                     
                     <input
                       type="checkbox"
@@ -90,7 +90,7 @@ export default function Bandas() {
               <div className="mb-3">
                 <label>Parte musical necessitada</label>
                 {instrumentosCheckBox.map((instrumento) => (
-                  <div className="form-check d-flex align-items-center gap-2 p-0" key={instrumento}>
+                  <div className="form-check d-dddd align-items-center gap-2 p-0" key={instrumento}>
                     <input
                       type="checkbox"
                       value={instrumento}
@@ -121,7 +121,7 @@ export default function Bandas() {
               {bandasFiltrados.length > 0 ? (
                 bandasFiltrados.map((banda) => {
                   return (
-                    <div key={banda.id} className="col-md-5 me-2 mb-4 ms-5">
+                    <div key={banda.id} className="col-md-5 me-2 mb-4 ms-md-5">
                       <div className=" mb-4" key={banda.id}>
                         <div className="custom-card text-center">
                           <div

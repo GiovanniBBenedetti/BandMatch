@@ -1879,7 +1879,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "teclado",
+        "instrumento": "Teclado",
         "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
       },
       "id": 1
@@ -1933,7 +1933,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "vocal",
+        "instrumento": "Vocal",
         "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
       },
       "id": 2
@@ -1987,7 +1987,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "teclado",
+        "instrumento": "Teclado",
         "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
       },
       "id": 3
@@ -2041,7 +2041,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "vocal",
+        "instrumento": "Vocal",
         "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
       },
       "id": 4
@@ -2095,7 +2095,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "baixo",
+        "instrumento": "Baixo",
         "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
       },
       "id": 5
@@ -2149,7 +2149,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "saxofone",
+        "instrumento": "Saxofone",
         "descricao": "Procuramos um(a) músico(a) que toque saxofone para completar nosso time criativo e performático."
       },
       "id": 6
@@ -2203,7 +2203,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "teclado",
+        "instrumento": "Teclado",
         "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
       },
       "id": 7
@@ -2257,7 +2257,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "baixo",
+        "instrumento": "Baixo",
         "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
       },
       "id": 8
@@ -2311,7 +2311,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "vocal",
+        "instrumento": "Vocal",
         "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
       },
       "id": 9
@@ -2365,7 +2365,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "guitarra",
+        "instrumento": "Guitarra",
         "descricao": "Procuramos um(a) músico(a) que toque guitarra para completar nosso time criativo e performático."
       },
       "id": 10
@@ -2419,7 +2419,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "baixo",
+        "instrumento": "Baixo",
         "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
       },
       "id": 11
@@ -2473,7 +2473,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "vocal",
+        "instrumento": "Vocal",
         "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
       },
       "id": 12
@@ -2527,7 +2527,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "controladora",
+        "instrumento": "Controladora",
         "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
       },
       "id": 13
@@ -2581,7 +2581,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "controladora",
+        "instrumento": "Controladora",
         "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
       },
       "id": 14
@@ -2635,7 +2635,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "controladora",
+        "instrumento": "Controladora",
         "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
       },
       "id": 15
@@ -2689,7 +2689,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "guitarra",
+        "instrumento": "Guitarra",
         "descricao": "Procuramos um(a) músico(a) que toque guitarra para completar nosso time criativo e performático."
       },
       "id": 16
@@ -2743,7 +2743,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "piano",
+        "instrumento": "Piano",
         "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
       },
       "id": 17
@@ -2797,7 +2797,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "piano",
+        "instrumento": "Piano",
         "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
       },
       "id": 18
@@ -2851,7 +2851,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "bateria",
+        "instrumento": "Bateria",
         "descricao": "Procuramos um(a) músico(a) que toque bateria para completar nosso time criativo e performático."
       },
       "id": 19
@@ -2905,7 +2905,7 @@
         }
       ],
       "integrante_faltante": {
-        "instrumento": "piano",
+        "instrumento": "Piano",
         "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
       },
       "id": 20
