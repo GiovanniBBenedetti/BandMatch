@@ -7,20 +7,29 @@ export default async function user({ params }) {
     response.json()
   );
 
+  const user = await fetch("http://localhost:3333/users").then((response) =>
+    response.json()
+  );
+
+
+  
   const bandaExibido = banda[bandaId - 1];
+  const userid = bandaExibido.integrantes.map(integrante => integrante.id);
+
+
   return (
     <>
       <div className="container-fluid">
         <div className="row d-grid">
           <img
             src={bandaExibido.foto_banda}
-            alt=""
+
             className="p-0 img-background img-fluid"
           />
           <div className="d-flex align-items-center justify-content-center">
             <img
               src={bandaExibido.logo_banda}
-              alt=""
+
               className="rounded-circle img-logo"
             />
           </div>
@@ -39,17 +48,14 @@ export default async function user({ params }) {
         </div>
 
         <div className="row">
-        <div className="d-flex align-items-center justify-content-center">
-          <p className="fs-2 fw-bold">Integrantes</p>
+          <div className="d-flex align-items-center justify-content-center my-5">
+            <p className="fs-1 fw-bold my-5">Integrantes</p>
           </div>
         </div>
 
         <div className="row">
           <div className="col-md-4 card-int">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <p></p>
-            <img src="" alt="" />
+            
 
             <button>Veja Perfil</button>
           </div>

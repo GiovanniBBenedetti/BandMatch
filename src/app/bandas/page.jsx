@@ -71,14 +71,17 @@ export default function Bandas() {
               <div className="mb-3">
                 <label>Gêneros Musicais das Bandas</label>
                 {estilosMusicaisCheckbox.map((estilo) => (
-                  <div className="" key={estilo}>
-                    <label>{estilo}</label>
+                  <div className="form-check d-flex align-items-center gap-2 p-0" key={estilo}>
+                    
                     <input
                       type="checkbox"
                       value={estilo}
-                      className=""
+                      className="ui-checkbox"
                       onChange={(e) => handleCheckbox(e, setEstilosSelecionados)}
                     />
+                    <label className="form-check-label">
+                      {estilo.charAt(0).toUpperCase() + estilo.slice(1).toLowerCase()}
+                    </label>
                   </div>
                 ))}
               </div>
@@ -87,16 +90,16 @@ export default function Bandas() {
               <div className="mb-3">
                 <label>Parte musical necessitada</label>
                 {instrumentosCheckBox.map((instrumento) => (
-                  <div className="" key={instrumento}>
-                    <label className="form-check-label">
-                      {instrumento.charAt(0).toUpperCase() + instrumento.slice(1).toLowerCase()}
-                    </label>
+                  <div className="form-check d-flex align-items-center gap-2 p-0" key={instrumento}>
                     <input
                       type="checkbox"
                       value={instrumento}
-                      className=""
+                      className="ui-checkbox"
                       onChange={(e) => handleCheckbox(e, setInstrumentosSelecionados)}
                     />
+                    <label className="form-check-label">
+                      {instrumento.charAt(0).toUpperCase() + instrumento.slice(1).toLowerCase()}
+                    </label>
                   </div>
 
                 ))}
@@ -151,7 +154,7 @@ export default function Bandas() {
                 })
               ) : (
                 <>
-                  <p>Carregando...</p>
+                  <p>Nenhuma banda encontrada com os filtros escolhidos</p>
                 </>
               )}
             </div>
