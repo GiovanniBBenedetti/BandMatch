@@ -1,7 +1,9 @@
 import "./banda.css";
 import Link from "next/link";
+
 export default async function user({ params }) {
   const bandaId = params.id;
+
   const faltantesImagens = {
     guitarra: "/faltante_guitarra.png",
     bateria: "/faltante_bateria.png",
@@ -11,6 +13,7 @@ export default async function user({ params }) {
     vocal: "/faltante_vocal.png",
     teclado: "/faltante_teclado.png",
   };
+
   const instrumentoImagens = {
     guitarra: "/guitarra.png",
     bateria: "/bateria.png",
@@ -22,6 +25,8 @@ export default async function user({ params }) {
     vocal: "/vocal.png",
   };
 
+
+
   const banda = await fetch("http://localhost:3333/bandas").then((response) =>
     response.json()
   );
@@ -31,22 +36,23 @@ export default async function user({ params }) {
   );
 
   const bandaExibido = banda[bandaId - 1];
-  const userId = bandaExibido.integrantes.map((integrante) => integrante.id);
 
-  const userExibido = user[userId[2] - 1];
+  const integrantes = bandaExibido.integrantes;
 
   return (
     <>
       <div className="container-fluid">
         <div className="row d-grid">
           <img
-            src={bandaExibido.foto_banda}
+            src={`/Bandas/${bandaId}.png`}
             className="p-0 img-background img-fluid"
+            alt="Foto da banda"
           />
           <div className="d-flex align-items-center justify-content-center">
             <img
               src={bandaExibido.logo_banda}
               className="rounded-circle img-logo"
+              alt="Logo da banda"
             />
           </div>
         </div>
@@ -70,34 +76,39 @@ export default async function user({ params }) {
         </div>
 
         <div className="gap-5 card-int d-flex row align-items-center justify-content-center">
-          {userId.map((item, index) => {
-            return (
-              <div className="col-md-4 mx-5 w-25" key={index}>
-                <div className="custom-card text-center">
-                  <div
-                    className="top-section"
-                    style={{ backgroundImage: `url(${userExibido.fundo})` }}
-                  ></div>
+          {integrantes.map((item, index) => (
+            <div className="col-md-4 col-12 mx-0 mx-md-5 justify-content-center align-items-center d-grid" key={index}>
+              <div className="custom-card text-center">
+                <div
+                  className="top-section"
+                  style={{ backgroundImage: `url(/Bandas/${item.id}.png)` }}
+                ></div>
 
-                  <img src={userExibido.foto} alt="" className="profile-pic" />
-                  <h2 className="user-name">{userExibido.nome}</h2>
+                <img src={item.foto} alt={item.nome} className="profile-pic" />
+                <h2 className="user-name">{item.nome}</h2>
 
-                  <div className="instrumento">
+                <div className="instrumento">
+                  {item.instrumentos?.map((instrumento, index) => (
                     <img
-                      src={instrumentoImagens.bateria}
-                      className="instrumento-img"
-                      alt=""
+                      key={index}
+                      src={
+                        instrumentoImagens[instrumento.toLowerCase().trim()] ||
+                        "/default.png"
+                      }
+                      className="instrumento-img mx-1"
+                      alt={instrumento}
                     />
-                  </div>
-                  <Link href={`./users/${item}`}>
-                    <button className="btn-verperfil">Ver Perfil</button>
-                  </Link>
-
-                  <div className="icon-section mb-3"></div>
+                  ))}
                 </div>
+
+                <Link href={`./users/${item.id}`}>
+                  <button className="btn-verperfil">Ver Perfil</button>
+                </Link>
+
+                <div className="icon-section mb-3"></div>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
 
         <div className="row">
@@ -106,24 +117,39 @@ export default async function user({ params }) {
           </div>
         </div>
 
-        <div className="container rounded-4 card_faltante">
+        <div className="container rounded-4 card_faltante col-md-12">
           <div className="row">
-            <div className="col-md-12 d-flex">
-              <div className="w-25">
-               <img src={faltantesImagens.bateria} alt="" />
-              </div>
-
+            <div className="">
               <div className="d-grid">
-                <div className="d-grid justify-content-center">
-                  <p className="fs-2 fw-bold mt-2">
-                    {bandaExibido.integrante_faltante.instrumento}
-                  </p>
-                </div>
-
-                <div className="d-flex justify-content-center">
-                  <p className="faltante_desc fw-bold">
-                    {bandaExibido.integrante_faltante.descricao}
-                  </p>
+                <div className="">
+                  <div className="row">
+                    <div className="col-md-4 justify-content-center d-flex align-items-center">
+                      <img
+                        src={
+                          faltantesImagens[
+                          bandaExibido.integrante_faltante.instrumento
+                          ]
+                        }
+                        alt="Instrumento faltante"
+                        style={{ scale: '1.5', marginTop: '-4vh' }}
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h5 className="card-title fs-2 fw-bold align-items-center justify-content-center d-flex my-4 my-md-0" >
+                          {bandaExibido.integrante_faltante.instrumento
+                            .charAt(0)
+                            .toUpperCase() +
+                            bandaExibido.integrante_faltante.instrumento
+                              .slice(1)
+                              .toLowerCase()}
+                        </h5>
+                        <p className="card-text mt-4 align-items-center justify-content-center d-flex">
+                          {bandaExibido.integrante_faltante.descricao}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
