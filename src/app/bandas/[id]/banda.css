@@ -20,11 +20,12 @@
 }
 
 .card_faltante{
-    background-color: #f5f5f6 !important;
+    background-color: #fff !important;
     height: auto;
     width: 70%;
     margin: 5% 10% 5% 15%;
     padding-bottom: 2vh;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .faltante_desc{
@@ -138,5 +139,21 @@
 
   .instrumento-img {
     width: 50px;
+  }
+
+  .interesso{
+    background-color: #f0274b;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 5vh;
+    transition: all 0.2s;
+  }
+
+  .interesso:hover{
+    transform: scale(1.1);
+  }
+
+  .int{
+    height: 8vh;
   }
   

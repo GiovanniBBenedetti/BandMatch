@@ -57,21 +57,28 @@ export default async function user({ params }) {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row d-grid">
           <div className="d-flex align-items-center justify-content-center">
             <p className="title">{bandaExibido.nome}</p>
           </div>
+          <div className="d-flex align-items-center justify-content-center">
+            <p className="fs-5">{bandaExibido.descricao}</p>
+          </div>
+
+          
+
         </div>
 
         <div className="row">
           <div className="d-flex align-items-center justify-content-center">
-            <p className="fs-5">{bandaExibido.descricao}</p>
+            
           </div>
         </div>
 
         <div className="row">
           <div className="d-flex align-items-center justify-content-center my-5">
             <p className="fs-1 fw-bold">Integrantes</p>
+            <img src="/icon_integrante.png" className="img-fluid int" alt="" />
           </div>
         </div>
 
@@ -136,7 +143,8 @@ export default async function user({ params }) {
                     </div>
                     <div className="col-md-8">
                       <div className="card-body">
-                        <h5 className="card-title fs-2 fw-bold align-items-center justify-content-center d-flex my-4 my-md-0" >
+                        <div className="d-flex align-items-center justify-content-center">
+                          <h5 className="card-title fs-2 fw-bold  d-flex my-4 me-2 my-md-0" >
                           {bandaExibido.integrante_faltante.instrumento
                             .charAt(0)
                             .toUpperCase() +
@@ -144,7 +152,10 @@ export default async function user({ params }) {
                               .slice(1)
                               .toLowerCase()}
                         </h5>
-                        <p className="card-text mt-4 align-items-center justify-content-center d-flex">
+                        <img src={`/iconfaltante/${bandaExibido.integrante_faltante.instrumento}.png`} alt="" />
+                        </div>
+                        
+                        <p className="card-text mt-4 align-items-center justify-content-center d-flex fw-bold">
                           {bandaExibido.integrante_faltante.descricao}
                         </p>
                       </div>
@@ -153,6 +164,12 @@ export default async function user({ params }) {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="align-items-center justify-content-center d-flex">
+            <button className="rounded-2 border-0 interesso">Me interesso pela vaga</button>
           </div>
         </div>
       </div>
