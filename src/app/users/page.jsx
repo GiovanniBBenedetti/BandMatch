@@ -73,7 +73,7 @@ export default function Users() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-3 mb-5">
           <div className="filtros p-3 bg-white shadow rounded">
             <h3 className={LeagueSpartan.className}>Categorias relacionadas</h3>
 
@@ -169,7 +169,7 @@ export default function Users() {
             <div className="row">
               {usuariosFiltrados.length > 0 ? (
                 usuariosFiltrados.map(cards => (
-                  <div className="col-md-4 mb-4" key={cards.id}>
+                  <div className="col-md-6 col-sm-12 mb-4" key={cards.id}>
                     <div className="custom-card text-center">
                       <div
                         className="top-section"
@@ -200,8 +200,8 @@ export default function Users() {
                   </div>
                 ))
               ) : (
-                <div className="text-center w-100 mt-5">
-                  <h5>Nenhum usuário encontrado com os filtros selecionados.</h5>
+                <div className={`text-center w-100 mt-5 ${LeagueSpartan.className}`}>
+                  <h3>Nenhum usuário encontrado com os filtros selecionados.</h3>
                 </div>
               )}
             </div>

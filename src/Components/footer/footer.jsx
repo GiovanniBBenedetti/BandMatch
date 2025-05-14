@@ -6,7 +6,7 @@ export default function Footer() {
       <footer>
         <div id="footer_content">
           <div id="footer_contacts">
-            <img src="/logo.png" />
+           <Link href='/'><img src="/logo.png" /></Link> 
             <div id="footer_social_media">
               <p>Conectando músicos e bandas pelo mundo. Encontre sua próxima jam aqui!
               </p>

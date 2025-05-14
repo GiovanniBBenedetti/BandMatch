@@ -1,17 +1,18 @@
-.custom-card {
+.banda-card {
+  position: relative;
   background-color: #fff;
   border-radius: 20px;
-  padding: 20px 15px 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: relative;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  padding-top: 80px;
+  padding-bottom: 20px;
   overflow: hidden;
+  
 }
 
-.marginTop {
-  margin-top: 50px;
-}
 
-.top-section {
+
+.banda-header {
+  background: linear-gradient(135deg, #ff5b60, #f72428); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,190 +26,131 @@
 }
 
 
-
-
-.profile-pic {
+.banda-logo {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid white;
-  margin: 20px auto 10px;
+  border: 4px solid #fff;
   position: relative;
   z-index: 2;
+  margin: 0 auto 10px;
   display: block;
+  background-color: #fff;
 }
 
-.user-name {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.user-location {
+.banda-integrantes {
   font-size: 1rem;
-  font-weight: bold;
+  margin: 10px auto;
+  padding: 0 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.banda-nome {
+  font-size: 1.3rem;
+  color: #111;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.banda-descricao {
+  color: #555;
+  font-size: 0.95rem;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.banda-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filtros-container {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.filtros-titulo {
+
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.filtros-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
   color: #333;
 }
 
-.user-description {
-  font-size: 0.9rem;
-  margin: 10px 0 20px;
-  padding: 0 10px;
-  color: #444;
-}
-
-.icon-section {
+.filtros-checkbox-container {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  flex-wrap: wrap;
+
+  margin-bottom: 15px;
 }
 
-.icon {
-  font-size: 1.5rem;
-  padding: 10px;
-  border-radius: 50%;
+.filtros-checkbox-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.filtros-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.filtros-select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+
+  color: #333;
+}
+
+.filtros-botao-aplicar {
+  background-color: #f0274b;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+    font-weight: bold;
+}
+
+.filtros-botao-aplicar:hover {
+  background-color: #d01f3f;
 }
 
 .btn-verperfil {
   background-color: #f0274b;
   color: white;
   border: none;
-  border-radius: 25px;
-  padding: 10px 25px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
   font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-.instrumento {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  gap: 20px;
+.btn-verperfil:hover {
+  background-color: #d01f3f;
 }
-
-.instrumento-img {
-  width: 50px;
-}
-
-
-.container-btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.btn-vermais {
-  font-weight: bold;
-  background-color: none;
-  border: none;
-}
-
-.filtros {
-  margin-top: 50px;
-  background-color: #fff;
-  border-radius: 10px;
-
-}
-
-.btn-vermais {
-  margin-top: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ////////////////////Range idade///////////////  */
-.PB-range-slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 4px;
-  border-radius: 5px;
-  background: #D5DBE1;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-
-.PB-range-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #eb123a;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-
-.PB-range-slider::-webkit-slider-thumb:hover {
-  box-shadow: 0px 0px 0px 8px #d85c73;
-  transition: 0.3s ease-in-out;
-}
-
-.PB-range-slider::-moz-range-thumb {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #000000;
-  cursor: pointer;
-}
-
-.PB-range-slider-div {
-  display: flex;
-  width: 150px;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
-  border-radius: 6px;
-  border: 1px solid #C6CACE;
-  box-shadow: 0px 1px 2px 0px #1F1E241F;
-}
-
-.PB-range-slidervalue {
-  font-weight: 600;
-}
-/* ////////////////////Range idade///////////////  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*////////////////////////////// Inicio estilizaçãao CheckBox //////////////////////////*/
 .ui-checkbox {

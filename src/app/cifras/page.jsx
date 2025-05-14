@@ -41,7 +41,7 @@ export default function Cifras() {
     { musica: "Final Feliz", artista: "Jorge Vercillo" },
     { musica: "Nada Além do Sangue", artista: "Fernandinho" },
     { musica: "Em Teus Braços", artista: "Laura Souguellis" },
-    { musica: "Tempo Perdido", artista: "Legião Urbana" },
+    { musica: "Baby", artista: "Justin Bieber" },
     { musica: "A Ele Glória", artista: "Diante do Trono" }
   ];
 
@@ -62,7 +62,10 @@ export default function Cifras() {
 
       <div className='marginNegativa'>
 
-        <div id="carouselExampleIndicators" className="carousel slide desktop">
+        <div id="carouselExampleIndicators"
+      data-bs-ride="carousel"
+      data-bs-interval="4000" className="carousel slide desktop"
+          >
           <div className="carousel-indicators">
             <button
               type="button"
@@ -91,7 +94,7 @@ export default function Cifras() {
               aria-label="Slide 4"
             />
           </div>
-          <div className="carousel-inner">
+          <div className="carousel-inner" >
             <div className="carousel-item active">
               <img
                 src="./fundoDjavan.png"
@@ -182,32 +185,32 @@ export default function Cifras() {
 
 
       <div className="container mt-5">
-        <form className='containerInputs d-flex justify-content-center' onSubmit={handleSearch}>
-          <div className="input-wrapper">
+        <form className="row gy-3 gx-3 justify-content-center align-items-center mb-5" onSubmit={handleSearch}>
+          <div className="col-12 col-md-4">
             <input
               type="text"
               placeholder="Digite o artista ..."
-              name="text"
-              className="inputs"
+              className="form-control custom-input"
               value={artista}
               onChange={(e) => setArtista(e.target.value)}
               required
             />
           </div>
-          <div className="input-wrapper">
+          <div className="col-12 col-md-4">
             <input
               type="text"
-              placeholder="Digite a musíca ..."
-              name="text"
-              className="inputs"
+              placeholder="Digite a música ..."
+              className="form-control custom-input"
               value={musica}
               onChange={(e) => setMusica(e.target.value)}
               required
             />
-
           </div>
-          <button type="submit">Buscar</button>
+          <div className="col-12 col-md-auto">
+            <button type="submit" className={`btnEnviar`}>Buscar</button>
+          </div>
         </form>
+
 
 
         <h2 className={`${LeagueSpartan.className} ps-2 tituloMaisAcessados`}>
@@ -227,7 +230,11 @@ export default function Cifras() {
                       {index + 1}
                     </p>
                     <div className="flex-grow-1">
-                      <h6 className="mb-1 fw-normal" style={{ fontSize: '1rem' }}>{item.musica}</h6>
+                      <div className='musicaVerificada d-flex gap-3'>
+                        <h6 className="mb-1 fw-normal" style={{ fontSize: '1rem' }}>{item.musica} </h6>
+                        <i className="bi bi-check-circle-fill"></i>
+                      </div>
+
                       <small className="text-muted">{item.artista}</small>
                     </div>
                   </div>
@@ -237,6 +244,16 @@ export default function Cifras() {
           ))}
         </div>
       </div>
+{/* 
+      <div className='mt-5 mb-5'>
+        <div className='d-none d-lg-block'>
+            <img src="https://placehold.co/1900x500" alt="" className='w-100'/>
+        </div>
+        <div className='d-lg-none'>
+           <img src="https://placehold.co/500x500" alt="" className='w-100'/>
+        </div>
+      
+      </div> */}
 
       <div className="container mt-5 mb-5">
         <h2 className={`${LeagueSpartan.className} ps-2 tituloMaisAcessados`}>Aulas em Vídeo</h2>

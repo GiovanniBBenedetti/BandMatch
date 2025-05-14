@@ -1,1499 +1,1428 @@
-  {
-    "users": [
-      {
-        "id": 1,
-        "nome": "Natália Barros",
-        "idade": 31,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "rock",
-          "rap"
-        ],
-        "instrumentos": [
-          "bateria",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/1.jpg",
-        "descricao": "Sou Natália Nogueira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-        "cidade": "Florianópolis",
-        "fundo": "/fundoUsuario/1.png",
-        "bio": "Sou Natália Barros, um(a) artista dedicado(a) natural de Florianópolis, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 2,
-        "nome": "João Araújo",
-        "idade": 31,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "rap",
-          "raggae"
-        ],
-        "instrumentos": [
-          "saxofone",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg",
-        "descricao": "João Rocha, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-        "cidade": "Curitiba",
-        "fundo": "/fundoUsuario/2.png",
-        "bio": "Sou João Araújo, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com saxofone, bateria, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 3,
-        "nome": "Lucas Teixeira",
-        "idade": 43,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "rock",
-          "eletronica"
-        ],
-        "instrumentos": [
-          "baixo",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg",
-        "descricao": "Lucas Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-        "cidade": "Curitiba",
-        "fundo": "/fundoUsuario/3.png",
-        "bio": "Sou Lucas Teixeira, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com baixo, guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 4,
-        "nome": "Carlos Costa",
-        "idade": 35,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "jazz",
-          "funk",
-          "rap",
-          "raggae"
-        ],
-        "instrumentos": [
-          "piano",
-          "controladora"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg",
-        "descricao": "Sou Carlos Silva, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-        "cidade": "Brasília",
-        "fundo": "/fundoUsuario/9.png",
-        "bio": "Sou Carlos Costa, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 5,
-        "nome": "Gisele Rocha",
-        "idade": 53,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "pop",
-          "raggae",
-          "rock"
-        ],
-        "instrumentos": [
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/7.jpg",
-        "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-        "cidade": "Fortaleza",
-        "fundo": "/fundoUsuario/8.png",
-        "bio": "Sou Gisele Rocha, um(a) artista dedicado(a) natural de Fortaleza, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 6,
-        "nome": "João Nascimento",
-        "idade": 22,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "eletronica",
-          "raggae",
-          "rap",
-          "jazz"
-        ],
-        "instrumentos": [
-          "bateria",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/9.jpg",
-        "descricao": "Sou João Oliveira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-        "cidade": "Curitiba",
-        "fundo": "/fundoUsuario/16.png",
-        "bio": "Sou João Nascimento, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 7,
-        "nome": "Felipe Batista",
-        "idade": 36,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "rock",
-          "funk"
-        ],
-        "instrumentos": [
-          "piano",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/10.jpg",
-        "descricao": "Sou Felipe Rocha, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-        "cidade": "Porto Alegre",
-        "fundo": "/fundoUsuario/10.png",
-        "bio": "Sou Felipe Batista, um(a) artista dedicado(a) natural de Porto Alegre, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 8,
-        "nome": "Gisele Lima",
-        "idade": 49,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "eletronica",
-          "funk"
-        ],
-        "instrumentos": [
-          "guitarra",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/11.jpg",
-        "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-        "cidade": "Rio de Janeiro",
-        "fundo": "/fundoUsuario/13.png",
-        "bio": "Sou Gisele Lima, um(a) artista dedicado(a) natural de Rio de Janeiro, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com guitarra, teclado, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 9,
-        "nome": "Rafael Batista",
-        "idade": 57,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "rap",
-          "raggae",
-          "rock"
-        ],
-        "instrumentos": [
-          "vocal",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/12.jpg",
-        "descricao": "Me chamo Rafael Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-        "cidade": "Salvador",
-        "fundo": "/fundoUsuario/14.png",
-        "bio": "Sou Rafael Batista, um(a) artista dedicado(a) natural de Salvador, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 10,
-        "nome": "Bruna Batista",
-        "idade": 56,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "rock",
-          "pop",
-          "rap"
-        ],
-        "instrumentos": [
-          "bateria",
-          "controladora"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg",
-        "descricao": "Sou Bruna Ramos, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-        "cidade": "São Paulo",
-        "fundo": "/fundoUsuario/6.png",
-        "bio": "Sou Bruna Batista, um(a) artista dedicado(a) natural de São Paulo, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 11,
-        "nome": "Tatiane Castro",
-        "idade": 45,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "raggae",
-          "rock",
-          "jazz",
-          "rap"
-        ],
-        "instrumentos": [
-          "vocal",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg",
-        "descricao": "Sou Tatiane Castro, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-        "cidade": "Belém",
-        "fundo": "/fundoUsuario/11.png",
-        "bio": "Sou Tatiane Castro, um(a) artista dedicado(a) natural de Belém, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 12,
-        "nome": "Vanessa Almeida",
-        "idade": 42,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "eletronica",
-          "jazz",
-          "funk",
-          "rap"
-        ],
-        "instrumentos": [
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/17.jpg",
-        "descricao": "Sou Vanessa Costa, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-        "cidade": "Natal",
-        "fundo": "/fundoUsuario/17.png",
-        "bio": "Sou Vanessa Almeida, um(a) artista dedicado(a) natural de Natal, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 13,
-        "nome": "Fernanda Costa",
-        "idade": 23,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "eletronica",
-          "jazz"
-        ],
-        "instrumentos": [
-          "bateria",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/18.jpg",
-        "descricao": "Sou Fernanda Duarte, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-        "cidade": "Campinas",
-        "fundo": "/fundoUsuario/15.png",
-        "bio": "Sou Fernanda Costa, um(a) artista dedicado(a) natural de Campinas, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 14,
-        "nome": "Felipe Costa",
-        "idade": 47,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "pop",
-          "funk",
-          "raggae",
-          "rock"
-        ],
-        "instrumentos": [
-          "controladora"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/19.jpg",
-        "descricao": "Felipe Martins, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-        "cidade": "Rio de Janeiro",
-        "fundo": "/fundoUsuario/19.png",
-        "bio": "Sou Felipe Costa, um(a) artista dedicado(a) natural de Rio de Janeiro, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 15,
-        "nome": "Bruno Santos",
-        "idade": 22,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "pop",
-          "rock"
-        ],
-        "instrumentos": [
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/22.jpg",
-        "descricao": "Sou Bruno Rocha, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
-        "cidade": "Fortaleza",
-        "fundo": "/fundoUsuario/20.png",
-        "bio": "Sou Bruno Santos, um(a) artista dedicado(a) natural de Fortaleza, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 16,
-        "nome": "Juliana Moreira",
-        "idade": 44,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "pop",
-          "eletronica",
-          "rap",
-          "jazz"
-        ],
-        "instrumentos": [
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/25.jpg",
-        "descricao": "Sou Juliana Souza, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
-        "cidade": "Brasília",
-        "fundo": "/fundoUsuario/12.png",
-        "bio": "Sou Juliana Moreira, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 17,
-        "nome": "Pedro Teixeira",
-        "idade": 60,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "eletronica",
-          "rock",
-          "pop",
-          "raggae"
-        ],
-        "instrumentos": [
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/29.jpg",
-        "descricao": "Pedro Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-        "cidade": "Recife",
-        "fundo": "/fundoUsuario/4.png",
-        "bio": "Sou Pedro Teixeira, um(a) artista dedicado(a) natural de Recife, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 18,
-        "nome": "João Rocha",
-        "idade": 27,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "jazz",
-          "pop"
-        ],
-        "instrumentos": [
-          "teclado",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/30.jpg",
-        "descricao": "João Silva, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
-        "cidade": "Curitiba",
-        "fundo": "/fundoUsuario/18.png",
-        "bio": "Sou João Rocha, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com teclado, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 19,
-        "nome": "Gisele Castro",
-        "idade": 50,
-        "genero": "Feminino",
-        "estilos_musicais": [
-          "pop",
-          "eletronica"
-        ],
-        "instrumentos": [
-          "vocal",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/34.jpg",
-        "descricao": "Me chamo Gisele Andrade e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
-        "cidade": "Goiânia",
-        "fundo": "/fundoUsuario/7.png",
-        "bio": "Sou Gisele Castro, um(a) artista dedicado(a) natural de Goiânia, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      },
-      {
-        "id": 20,
-        "nome": "Carlos Dias",
-        "idade": 24,
-        "genero": "Masculino",
-        "estilos_musicais": [
-          "funk",
-          "pop",
-          "raggae",
-          "jazz"
-        ],
-        "instrumentos": [
-          "baixo",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/36.jpg",
-        "descricao": "Carlos Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
-        "cidade": "Brasília",
-        "fundo": "/fundoUsuario/5.png",
-        "bio": "Sou Carlos Dias, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com baixo, guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
-        "screenshot": [
-          "screenshot/1.png",
-          "screenshot/2.png",
-          "screenshot/3.png",
-          "screenshot/4.png"
-        ]
-      }
-    ],
-  "bandas":[
-  {
-    "nome": "Banda 1",
-    "foto_banda": "https://picsum.photos/seed/banda_1/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_1/200/200",
-    "descricao": "A Banda 1 é conhecida por seu estilo vibrante e fusão única de reggae, eletronica, rock.",
-    "estilos_musicais": [
-      "reggae",
-      "eletronica",
-      "rock"
-    ],
-    "integrantes": [
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "bateria",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      },
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "controladora",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "nome": "Lucas Teixeira",
-        "instrumentos": [
-          "guitarra",
-          "controladora"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "saxofone",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "teclado",
-      "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Natália Barros",
+      "idade": 31,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "rock",
+        "rap"
+      ],
+      "instrumentos": [
+        "bateria",
+        "piano"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/1.jpg",
+      "descricao": "Sou Natália Nogueira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+      "cidade": "Florianópolis",
+      "fundo": "/fundoUsuario/1.png",
+      "bio": "Sou Natália Barros, um(a) artista dedicado(a) natural de Florianópolis, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Bohemian Rhapsody",
+          "artista": "Queen"
+        },
+        {
+          "id": 2,
+          "nome": "Lose Yourself",
+          "artista": "Eminem"
+        },
+        {
+          "id": 3,
+          "nome": "God's Plan",
+          "artista": "Drake"
+        },
+        {
+          "id": 4,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 5,
+          "nome": "Sicko Mode",
+          "artista": "Travis Scott"
+        },
+        {
+          "id": 6,
+          "nome": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "João Araújo",
+      "idade": 31,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "rap",
+        "raggae"
+      ],
+      "instrumentos": [
+        "saxofone",
+        "bateria"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+      "descricao": "João Rocha, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
+      "cidade": "Curitiba",
+      "fundo": "/fundoUsuario/2.png",
+      "bio": "Sou João Araújo, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com saxofone, bateria, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Save prayer",
+          "artista": "Duran Duran"
+        },
+        {
+          "id": 2,
+          "nome": "Lose Yourself",
+          "artista": "Eminem"
+        },
+        {
+          "id": 3,
+          "nome": "Three Little Birds",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 4,
+          "nome": "No Woman No Cry",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 5,
+          "nome": "Redemption Song",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 6,
+          "nome": "Sicko Mode",
+          "artista": "Travis Scott"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Lucas Teixeira",
+      "idade": 43,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "rock",
+        "eletronica"
+      ],
+      "instrumentos": [
+        "baixo",
+        "guitarra"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/5.jpg",
+      "descricao": "Lucas Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
+      "cidade": "Curitiba",
+      "fundo": "/fundoUsuario/3.png",
+      "bio": "Sou Lucas Teixeira, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com baixo, guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 2,
+          "nome": "One More Time",
+          "artista": "Daft Punk"
+        },
+        {
+          "id": 3,
+          "nome": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses"
+        },
+        {
+          "id": 4,
+          "nome": "Strobe",
+          "artista": "deadmau5"
+        },
+        {
+          "id": 5,
+          "nome": "Animals",
+          "artista": "Martin Garrix"
+        },
+        {
+          "id": 6,
+          "nome": "Bohemian Rhapsody",
+          "artista": "Queen"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Carlos Costa",
+      "idade": 35,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "jazz",
+        "funk",
+        "rap",
+        "raggae"
+      ],
+      "instrumentos": [
+        "piano",
+        "controladora"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/6.jpg",
+      "descricao": "Sou Carlos Silva, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+      "cidade": "Brasília",
+      "fundo": "/fundoUsuario/9.png",
+      "bio": "Sou Carlos Costa, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "So What",
+          "artista": "Miles Davis"
+        },
+        {
+          "id": 2,
+          "nome": "Redemption Song",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 3,
+          "nome": "Rap da Felicidade",
+          "artista": "Cidinho e Doca"
+        },
+        {
+          "id": 4,
+          "nome": "Baile de Favela",
+          "artista": "MC João"
+        },
+        {
+          "id": 5,
+          "nome": "Take Five",
+          "artista": "Dave Brubeck"
+        },
+        {
+          "id": 6,
+          "nome": "Autumn Leaves",
+          "artista": "Bill Evans"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Gisele Rocha",
+      "idade": 53,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "pop",
+        "raggae",
+        "rock"
+      ],
+      "instrumentos": [
+        "piano"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/7.jpg",
+      "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+      "cidade": "Fortaleza",
+      "fundo": "/fundoUsuario/8.png",
+      "bio": "Sou Gisele Rocha, um(a) artista dedicado(a) natural de Fortaleza, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 2,
+          "nome": "No Woman No Cry",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 3,
+          "nome": "Bohemian Rhapsody",
+          "artista": "Queen"
+        },
+        {
+          "id": 4,
+          "nome": "Levitating",
+          "artista": "Dua Lipa"
+        },
+        {
+          "id": 5,
+          "nome": "Blinding Lights",
+          "artista": "The Weeknd"
+        },
+        {
+          "id": 6,
+          "nome": "Three Little Birds",
+          "artista": "Bob Marley"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "João Nascimento",
+      "idade": 22,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "eletronica",
+        "raggae",
+        "rap",
+        "jazz"
+      ],
+      "instrumentos": [
+        "bateria",
+        "saxofone"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/9.jpg",
+      "descricao": "Sou João Oliveira, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+      "cidade": "Curitiba",
+      "fundo": "/fundoUsuario/16.png",
+      "bio": "Sou João Nascimento, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Three Little Birds",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 2,
+          "nome": "Strobe",
+          "artista": "deadmau5"
+        },
+        {
+          "id": 3,
+          "nome": "One More Time",
+          "artista": "Daft Punk"
+        },
+        {
+          "id": 4,
+          "nome": "Sicko Mode",
+          "artista": "Travis Scott"
+        },
+        {
+          "id": 5,
+          "nome": "God's Plan",
+          "artista": "Drake"
+        },
+        {
+          "id": 6,
+          "nome": "Lose Yourself",
+          "artista": "Eminem"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Felipe Batista",
+      "idade": 36,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "rock",
+        "funk"
+      ],
+      "instrumentos": [
+        "piano",
+        "saxofone"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/10.jpg",
+      "descricao": "Sou Felipe Rocha, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+      "cidade": "Porto Alegre",
+      "fundo": "/fundoUsuario/10.png",
+      "bio": "Sou Felipe Batista, um(a) artista dedicado(a) natural de Porto Alegre, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 2,
+          "nome": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses"
+        },
+        {
+          "id": 3,
+          "nome": "Rap da Felicidade",
+          "artista": "Cidinho e Doca"
+        },
+        {
+          "id": 4,
+          "nome": "Bohemian Rhapsody",
+          "artista": "Queen"
+        },
+        {
+          "id": 5,
+          "nome": "Tamborzão Pesadão",
+          "artista": "DJ GBR"
+        },
+        {
+          "id": 6,
+          "nome": "Baile de Favela",
+          "artista": "MC João"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Gisele Lima",
+      "idade": 49,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "eletronica",
+        "funk"
+      ],
+      "instrumentos": [
+        "guitarra",
+        "teclado"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/11.jpg",
+      "descricao": "Sou Gisele Andrade, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+      "cidade": "Rio de Janeiro",
+      "fundo": "/fundoUsuario/13.png",
+      "bio": "Sou Gisele Lima, um(a) artista dedicado(a) natural de Rio de Janeiro, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com guitarra, teclado, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Strobe",
+          "artista": "deadmau5"
+        },
+        {
+          "id": 2,
+          "nome": "Baile de Favela",
+          "artista": "MC João"
+        },
+        {
+          "id": 3,
+          "nome": "Tamborzão Pesadão",
+          "artista": "DJ GBR"
+        },
+        {
+          "id": 4,
+          "nome": "Rap da Felicidade",
+          "artista": "Cidinho e Doca"
+        },
+        {
+          "id": 5,
+          "nome": "Animals",
+          "artista": "Martin Garrix"
+        },
+        {
+          "id": 6,
+          "nome": "One More Time",
+          "artista": "Daft Punk"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Rafael Batista",
+      "idade": 57,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "rap",
+        "raggae",
+        "rock"
+      ],
+      "instrumentos": [
+        "vocal",
+        "piano"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/12.jpg",
+      "descricao": "Me chamo Rafael Souza e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
+      "cidade": "Salvador",
+      "fundo": "/fundoUsuario/14.png",
+      "bio": "Sou Rafael Batista, um(a) artista dedicado(a) natural de Salvador, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Lose Yourself",
+          "artista": "Eminem"
+        },
+        {
+          "id": 2,
+          "nome": "No Woman No Cry",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 3,
+          "nome": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses"
+        },
+        {
+          "id": 4,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 5,
+          "nome": "Sicko Mode",
+          "artista": "Travis Scott"
+        },
+        {
+          "id": 6,
+          "nome": "Bohemian Rhapsody",
+          "artista": "Queen"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Bruna Batista",
+      "idade": 56,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "rock",
+        "pop",
+        "rap"
+      ],
+      "instrumentos": [
+        "bateria",
+        "controladora"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/13.jpg",
+      "descricao": "Sou Bruna Ramos, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+      "cidade": "São Paulo",
+      "fundo": "/fundoUsuario/6.png",
+      "bio": "Sou Bruna Batista, um(a) artista dedicado(a) natural de São Paulo, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses"
+        },
+        {
+          "id": 2,
+          "nome": "Lose Yourself",
+          "artista": "Eminem"
+        },
+        {
+          "id": 3,
+          "nome": "God's Plan",
+          "artista": "Drake"
+        },
+        {
+          "id": 4,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 5,
+          "nome": "As It Was",
+          "artista": "Harry Styles"
+        },
+        {
+          "id": 6,
+          "nome": "Blinding Lights",
+          "artista": "The Weeknd"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Tatiane Castro",
+      "idade": 45,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "raggae",
+        "rock",
+        "jazz",
+        "rap"
+      ],
+      "instrumentos": [
+        "vocal",
+        "baixo"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/15.jpg",
+      "descricao": "Sou Tatiane Castro, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+      "cidade": "Belém",
+      "fundo": "/fundoUsuario/11.png",
+      "bio": "Sou Tatiane Castro, um(a) artista dedicado(a) natural de Belém, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Take Five",
+          "artista": "Dave Brubeck"
+        },
+        {
+          "id": 2,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 3,
+          "nome": "Autumn Leaves",
+          "artista": "Bill Evans"
+        },
+        {
+          "id": 4,
+          "nome": "Three Little Birds",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 5,
+          "nome": "Redemption Song",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 6,
+          "nome": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Vanessa Almeida",
+      "idade": 42,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "eletronica",
+        "jazz",
+        "funk",
+        "rap"
+      ],
+      "instrumentos": [
+        "piano"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/17.jpg",
+      "descricao": "Sou Vanessa Costa, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+      "cidade": "Natal",
+      "fundo": "/fundoUsuario/17.png",
+      "bio": "Sou Vanessa Almeida, um(a) artista dedicado(a) natural de Natal, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com piano, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Sicko Mode",
+          "artista": "Travis Scott"
+        },
+        {
+          "id": 2,
+          "nome": "Rap da Felicidade",
+          "artista": "Cidinho e Doca"
+        },
+        {
+          "id": 3,
+          "nome": "Strobe",
+          "artista": "deadmau5"
+        },
+        {
+          "id": 4,
+          "nome": "Baile de Favela",
+          "artista": "MC João"
+        },
+        {
+          "id": 5,
+          "nome": "Animals",
+          "artista": "Martin Garrix"
+        },
+        {
+          "id": 6,
+          "nome": "One More Time",
+          "artista": "Daft Punk"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Fernanda Costa",
+      "idade": 23,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "eletronica",
+        "jazz"
+      ],
+      "instrumentos": [
+        "bateria",
+        "saxofone"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/18.jpg",
+      "descricao": "Sou Fernanda Duarte, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+      "cidade": "Campinas",
+      "fundo": "/fundoUsuario/15.png",
+      "bio": "Sou Fernanda Costa, um(a) artista dedicado(a) natural de Campinas, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "One More Time",
+          "artista": "Daft Punk"
+        },
+        {
+          "id": 2,
+          "nome": "Autumn Leaves",
+          "artista": "Bill Evans"
+        },
+        {
+          "id": 3,
+          "nome": "Animals",
+          "artista": "Martin Garrix"
+        },
+        {
+          "id": 4,
+          "nome": "Take Five",
+          "artista": "Dave Brubeck"
+        },
+        {
+          "id": 5,
+          "nome": "Strobe",
+          "artista": "deadmau5"
+        },
+        {
+          "id": 6,
+          "nome": "So What",
+          "artista": "Miles Davis"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Felipe Costa",
+      "idade": 47,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "pop",
+        "funk",
+        "raggae",
+        "rock"
+      ],
+      "instrumentos": [
+        "controladora"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/19.jpg",
+      "descricao": "Felipe Martins, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
+      "cidade": "Rio de Janeiro",
+      "fundo": "/fundoUsuario/19.png",
+      "bio": "Sou Felipe Costa, um(a) artista dedicado(a) natural de Rio de Janeiro, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com controladora, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Baile de Favela",
+          "artista": "MC João"
+        },
+        {
+          "id": 2,
+          "nome": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses"
+        },
+        {
+          "id": 3,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 4,
+          "nome": "Levitating",
+          "artista": "Dua Lipa"
+        },
+        {
+          "id": 5,
+          "nome": "Tamborzão Pesadão",
+          "artista": "DJ GBR"
+        },
+        {
+          "id": 6,
+          "nome": "Three Little Birds",
+          "artista": "Bob Marley"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Bruno Santos",
+      "idade": 22,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "pop",
+        "rock"
+      ],
+      "instrumentos": [
+        "saxofone"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/22.jpg",
+      "descricao": "Sou Bruno Rocha, movido(a) pela paixão de criar e viver através da música. Cada melodia é um pedaço de mim.",
+      "cidade": "Fortaleza",
+      "fundo": "/fundoUsuario/20.png",
+      "bio": "Sou Bruno Santos, um(a) artista dedicado(a) natural de Fortaleza, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com saxofone, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Bohemian Rhapsody",
+          "artista": "Queen"
+        },
+        {
+          "id": 2,
+          "nome": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses"
+        },
+        {
+          "id": 3,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        },
+        {
+          "id": 4,
+          "nome": "As It Was",
+          "artista": "Harry Styles"
+        },
+        {
+          "id": 5,
+          "nome": "Levitating",
+          "artista": "Dua Lipa"
+        },
+        {
+          "id": 6,
+          "nome": "Blinding Lights",
+          "artista": "The Weeknd"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Juliana Moreira",
+      "idade": 44,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "pop",
+        "eletronica",
+        "rap",
+        "jazz"
+      ],
+      "instrumentos": [
+        "guitarra"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/25.jpg",
+      "descricao": "Sou Juliana Souza, apaixonado(a) por música e por tudo que ela representa. Gosto de explorar novos sons e transmitir emoções por meio da arte.",
+      "cidade": "Brasília",
+      "fundo": "/fundoUsuario/12.png",
+      "bio": "Sou Juliana Moreira, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "God's Plan",
+          "artista": "Drake"
+        },
+        {
+          "id": 2,
+          "nome": "As It Was",
+          "artista": "Harry Styles"
+        },
+        {
+          "id": 3,
+          "nome": "One More Time",
+          "artista": "Daft Punk"
+        },
+        {
+          "id": 4,
+          "nome": "Take Five",
+          "artista": "Dave Brubeck"
+        },
+        {
+          "id": 5,
+          "nome": "So What",
+          "artista": "Miles Davis"
+        },
+        {
+          "id": 6,
+          "nome": "Lose Yourself",
+          "artista": "Eminem"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Pedro Teixeira",
+      "idade": 60,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "eletronica",
+        "rock",
+        "pop",
+        "raggae"
+      ],
+      "instrumentos": [
+        "bateria"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/29.jpg",
+      "descricao": "Pedro Oliveira, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
+      "cidade": "Recife",
+      "fundo": "/fundoUsuario/4.png",
+      "bio": "Sou Pedro Teixeira, um(a) artista dedicado(a) natural de Recife, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com bateria, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "No Woman No Cry",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 2,
+          "nome": "Bohemian Rhapsody",
+          "artista": "Queen"
+        },
+        {
+          "id": 3,
+          "nome": "As It Was",
+          "artista": "Harry Styles"
+        },
+        {
+          "id": 4,
+          "nome": "Strobe",
+          "artista": "deadmau5"
+        },
+        {
+          "id": 5,
+          "nome": "Redemption Song",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 6,
+          "nome": "Smells Like Teen Spirit",
+          "artista": "Nirvana"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "João Rocha",
+      "idade": 27,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "jazz",
+        "pop"
+      ],
+      "instrumentos": [
+        "teclado",
+        "baixo"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/30.jpg",
+      "descricao": "João Silva, cantor(a) e compositor(a), sempre em busca de novas inspirações e formas de emocionar através do som.",
+      "cidade": "Curitiba",
+      "fundo": "/fundoUsuario/18.png",
+      "bio": "Sou João Rocha, um(a) artista dedicado(a) natural de Curitiba, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com teclado, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "So What",
+          "artista": "Miles Davis"
+        },
+        {
+          "id": 2,
+          "nome": "Levitating",
+          "artista": "Dua Lipa"
+        },
+        {
+          "id": 3,
+          "nome": "Blinding Lights",
+          "artista": "The Weeknd"
+        },
+        {
+          "id": 4,
+          "nome": "Autumn Leaves",
+          "artista": "Bill Evans"
+        },
+        {
+          "id": 5,
+          "nome": "As It Was",
+          "artista": "Harry Styles"
+        },
+        {
+          "id": 6,
+          "nome": "Take Five",
+          "artista": "Dave Brubeck"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Gisele Castro",
+      "idade": 50,
+      "genero": "Feminino",
+      "estilos_musicais": [
+        "pop",
+        "eletronica"
+      ],
+      "instrumentos": [
+        "vocal",
+        "baixo"
+      ],
+      "foto": "https://randomuser.me/api/portraits/women/34.jpg",
+      "descricao": "Me chamo Gisele Andrade e a música é minha vida. Cada nota é uma oportunidade de tocar corações e compartilhar experiências.",
+      "cidade": "Goiânia",
+      "fundo": "/fundoUsuario/7.png",
+      "bio": "Sou Gisele Castro, um(a) artista dedicado(a) natural de Goiânia, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com vocal, baixo, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "As It Was",
+          "artista": "Harry Styles"
+        },
+        {
+          "id": 2,
+          "nome": "Levitating",
+          "artista": "Dua Lipa"
+        },
+        {
+          "id": 3,
+          "nome": "Strobe",
+          "artista": "deadmau5"
+        },
+        {
+          "id": 4,
+          "nome": "Blinding Lights",
+          "artista": "The Weeknd"
+        },
+        {
+          "id": 5,
+          "nome": "Animals",
+          "artista": "Martin Garrix"
+        },
+        {
+          "id": 6,
+          "nome": "One More Time",
+          "artista": "Daft Punk"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Carlos Dias",
+      "idade": 24,
+      "genero": "Masculino",
+      "estilos_musicais": [
+        "funk",
+        "pop",
+        "raggae",
+        "jazz"
+      ],
+      "instrumentos": [
+        "baixo",
+        "guitarra"
+      ],
+      "foto": "https://randomuser.me/api/portraits/men/36.jpg",
+      "descricao": "Carlos Souza, artista em constante evolução, usando a música como forma de expressão e conexão com o mundo.",
+      "cidade": "Brasília",
+      "fundo": "/fundoUsuario/5.png",
+      "bio": "Sou Carlos Dias, um(a) artista dedicado(a) natural de Brasília, . Desde cedo, encontrei na música uma forma única de expressão. Minha jornada musical começou com baixo, guitarra, explorando gêneros como . Cada acorde e melodia que compartilho carrega minhas vivências, sentimentos e sonhos. Acredito que a música tem o poder de conectar pessoas e transformar realidades. Continuo trilhando meu caminho com paixão, autenticidade e esperança de tocar o coração de quem me ouve.",
+      "screenshot": [
+        "screenshot/1.png",
+        "screenshot/2.png",
+        "screenshot/3.png",
+        "screenshot/4.png"
+      ],
+      "portifolio": [
+        {
+          "id": 1,
+          "nome": "Rap da Felicidade",
+          "artista": "Cidinho e Doca"
+        },
+        {
+          "id": 2,
+          "nome": "Blinding Lights",
+          "artista": "The Weeknd"
+        },
+        {
+          "id": 3,
+          "nome": "Levitating",
+          "artista": "Dua Lipa"
+        },
+        {
+          "id": 4,
+          "nome": "Baile de Favela",
+          "artista": "MC João"
+        },
+        {
+          "id": 5,
+          "nome": "Three Little Birds",
+          "artista": "Bob Marley"
+        },
+        {
+          "id": 6,
+          "nome": "Tamborzão Pesadão",
+          "artista": "DJ GBR"
+        }
+      ]
     }
-  },
-  {
-    "nome": "Banda 2",
-    "foto_banda": "https://picsum.photos/seed/banda_2/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_2/200/200",
-    "descricao": "A Banda 2 é conhecida por seu estilo vibrante e fusão única de reggae, funk, rock.",
-    "estilos_musicais": [
-      "reggae",
-      "funk",
-      "rock"
-    ],
-    "integrantes": [
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "guitarra",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+  ],
+  "bandas": [
+    {
+      "nome": "Banda 1",
+      "foto_banda": "https://picsum.photos/seed/banda_1/800/400",
+      "logo_banda": "https://picsum.photos/seed/logo_banda_1/200/200",
+      "descricao": "A Banda 1 é conhecida por seu estilo vibrante e fusão única de pop, rap, eletronica.",
+      "estilos_musicais": [
+        "pop",
+        "rap",
+        "eletronica"
+      ],
+      "integrantes": [
+        {
+          "nome": "Lucas Teixeira",
+          "instrumentos": [
+            "baixo",
+            "guitarra"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/5.jpg",
+          "id": 3
+        },
+        {
+          "nome": "Gisele Rocha",
+          "instrumentos": [
+            "piano"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/7.jpg",
+          "id": 5
+        },
+        {
+          "nome": "Tatiane Castro",
+          "instrumentos": [
+            "vocal",
+            "baixo"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/15.jpg",
+          "id": 11
+        },
+        {
+          "nome": "João Nascimento",
+          "instrumentos": [
+            "bateria",
+            "saxofone"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/9.jpg",
+          "id": 6
+        }
+      ],
+      "integrante_faltante": {
+        "instrumento": "controladora",
+        "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
       },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "controladora",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
+      "id": 1,
+      "descricao_detalhada": "Banda 1 é uma banda brasileira formada em 2017, com raízes no pop. Unindo diferentes influências musicais, a banda se destaca por suas letras autênticas, arranjos envolventes e performances energéticas. Composta por Lucas Teixeira, Gisele Rocha, Tatiane Castro, João Nascimento, o grupo surgiu da vontade de criar um som original que dialoga tanto com a cena independente quanto com as grandes referências da música nacional e internacional. Suas composições exploram temas como emoções humanas e crises existenciais, sempre com uma identidade marcante."
+    },
+    {
+      "nome": "Banda 2",
+      "foto_banda": "https://picsum.photos/seed/banda_2/800/400",
+      "logo_banda": "https://picsum.photos/seed/logo_banda_2/200/200",
+      "descricao": "A Banda 2 é conhecida por seu estilo vibrante e fusão única de rock, eletronica, pop.",
+      "estilos_musicais": [
+        "rock",
+        "eletronica",
+        "pop"
+      ],
+      "integrantes": [
+        {
+          "nome": "Carlos Costa",
+          "instrumentos": [
+            "piano",
+            "controladora"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/6.jpg",
+          "id": 4
+        },
+        {
+          "nome": "Fernanda Costa",
+          "instrumentos": [
+            "bateria",
+            "saxofone"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/18.jpg",
+          "id": 13
+        },
+        {
+          "nome": "Gisele Lima",
+          "instrumentos": [
+            "guitarra",
+            "teclado"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/11.jpg",
+          "id": 8
+        },
+        {
+          "nome": "Rafael Batista",
+          "instrumentos": [
+            "vocal",
+            "piano"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/12.jpg",
+          "id": 9
+        }
+      ],
+      "integrante_faltante": {
+        "instrumento": "baixo",
+        "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
       },
-      {
-        "nome": "Amanda Araújo",
-        "instrumentos": [
-          "baixo",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
+      "id": 2,
+      "descricao_detalhada": "Banda 2 é uma banda brasileira formada em 2016, com raízes no rock. Unindo diferentes influências musicais, a banda se destaca por suas letras autênticas, arranjos envolventes e performances energéticas. Composta por Carlos Costa, Fernanda Costa, Gisele Lima, Rafael Batista, o grupo surgiu da vontade de criar um som original que dialoga tanto com a cena independente quanto com as grandes referências da música nacional e internacional. Suas composições exploram temas como sociedade e esperança, sempre com uma identidade marcante."
+    },
+    {
+      "nome": "Banda 3",
+      "foto_banda": "https://picsum.photos/seed/banda_3/800/400",
+      "logo_banda": "https://picsum.photos/seed/logo_banda_3/200/200",
+      "descricao": "A Banda 3 é conhecida por seu estilo vibrante e fusão única de jazz, rock, pop.",
+      "estilos_musicais": [
+        "jazz",
+        "rock",
+        "pop"
+      ],
+      "integrantes": [
+        {
+          "nome": "Vanessa Almeida",
+          "instrumentos": [
+            "piano"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/17.jpg",
+          "id": 12
+        },
+        {
+          "nome": "João Araújo",
+          "instrumentos": [
+            "saxofone",
+            "bateria"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+          "id": 2
+        },
+        {
+          "nome": "João Rocha",
+          "instrumentos": [
+            "teclado",
+            "baixo"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/30.jpg",
+          "id": 18
+        },
+        {
+          "nome": "Juliana Moreira",
+          "instrumentos": [
+            "guitarra"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/25.jpg",
+          "id": 16
+        }
+      ],
+      "integrante_faltante": {
+        "instrumento": "controladora",
+        "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
       },
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "controladora",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "vocal",
-      "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
+      "id": 3,
+      "descricao_detalhada": "Banda 3 é uma banda brasileira formada em 2016, com raízes no jazz. Unindo diferentes influências musicais, a banda se destaca por suas letras autênticas, arranjos envolventes e performances energéticas. Composta por Vanessa Almeida, João Araújo, João Rocha, Juliana Moreira, o grupo surgiu da vontade de criar um som original que dialoga tanto com a cena independente quanto com as grandes referências da música nacional e internacional. Suas composições exploram temas como esperança e emoções humanas, sempre com uma identidade marcante."
+    },
+    {
+      "nome": "Banda 4",
+      "foto_banda": "https://picsum.photos/seed/banda_4/800/400",
+      "logo_banda": "https://picsum.photos/seed/logo_banda_4/200/200",
+      "descricao": "A Banda 4 é conhecida por seu estilo vibrante e fusão única de funk, jazz, rap.",
+      "estilos_musicais": [
+        "funk",
+        "jazz",
+        "rap"
+      ],
+      "integrantes": [
+        {
+          "nome": "Felipe Batista",
+          "instrumentos": [
+            "piano",
+            "saxofone"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/10.jpg",
+          "id": 7
+        },
+        {
+          "nome": "Gisele Castro",
+          "instrumentos": [
+            "vocal",
+            "baixo"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/34.jpg",
+          "id": 19
+        },
+        {
+          "nome": "Bruna Batista",
+          "instrumentos": [
+            "bateria",
+            "controladora"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/13.jpg",
+          "id": 10
+        },
+        {
+          "nome": "Carlos Dias",
+          "instrumentos": [
+            "baixo",
+            "guitarra"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/36.jpg",
+          "id": 20
+        }
+      ],
+      "integrante_faltante": {
+        "instrumento": "teclado",
+        "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
+      },
+      "id": 4,
+      "descricao_detalhada": "Banda 4 é uma banda brasileira formada em 2021, com raízes no funk. Unindo diferentes influências musicais, a banda se destaca por suas letras autênticas, arranjos envolventes e performances energéticas. Composta por Felipe Batista, Gisele Castro, Bruna Batista, Carlos Dias, o grupo surgiu da vontade de criar um som original que dialoga tanto com a cena independente quanto com as grandes referências da música nacional e internacional. Suas composições exploram temas como identidade e emoções humanas, sempre com uma identidade marcante."
+    },
+    {
+      "nome": "Banda 5",
+      "foto_banda": "https://picsum.photos/seed/banda_5/800/400",
+      "logo_banda": "https://picsum.photos/seed/logo_banda_5/200/200",
+      "descricao": "A Banda 5 é conhecida por seu estilo vibrante e fusão única de jazz, pop, eletronica.",
+      "estilos_musicais": [
+        "jazz",
+        "pop",
+        "eletronica"
+      ],
+      "integrantes": [
+        {
+          "nome": "Felipe Costa",
+          "instrumentos": [
+            "controladora"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/19.jpg",
+          "id": 14
+        },
+        {
+          "nome": "Pedro Teixeira",
+          "instrumentos": [
+            "bateria"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/29.jpg",
+          "id": 17
+        },
+        {
+          "nome": "Natália Barros",
+          "instrumentos": [
+            "bateria",
+            "piano"
+          ],
+          "foto": "https://randomuser.me/api/portraits/women/1.jpg",
+          "id": 1
+        },
+        {
+          "nome": "Bruno Santos",
+          "instrumentos": [
+            "saxofone"
+          ],
+          "foto": "https://randomuser.me/api/portraits/men/22.jpg",
+          "id": 15
+        }
+      ],
+      "integrante_faltante": {
+        "instrumento": "baixo",
+        "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
+      },
+      "id": 5,
+      "descricao_detalhada": "Banda 5 é uma banda brasileira formada em 2014, com raízes no jazz. Unindo diferentes influências musicais, a banda se destaca por suas letras autênticas, arranjos envolventes e performances energéticas. Composta por Felipe Costa, Pedro Teixeira, Natália Barros, Bruno Santos, o grupo surgiu da vontade de criar um som original que dialoga tanto com a cena independente quanto com as grandes referências da música nacional e internacional. Suas composições exploram temas como amor e identidade, sempre com uma identidade marcante."
     }
-  },
-  {
-    "nome": "Banda 3",
-    "foto_banda": "https://picsum.photos/seed/banda_3/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_3/200/200",
-    "descricao": "A Banda 3 é conhecida por seu estilo vibrante e fusão única de funk, jazz, rock.",
-    "estilos_musicais": [
-      "funk",
-      "jazz",
-      "rock"
-    ],
-    "integrantes": [
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "bateria",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "vocal",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "piano",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      },
-      {
-        "nome": "João Nascimento",
-        "instrumentos": [
-          "guitarra",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "teclado",
-      "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 4",
-    "foto_banda": "https://picsum.photos/seed/banda_4/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_4/200/200",
-    "descricao": "A Banda 4 é conhecida por seu estilo vibrante e fusão única de rock, rap, eletronica.",
-    "estilos_musicais": [
-      "rock",
-      "rap",
-      "eletronica"
-    ],
-    "integrantes": [
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "guitarra",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "baixo",
-          "controladora"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "nome": "Lucas Teixeira",
-        "instrumentos": [
-          "controladora",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "piano",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "vocal",
-      "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 5",
-    "foto_banda": "https://picsum.photos/seed/banda_5/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_5/200/200",
-    "descricao": "A Banda 5 é conhecida por seu estilo vibrante e fusão única de funk, reggae, eletronica.",
-    "estilos_musicais": [
-      "funk",
-      "reggae",
-      "eletronica"
-    ],
-    "integrantes": [
-      {
-        "nome": "Lucas Teixeira",
-        "instrumentos": [
-          "teclado",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
-      },
-      {
-        "nome": "Amanda Araújo",
-        "instrumentos": [
-          "bateria",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "guitarra",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "controladora",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "baixo",
-      "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 6",
-    "foto_banda": "https://picsum.photos/seed/banda_6/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_6/200/200",
-    "descricao": "A Banda 6 é conhecida por seu estilo vibrante e fusão única de jazz, funk, pop.",
-    "estilos_musicais": [
-      "jazz",
-      "funk",
-      "pop"
-    ],
-    "integrantes": [
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "bateria",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "nome": "João Nascimento",
-        "instrumentos": [
-          "controladora",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
-      },
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "piano",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      },
-      {
-        "nome": "Amanda Araújo",
-        "instrumentos": [
-          "piano",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "saxofone",
-      "descricao": "Procuramos um(a) músico(a) que toque saxofone para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 7",
-    "foto_banda": "https://picsum.photos/seed/banda_7/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_7/200/200",
-    "descricao": "A Banda 7 é conhecida por seu estilo vibrante e fusão única de jazz, rock, rap.",
-    "estilos_musicais": [
-      "jazz",
-      "rock",
-      "rap"
-    ],
-    "integrantes": [
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "guitarra",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "bateria",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "baixo",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "vocal",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "teclado",
-      "descricao": "Procuramos um(a) músico(a) que toque teclado para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 8",
-    "foto_banda": "https://picsum.photos/seed/banda_8/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_8/200/200",
-    "descricao": "A Banda 8 é conhecida por seu estilo vibrante e fusão única de funk, rap, jazz.",
-    "estilos_musicais": [
-      "funk",
-      "rap",
-      "jazz"
-    ],
-    "integrantes": [
-      {
-        "nome": "João Nascimento",
-        "instrumentos": [
-          "controladora",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "vocal",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "guitarra",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "saxofone",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "baixo",
-      "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 9",
-    "foto_banda": "https://picsum.photos/seed/banda_9/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_9/200/200",
-    "descricao": "A Banda 9 é conhecida por seu estilo vibrante e fusão única de rap, reggae, funk.",
-    "estilos_musicais": [
-      "rap",
-      "reggae",
-      "funk"
-    ],
-    "integrantes": [
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "teclado",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      },
-      {
-        "nome": "Amanda Araújo",
-        "instrumentos": [
-          "saxofone",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
-      },
-      {
-        "nome": "Lucas Teixeira",
-        "instrumentos": [
-          "guitarra",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "guitarra",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "vocal",
-      "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 10",
-    "foto_banda": "https://picsum.photos/seed/banda_10/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_10/200/200",
-    "descricao": "A Banda 10 é conhecida por seu estilo vibrante e fusão única de funk, reggae, rap.",
-    "estilos_musicais": [
-      "funk",
-      "reggae",
-      "rap"
-    ],
-    "integrantes": [
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "controladora",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "Amanda Araújo",
-        "instrumentos": [
-          "baixo",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
-      },
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "controladora",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "teclado",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "guitarra",
-      "descricao": "Procuramos um(a) músico(a) que toque guitarra para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 11",
-    "foto_banda": "https://picsum.photos/seed/banda_11/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_11/200/200",
-    "descricao": "A Banda 11 é conhecida por seu estilo vibrante e fusão única de funk, rock, jazz.",
-    "estilos_musicais": [
-      "funk",
-      "rock",
-      "jazz"
-    ],
-    "integrantes": [
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "teclado",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      },
-      {
-        "nome": "João Nascimento",
-        "instrumentos": [
-          "saxofone",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
-      },
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "controladora",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "controladora",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "baixo",
-      "descricao": "Procuramos um(a) músico(a) que toque baixo para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 12",
-    "foto_banda": "https://picsum.photos/seed/banda_12/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_12/200/200",
-    "descricao": "A Banda 12 é conhecida por seu estilo vibrante e fusão única de reggae, pop, eletronica.",
-    "estilos_musicais": [
-      "reggae",
-      "pop",
-      "eletronica"
-    ],
-    "integrantes": [
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "controladora",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "baixo",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      },
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "controladora",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      },
-      {
-        "nome": "Lucas Teixeira",
-        "instrumentos": [
-          "guitarra",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "vocal",
-      "descricao": "Procuramos um(a) músico(a) que toque vocal para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 13",
-    "foto_banda": "https://picsum.photos/seed/banda_13/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_13/200/200",
-    "descricao": "A Banda 13 é conhecida por seu estilo vibrante e fusão única de jazz, funk, rap.",
-    "estilos_musicais": [
-      "jazz",
-      "funk",
-      "rap"
-    ],
-    "integrantes": [
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "baixo",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "bateria",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "João Nascimento",
-        "instrumentos": [
-          "guitarra",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
-      },
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "saxofone",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "controladora",
-      "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 14",
-    "foto_banda": "https://picsum.photos/seed/banda_14/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_14/200/200",
-    "descricao": "A Banda 14 é conhecida por seu estilo vibrante e fusão única de jazz, funk, pop.",
-    "estilos_musicais": [
-      "jazz",
-      "funk",
-      "pop"
-    ],
-    "integrantes": [
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "vocal",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "Lucas Teixeira",
-        "instrumentos": [
-          "vocal",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "bateria",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "Amanda Araújo",
-        "instrumentos": [
-          "baixo",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "controladora",
-      "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 15",
-    "foto_banda": "https://picsum.photos/seed/banda_15/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_15/200/200",
-    "descricao": "A Banda 15 é conhecida por seu estilo vibrante e fusão única de jazz, rap, funk.",
-    "estilos_musicais": [
-      "jazz",
-      "rap",
-      "funk"
-    ],
-    "integrantes": [
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "piano",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "piano",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      },
-      {
-        "nome": "João Nascimento",
-        "instrumentos": [
-          "bateria",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
-      },
-      {
-        "nome": "Lucas Teixeira",
-        "instrumentos": [
-          "guitarra",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "controladora",
-      "descricao": "Procuramos um(a) músico(a) que toque controladora para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 16",
-    "foto_banda": "https://picsum.photos/seed/banda_16/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_16/200/200",
-    "descricao": "A Banda 16 é conhecida por seu estilo vibrante e fusão única de jazz, rock, pop.",
-    "estilos_musicais": [
-      "jazz",
-      "rock",
-      "pop"
-    ],
-    "integrantes": [
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "teclado",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      },
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "baixo",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "nome": "Lucas Teixeira",
-        "instrumentos": [
-          "teclado",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/5.jpg"
-      },
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "piano",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "guitarra",
-      "descricao": "Procuramos um(a) músico(a) que toque guitarra para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 17",
-    "foto_banda": "https://picsum.photos/seed/banda_17/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_17/200/200",
-    "descricao": "A Banda 17 é conhecida por seu estilo vibrante e fusão única de eletronica, pop, funk.",
-    "estilos_musicais": [
-      "eletronica",
-      "pop",
-      "funk"
-    ],
-    "integrantes": [
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "bateria",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "João Nascimento",
-        "instrumentos": [
-          "baixo",
-          "controladora"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/9.jpg"
-      },
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "bateria",
-          "controladora"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "controladora",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "piano",
-      "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 18",
-    "foto_banda": "https://picsum.photos/seed/banda_18/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_18/200/200",
-    "descricao": "A Banda 18 é conhecida por seu estilo vibrante e fusão única de jazz, reggae, eletronica.",
-    "estilos_musicais": [
-      "jazz",
-      "reggae",
-      "eletronica"
-    ],
-    "integrantes": [
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "vocal",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "vocal",
-          "bateria"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "João Araújo",
-        "instrumentos": [
-          "baixo",
-          "teclado"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "vocal",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "piano",
-      "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 19",
-    "foto_banda": "https://picsum.photos/seed/banda_19/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_19/200/200",
-    "descricao": "A Banda 19 é conhecida por seu estilo vibrante e fusão única de jazz, funk, pop.",
-    "estilos_musicais": [
-      "jazz",
-      "funk",
-      "pop"
-    ],
-    "integrantes": [
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "piano",
-          "saxofone"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "Amanda Araújo",
-        "instrumentos": [
-          "teclado",
-          "piano"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/3.jpg"
-      },
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "vocal",
-          "guitarra"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "controladora",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "bateria",
-      "descricao": "Procuramos um(a) músico(a) que toque bateria para completar nosso time criativo e performático."
-    }
-  },
-  {
-    "nome": "Banda 20",
-    "foto_banda": "https://picsum.photos/seed/banda_20/800/400",
-    "logo_banda": "https://picsum.photos/seed/logo_banda_20/200/200",
-    "descricao": "A Banda 20 é conhecida por seu estilo vibrante e fusão única de rock, jazz, rap.",
-    "estilos_musicais": [
-      "rock",
-      "jazz",
-      "rap"
-    ],
-    "integrantes": [
-      {
-        "nome": "Carlos Costa",
-        "instrumentos": [
-          "saxofone",
-          "baixo"
-        ],
-        "foto": "https://randomuser.me/api/portraits/men/6.jpg"
-      },
-      {
-        "nome": "Bruna Batista",
-        "instrumentos": [
-          "guitarra",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/13.jpg"
-      },
-      {
-        "nome": "Mariana Gomes",
-        "instrumentos": [
-          "teclado",
-          "vocal"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/4.jpg"
-      },
-      {
-        "nome": "Tatiane Castro",
-        "instrumentos": [
-          "vocal",
-          "controladora"
-        ],
-        "foto": "https://randomuser.me/api/portraits/women/15.jpg"
-      }
-    ],
-    "integrante_faltante": {
-      "instrumento": "piano",
-      "descricao": "Procuramos um(a) músico(a) que toque piano para completar nosso time criativo e performático."
-    }
-  }
-]
+  ]
 }

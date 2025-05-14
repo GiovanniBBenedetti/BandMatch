@@ -9,7 +9,7 @@ background: linear-gradient(57deg, rgba(226, 19, 57, 1) 28%, rgba(255, 144, 33, 
 color: white;
 border-radius: 30px;
 font-style: italic;
-font-weight:;
+
 }
 
 
@@ -25,7 +25,54 @@ font-weight:;
     justify-content: center;
 }
 
-.back-circle{
-    background-color: rgb(255, 255, 255);
-    margin-top: -17vh;
+.instrumentos img{
+  width: 80px;
 }
+ 
+
+
+  .portfolio-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .music-number {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #000;
+    padding: 6px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    min-width: 35px;
+    text-align: center;
+  }
+  
+
+  
+  .music-details {
+    flex-grow: 1;
+  }
+  
+  .music-title {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+  .music-artist {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .music-icon {
+    background-color: #ec1c4b;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

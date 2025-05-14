@@ -1,27 +1,37 @@
 .home-background {
-    margin-top: -30px;
-  }
- .ConteudoPrincipal{
-  background-image: url('/BackgroundSobreNos.png');
-  background-size: cover;
-  height: 1000px;
-display: flex;
- }
- .SobreNos{
-  display: flex;
-  flex-direction: column;
-width: 100%;
-align-items: center;
- }
- .SobreNos h1{
+  margin-top: -30px;
+}
+
+.SobreNos {
+ background-image: url('/BackgroundSobreNos.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: white;
+}
+
+.SobreNos h1 {
   margin: 0;
   font-size: 40px;
- }
+}
+
+.secao-inicial {
+  margin-bottom: 10rem;
+}
+
+.titulo-sobre-nos {
+  margin-top: 60px;
+}
 
 
 
-  .feature-icon {
-    width: 80px;
-    height: 80px;
-  }
-  
+.containerPorqueUsar{
+  color: black;
+}
+.porqueUsar{
+  background-color: rgb(255, 255, 255);
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+}

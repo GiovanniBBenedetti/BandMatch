@@ -1,0 +1,146 @@
+
+
+
+/* Estilo para o cartão de perfil dos integrantes */
+.profile-card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 15px 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+
+
+.card-header-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Estilo para o avatar do integrante */
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: 20px auto 10px;
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+/* Estilo para o nome do integrante */
+.profile-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Estilo para a lista de instrumentos */
+.instrument-list {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 20px;
+}
+
+/* Estilo para os ícones de instrumentos */
+.instrument-icon {
+  width: 50px;
+}
+
+
+
+/* Estilo para o botão de visualizar perfil */
+.btn-view-profile {
+  background-color: #f0274b;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-view-profile:hover {
+  background-color: #c81e3c;
+}
+
+/* Estilo para os ícones sociais */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #555;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f0274b;
+}
+
+.card_faltante {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.banda-header-gradient {
+  margin-top: -30px;
+  height: 500px;
+  width: 100%; 
+  background: linear-gradient(135deg, #ff5b60, #f72428); 
+  position: relative;
+  z-index: 1;
+}
+
+.banda-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+  z-index: 2;
+  position: relative;
+}
+
+.img-logo {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
