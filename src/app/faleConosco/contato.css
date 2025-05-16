@@ -1,0 +1,110 @@
+/* Cores e base */
+.bg-claro {
+  background-color: #f9f9f9;
+}
+
+.cabecalho-contato {
+background: #F0274B;
+background: linear-gradient(0deg, rgba(240, 39, 75, 1) 30%, rgba(179, 4, 36, 1) 72%);
+  margin-top: -25px;
+
+}
+
+.titulo-principal {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.texto-cabecalho {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+} 
+
+/* Bloco esquerdo */
+.mini-titulo {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.titulo-secundario {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.descricao-esquerda {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #444;
+}
+
+/* Formulário */
+.formulario-contato .form-label {
+  font-weight: 500;
+}
+
+.entrada {
+  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.entrada:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem #e21339; 
+}
+
+.botao-enviar {
+  background-color: #e21339;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-enviar:hover {
+  background-color: #d11c3d;
+  color: white;
+}
+
+
+
+
+
+.titulo-faq {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e21339;
+}
+
+.faq-botao {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #e21339;
+  background-color: #fff;
+}
+
+.faq-botao:not(.collapsed) {
+  background-color: #b90526;
+  color: #fff;
+}
+
+.accordion-body {
+  font-size: 0.95rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e0e0e0;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+

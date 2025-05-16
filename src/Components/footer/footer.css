@@ -87,7 +87,7 @@ ul{
 }
 
 .footer-list .footer-link:hover {
-    color: var(--cor-6);
+    color: var(--cor-3);
 }
 
 #footer_subscribe {
@@ -113,8 +113,10 @@ ul{
     width: 100%;
 }
 
+
+
 #input_group button {
-    background-color: var(--cor-5);
+    background-color: var(--Cor-3);
     border: none;
     color: white;
     padding: 0px 1.25rem;

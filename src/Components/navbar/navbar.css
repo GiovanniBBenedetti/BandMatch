@@ -21,6 +21,13 @@ padding:40px ;
 
 
 
+
+
+
+
+
+
+/* /////////////////hamburguer mobile///////////////////////// */
 .hamburgers {
     justify-content: center;
     align-items: center;
@@ -63,3 +70,5 @@ padding:40px ;
   .hamburger input:checked ~ .bar:nth-child(4) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  
+/* /////////////////hamburguer mobile///////////////////////// */

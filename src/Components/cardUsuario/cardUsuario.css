@@ -1,0 +1,102 @@
+.custom-card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 15px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.marginTop {
+  margin-top: 50px;
+}
+
+.top-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: 20px auto 10px;
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.user-location {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-description {
+  font-size: 0.9rem;
+  margin: 10px 0 20px;
+  padding: 0 10px;
+  color: #444;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+.btn-verperfil {
+  background-color: #f0274b;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.instrumento {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+.instrumento-img {
+  width: 50px;
+}
+
+
+.container-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

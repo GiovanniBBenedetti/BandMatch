@@ -64,18 +64,18 @@ export default function User({ params }) {
         </div>
 
 
-{userExibido.instrumentos && userExibido.instrumentos.length > 0 && (
-  <div className="instrumentos d-flex justify-content-center mt-2 gap-3">
-   {userExibido.instrumentos.map((instrumento, index) => (
-          <img
-                            key={`${index}`}
-                            src={instrumentoImagens[instrumento]}
-                            className="instrumento-img"
-                          />
-      ))}
-   
-  </div>
-)}
+        {userExibido.instrumentos && userExibido.instrumentos.length > 0 && (
+          <div className="instrumentos d-flex justify-content-center mt-2 gap-3">
+            {userExibido.instrumentos.map((instrumento, index) => (
+              <img
+                key={`${index}`}
+                src={instrumentoImagens[instrumento]}
+                className="instrumento-img"
+              />
+            ))}
+
+          </div>
+        )}
 
         <div className="nomeUsuario d-flex justify-content-center mt-3">
           <h1 className={LeagueSpartan.className}>{userExibido.nome}</h1>
@@ -83,13 +83,26 @@ export default function User({ params }) {
 
         <div className="container mt-4">
           <div className="justify-content-center gap-4">
-           
-              <div className="row">
-                <div className="col-12 mb-4">
-                  <p className="mb-3">{userExibido.bio}</p>
-                </div>
 
-              
+            <div className="row">
+              <div className="col-12 mb-4">
+                <p className="mb-3">{userExibido.bio}</p>
+              </div>
+
+              <div className="d-flex  flex-column">
+                <h2 className={`mb-3 ${LeagueSpartan.className}`}>Estilos Musicais</h2>
+                <div className="d-flex gap-2 ">
+                  {userExibido.estilos_musicais.map((estilo, index) => (
+                    
+                    <span key={index} className={`SpanEstilos ${LeagueSpartan.className}`}>
+                      {estilo}
+                    </span>
+                  
+                  ))}
+                </div>
+              </div>
+
+
             </div>
 
             <div>

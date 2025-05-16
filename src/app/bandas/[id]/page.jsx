@@ -53,58 +53,72 @@ export default async function user({ params }) {
           </div>
         </div>
 
-        <div className="container tex">
+        <div className="container">
           <div className="descricaoDetalhada d-flex justify-content-center">
-            <p className="fs-5 text-center px-3">{bandaExibido.descricao_detalhada}</p>
+            <p className="fs-5 ">{bandaExibido.descricao_detalhada}</p>
           </div>
         </div>
 
+       <div className="mt-5 d-flex container flex-column">
+                <h1 className={`mb-3 ${LeagueSpartan.className}`}>Estilos Musicais</h1>
+                <div className="d-flex gap-2 ">
+                  {bandaExibido.estilos_musicais.map((estilo, index) => (
+                    
+                    <span key={index} className={`SpanEstilos ${LeagueSpartan.className}`}>
+                      {estilo}
+                    </span>
+                  
+                  ))}
+                </div>
+              </div>
 
-        <div className="d-flex align-items-center justify-content-center my-5">
+
+        <div className="container my-5">
           <p className={`fs-1 fw-bold ${LeagueSpartan.className}`}>Integrantes</p>
         </div>
 
 
-        <div className="grid-container row gx-4 gy-5 justify-content-center">
-          {integrantes.map((item, index) => (
-            <div className="grid-item col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center" key={index}>
+<div className="container">
+  <div className="row gx-4 gy-5 justify-content-center">
+    {integrantes.map((item, index) => (
+      <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div className="profile-card text-center w-100">
+          <div
+            className="card-header-img"
+            style={{ backgroundImage: `url(/Bandas/${item.id}.png)` }}
+          ></div>
 
-              <div className="profile-card text-center">
-                <div
-                  className="card-header-img"
-                  style={{ backgroundImage: `url(/Bandas/${item.id}.png)` }}
-                ></div>
+          <img src={item.foto} alt={item.nome} className="profile-avatar" />
+          <h2 className="profile-name">{item.nome}</h2>
 
-                <img src={item.foto} alt={item.nome} className="profile-avatar" />
-                <h2 className="profile-name">{item.nome}</h2>
+          <div className="instrument-list d-flex justify-content-center flex-wrap">
+            {item.instrumentos?.map((instrumento, index) => (
+              <img
+                key={index}
+                src={
+                  instrumentoImagens[instrumento.toLowerCase().trim()] || "/default.png"
+                }
+                className="instrument-icon mx-1 my-1"
+                alt={instrumento}
+              />
+            ))}
+          </div>
 
-                <div className="instrument-list">
-                  {item.instrumentos?.map((instrumento, index) => (
-                    <img
-                      key={index}
-                      src={
-                        instrumentoImagens[instrumento.toLowerCase().trim()] ||
-                        "/default.png"
-                      }
-                      className="instrument-icon mx-1"
-                      alt={instrumento}
-                    />
-                  ))}
-                </div>
+          <Link href={`../users/${item.id}`}>
+            <button className="btn-view-profile mt-3">Ver Perfil</button>
+          </Link>
 
-                <Link href={`../users/${item.id}`}>
-                  <button className="btn-view-profile">Ver Perfil</button>
-                </Link>
-
-                <div className="social-icons mb-3"></div>
-              </div>
-            </div>
-          ))}
+          <div className="social-icons mb-3"></div>
         </div>
+      </div>
+    ))}
+  </div>
+</div>
 
 
-        <div className="row mt-5">
-          <div className="d-flex align-items-center justify-content-center my-3">
+
+        <div className="container mt-5">
+          <div className="d-flex my-3">
             <h1 className={`${LeagueSpartan.className}`}>Temos necessidade em:</h1>
           </div>
         </div>

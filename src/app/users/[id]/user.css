@@ -15,7 +15,6 @@ font-style: italic;
 
 
 .FotoUsuario img{
-
     border-radius: 50%;
     border: 10px solid white;
 }
@@ -29,6 +28,14 @@ font-style: italic;
   width: 80px;
 }
  
+
+.SpanEstilos{
+  background-color: #ec1c4b;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 
 
   .portfolio-item {

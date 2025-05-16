@@ -31,12 +31,10 @@ export default function Footer() {
                 Usuários
               </Link>
            </li>
-            <li>
-              <Link href="" className='footer-link'>
-              Como funciona
+             <li>
+              <Link href="/faleConosco" className="footer-link">
+              Fale Conosco
               </Link>
-
-
             </li>
           </ul>
           <ul className="footer-list">
@@ -53,6 +51,7 @@ export default function Footer() {
               Bandas
               </Link>
             </li>
+       
 
           </ul>
           <div id="footer_subscribe">

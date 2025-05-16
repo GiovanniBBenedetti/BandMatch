@@ -1,49 +1,20 @@
-'use client';
-
 import { League_Spartan } from 'next/font/google'
-import { useState } from 'react';
+
+import Carrossel from '@/Components/carroselCifras/carrosselCifra';
+import MaisAcessados from '@/Components/maisAcessadosCifra/maisAcessados';
+import BuscaCifras from '@/Components/buscaCifra/buscaCifra';
 
 const LeagueSpartan = League_Spartan({
   weight: '800',
   subsets: ['latin'],
 })
 
-import { useRouter } from 'next/navigation';
+
 import './cifraHome.css';
 
 export default function Cifras() {
-  const router = useRouter();
 
-  const [artista, setArtista] = useState("");
-  const [musica, setMusica] = useState("");
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-    if (artista && musica.trim()) {
-      router.push(`/cifras/busca?artist=${encodeURIComponent(artista)}&song=${encodeURIComponent(musica)}`);
-    }
-  };
-  const handleBannerClick = (artista, musica) => {
-    router.push(`/cifras/busca?artist=${encodeURIComponent(artista)}&song=${encodeURIComponent(musica)}`);
-  };
-
-  const maisAcessados = [
-    { musica: "Porque Ele Vive", artista: "Harpa Cristã" },
-    { musica: "Bondade de Deus", artista: "Isaías Saad" },
-    { musica: "Céu Azul", artista: "Charlie Brown Jr" },
-    { musica: "Santo Pra Sempre", artista: "Gabriel Guedes" },
-    { musica: "Iris", artista: "Goo Goo Dolls" },
-    { musica: "American idiot", artista: "Green day" },
-    { musica: "Pra Sempre", artista: "Fernandinho" },
-    { musica: "Garota Nacional", artista: "Skank" },
-    { musica: "Boate Azul", artista: "Bruno e Marrone" },
-    { musica: "Toxicity", artista: "System of a Down" },
-    { musica: "Final Feliz", artista: "Jorge Vercillo" },
-    { musica: "Nada Além do Sangue", artista: "Fernandinho" },
-    { musica: "Em Teus Braços", artista: "Laura Souguellis" },
-    { musica: "Baby", artista: "Justin Bieber" },
-    { musica: "A Ele Glória", artista: "Diante do Trono" }
-  ];
 
   const videos = [
     { artista: "13 mil visualisações", musica: "BEAUTIFUL THINGS - Benson Boone (Simplificada)", imagem: "/beautifulThingsVideo.jpeg", link: "https://www.youtube.com/watch?v=BczxyQJoMkU" },
@@ -61,199 +32,23 @@ export default function Cifras() {
     <>
 
       <div className='marginNegativa'>
-
-        <div id="carouselExampleIndicators"
-      data-bs-ride="carousel"
-      data-bs-interval="4000" className="carousel slide desktop"
-          >
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to={0}
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            />
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to={1}
-              aria-label="Slide 2"
-            />
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to={2}
-              aria-label="Slide 3"
-            />
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to={3}
-              aria-label="Slide 4"
-            />
-          </div>
-          <div className="carousel-inner" >
-            <div className="carousel-item active">
-              <img
-                src="./fundoDjavan.png"
-                className="d-none d-lg-block w-100"
-                alt="Djavan"
-                style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('djavan', 'eu te devoro')}
-              />
-              <img
-                src="./fundoDjavanCell.png"
-                className="d-block d-lg-none w-100"
-                alt="Djavan"
-                style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('djavan', 'eu te devoro')}
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="/fundoBillie.png"
-                className="d-none d-lg-block w-100"
-                alt="Mais Artista"
-                style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('billie eilish', 'happier than ever')}
-              />
-              <img
-                src="/fundoBellieCell.png"
-                className="d-block d-lg-none w-100"
-                alt="Mais Artista"
-                style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('billie eilish', 'happier than ever')}
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="./fundoNirvana.png"
-                className="d-none d-lg-block w-100"
-                alt="Mais Artista"
-                style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('nirvana', 'smells like teen spirit')}
-              />
-              <img
-                src="./fundoNirvanaCell.png"
-                className="d-block d-lg-none w-100"
-                alt="Mais Artista"
-                style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('nirvana', 'smells like teen spirit')}
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="./fundoCharlie.png"
-                className="d-none d-lg-block w-100"
-                alt="Mais Artista"
-                style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('charlie brown jr', 'so os loucos sabem')}
-              />
-              <img
-                src="./fundoCharlieCell.png"
-                className="d-block d-lg-none w-100"
-                alt="Mais Artista"
-                style={{ cursor: 'pointer' }}
-                onClick={() => handleBannerClick('charlie brown jr', 'so os loucos sabem')}
-              />
-            </div>
-          </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
-
+<Carrossel></Carrossel>
 
       </div>
 
 
       <div className="container mt-5">
-        <form className="row gy-3 gx-3 justify-content-center align-items-center mb-5" onSubmit={handleSearch}>
-          <div className="col-12 col-md-4">
-            <input
-              type="text"
-              placeholder="Digite o artista ..."
-              className="form-control custom-input"
-              value={artista}
-              onChange={(e) => setArtista(e.target.value)}
-              required
-            />
-          </div>
-          <div className="col-12 col-md-4">
-            <input
-              type="text"
-              placeholder="Digite a música ..."
-              className="form-control custom-input"
-              value={musica}
-              onChange={(e) => setMusica(e.target.value)}
-              required
-            />
-          </div>
-          <div className="col-12 col-md-auto">
-            <button type="submit" className={`btnEnviar`}>Buscar</button>
-          </div>
-        </form>
-
+       
+       <BuscaCifras></BuscaCifras>
 
 
         <h2 className={`${LeagueSpartan.className} ps-2 tituloMaisAcessados`}>
           Mais acessados
         </h2>
-
-        <div className="row g-3">
-          {maisAcessados.map((item, index) => (
-            <div key={index} className="col-md-4">
-              <div
-                className="card h-100 border-0  cardsAcessados"
-                onClick={() => handleBannerClick(item.artista, item.musica)}
-              >
-                <div className="card-body p-3">
-                  <div className="d-flex align-items-center">
-                    <p className={`${LeagueSpartan.className} numero me-3 m-0`}>
-                      {index + 1}
-                    </p>
-                    <div className="flex-grow-1">
-                      <div className='musicaVerificada d-flex gap-3'>
-                        <h6 className="mb-1 fw-normal" style={{ fontSize: '1rem' }}>{item.musica} </h6>
-                        <i className="bi bi-check-circle-fill"></i>
-                      </div>
-
-                      <small className="text-muted">{item.artista}</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <MaisAcessados></MaisAcessados>
+ 
       </div>
-{/* 
-      <div className='mt-5 mb-5'>
-        <div className='d-none d-lg-block'>
-            <img src="https://placehold.co/1900x500" alt="" className='w-100'/>
-        </div>
-        <div className='d-lg-none'>
-           <img src="https://placehold.co/500x500" alt="" className='w-100'/>
-        </div>
-      
-      </div> */}
+
 
       <div className="container mt-5 mb-5">
         <h2 className={`${LeagueSpartan.className} ps-2 tituloMaisAcessados`}>Aulas em Vídeo</h2>

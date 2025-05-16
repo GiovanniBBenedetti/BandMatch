@@ -20,7 +20,7 @@ export default function Busca() {
     <form className="container-input" onSubmit={handleSearch}>
       <input
         type="text"
-        placeholder="Search"
+        placeholder="Busque um Musíco..."
         name="text"
         className="input"
         value={query}
