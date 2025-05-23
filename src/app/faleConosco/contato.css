@@ -1,4 +1,4 @@
-/* Cores e base */
+
 .bg-claro {
   background-color: #f9f9f9;
 }
@@ -22,7 +22,7 @@ background: linear-gradient(0deg, rgba(240, 39, 75, 1) 30%, rgba(179, 4, 36, 1) 
   opacity: 0.9;
 } 
 
-/* Bloco esquerdo */
+
 .mini-titulo {
   text-transform: uppercase;
   font-size: 0.9rem;
@@ -42,7 +42,6 @@ background: linear-gradient(0deg, rgba(240, 39, 75, 1) 30%, rgba(179, 4, 36, 1) 
   color: #444;
 }
 
-/* Formulário */
 .formulario-contato .form-label {
   font-weight: 500;
 }

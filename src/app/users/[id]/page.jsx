@@ -4,6 +4,7 @@ import "./user.css";
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { League_Spartan } from 'next/font/google';
+import Loader from "@/Components/loader/loader";
 
 const LeagueSpartan = League_Spartan({
   weight: '700',
@@ -48,16 +49,18 @@ export default function User({ params }) {
     vocal: "/vocal.png",
   };
 
-  if (!user || !userId) return <div>Carregando...</div>;
+  if (!user || !userId) return <Loader></Loader>;
 
   const userExibido = user[userId - 1];
 
   return (
     <>
       <div className="m-0">
-        <div className="imagemFundo">
-          <img src={userExibido.fundo} className="background-img w-100" />
-        </div>
+    <div
+  className="imagemFundo"
+  style={{ backgroundImage: `url(${userExibido.fundo})` }}
+></div>
+
 
         <div className="FotoUsuario">
           <img src={userExibido.foto} className="img-fluid" alt="" />

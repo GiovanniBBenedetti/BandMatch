@@ -74,7 +74,7 @@ export default async function user({ params }) {
 
 
         <div className="container my-5">
-          <p className={`fs-1 fw-bold ${LeagueSpartan.className}`}>Integrantes</p>
+          <p className={`fs-1 m-0 ${LeagueSpartan.className}`}>Integrantes</p>
         </div>
 
 

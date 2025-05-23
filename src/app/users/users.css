@@ -1,0 +1,14 @@
+.vermais{
+    padding: 10px 25px 10px 25px;
+    background-color: #e21339;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+}
+
+.seta{
+    font-size: 25px;
+}

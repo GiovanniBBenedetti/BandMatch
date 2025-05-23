@@ -9,7 +9,7 @@ export default function Busca() {
   const router = useRouter();
 
   const handleSearch = (e) => {
-    e.preventDefault(); // Evita recarregar a página
+    e.preventDefault(); 
     if (query.trim()) {
       router.push(`/resultados?produtos=${query}`);
     }

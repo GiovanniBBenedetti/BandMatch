@@ -135,22 +135,33 @@
 .filtros-botao-aplicar:hover {
   background-color: #d01f3f;
 }
-
 .btn-verperfil {
   background-color: #f0274b;
   color: white;
   border: none;
-  padding: 15px 20px;
-  border-radius: 30px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: background-color 0.2s ease;
+  border-radius: 25px;
+  padding: 10px 25px;
   font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
+
 
 .btn-verperfil:hover {
   background-color: #d01f3f;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*////////////////////////////// Inicio estilizaçãao CheckBox //////////////////////////*/
 .ui-checkbox {

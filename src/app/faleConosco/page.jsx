@@ -59,7 +59,6 @@ export default function PaginaContato() {
                     </div>
                 </div>
 
-                {/* FAQ Section */}
                 <div className="mt-5">
                     <h2 className={`titulo-secundario mb-4 ${LeagueSpartan.className}`}>Perguntas Frequentes</h2>
                     <div className="accordion" id="accordionFAQ">

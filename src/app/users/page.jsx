@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { League_Spartan } from 'next/font/google'
 import FiltroUsuario from '@/Components/filtroUsuarios/filtroUsuarios'
 import CardUsuario from '@/Components/cardUsuario/CardUsuario'
-
+import './users.css'
 const LeagueSpartan = League_Spartan({
   weight: '700',
   subsets: ['latin'],
@@ -17,11 +17,11 @@ export default function Users() {
   const [instrumentosSelecionados, setInstrumentosSelecionados] = useState([])
   const [estilosSelecionados, setEstilosSelecionados] = useState([])
   const [generoSelecionado, setGeneroSelecionado] = useState([])
-  
+  const [visibleCount, setVisibleCount] = useState(6)
+
   const filtragem = () => {
     const filtrados = usuarios.filter((user) => {
       const atendeIdade = user.idade >= idade
-
       const atendeInstrumentos =
         instrumentosSelecionados.length === 0 ||
         instrumentosSelecionados.every(instr => user.instrumentos.includes(instr))
@@ -37,8 +37,8 @@ export default function Users() {
       return atendeIdade && atendeInstrumentos && atendeEstilos && atendeGenero
     })
 
-    console.log(filtrados)
     setFiltragem(filtrados)
+    setVisibleCount(6)
   }
 
   useEffect(() => {
@@ -50,37 +50,49 @@ export default function Users() {
       })
   }, [])
 
+  const mostrarMais = () => {
+    setVisibleCount(prev => prev + 6)
+  }
 
   return (
     <div className="container-fluid">
       <div className="row">
-      
-<FiltroUsuario
-  idade={idade}
-  setIdade={setIdade}
-  instrumentosSelecionados={instrumentosSelecionados}
-  setInstrumentosSelecionados={setInstrumentosSelecionados}
-  estilosSelecionados={estilosSelecionados}
-  setEstilosSelecionados={setEstilosSelecionados}
-  generoSelecionado={generoSelecionado}
-  setGeneroSelecionado={setGeneroSelecionado}
-  filtragem={filtragem}
-/>
-
+        <FiltroUsuario
+          idade={idade}
+          setIdade={setIdade}
+          instrumentosSelecionados={instrumentosSelecionados}
+          setInstrumentosSelecionados={setInstrumentosSelecionados}
+          estilosSelecionados={estilosSelecionados}
+          setEstilosSelecionados={setEstilosSelecionados}
+          generoSelecionado={generoSelecionado}
+          setGeneroSelecionado={setGeneroSelecionado}
+          filtragem={filtragem}
+        />
 
         <div className="col-md-9 marginTop">
           <div className='container mb-5'>
             <div className="row">
               {usuariosFiltrados.length > 0 ? (
-                usuariosFiltrados.map(usuario => (
-                   <CardUsuario key={usuario.id} usuario={usuario} />
-                ))
+                usuariosFiltrados
+                  .slice(0, visibleCount)
+                  .map(usuario => (
+                    <CardUsuario key={usuario.id} usuario={usuario} />
+                  ))
               ) : (
                 <div className={`text-center w-100 mt-5 ${LeagueSpartan.className}`}>
                   <h3>Nenhum usuário encontrado com os filtros selecionados.</h3>
                 </div>
               )}
             </div>
+
+            {visibleCount < usuariosFiltrados.length && (
+              <div className="d-flex justify-content-center mt-4">
+              <button onClick={mostrarMais} className="vermais">
+                  Ver mais
+                  <i className="bi bi-arrow-down-short seta"></i>
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>

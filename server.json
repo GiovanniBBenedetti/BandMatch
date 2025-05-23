@@ -342,7 +342,7 @@
         {
           "id": 6,
           "nome": "Come Down",
-          "artista": "Anderson .Paak"
+          "artista": "Anderson Paak"
         }
       ]
     },
@@ -371,12 +371,36 @@
         "screenshot/4.png"
       ],
       "portifolio": [
-       { "id": 1, "nome": "Enter Sandman", "artista": "Metallica" },
-  { "id": 2, "nome": "The Less I Know The Better", "artista": "Tame Impala" },
-  { "id": 3, "nome": "Give It Away", "artista": "Red Hot Chili Peppers" },
-  { "id": 4, "nome": "Uptown Funk", "artista": "Mark Ronson ft. Bruno Mars" },
-  { "id": 5, "nome": "Holiday", "artista": "Green Day" },
-  { "id": 6, "nome": "Blue Monday", "artista": "New Order" }
+        {
+          "id": 1,
+          "nome": "Enter Sandman",
+          "artista": "Metallica"
+        },
+        {
+          "id": 2,
+          "nome": "The Less I Know The Better",
+          "artista": "Tame Impala"
+        },
+        {
+          "id": 3,
+          "nome": "Give It Away",
+          "artista": "Red Hot Chili Peppers"
+        },
+        {
+          "id": 4,
+          "nome": "Uptown Funk",
+          "artista": "Mark Ronson ft. Bruno Mars"
+        },
+        {
+          "id": 5,
+          "nome": "Holiday",
+          "artista": "Green Day"
+        },
+        {
+          "id": 6,
+          "nome": "Blue Monday",
+          "artista": "New Order"
+        }
       ]
     },
     {
@@ -404,14 +428,37 @@
         "screenshot/4.png"
       ],
       "portifolio": [
-  { "id": 1, "nome": "Music Sounds Better With You", "artista": "Stardust" },
-  { "id": 2, "nome": "Technologic", "artista": "Daft Punk" },
-  { "id": 3, "nome": "Heads Will Roll (A-Trak Remix)", "artista": "Yeah Yeah Yeahs" },
-  { "id": 4, "nome": "Galvanize", "artista": "The Chemical Brothers" },
-  { "id": 5, "nome": "Intoxicated", "artista": "Martin Solveig & GTA" },
-  { "id": 6, "nome": "Stay High (Habits Remix)", "artista": "Tove Lo vs Hippie Sabotage" }
-]
-
+        {
+          "id": 1,
+          "nome": "Music Sounds Better With You",
+          "artista": "Stardust"
+        },
+        {
+          "id": 2,
+          "nome": "Technologic",
+          "artista": "Daft Punk"
+        },
+        {
+          "id": 3,
+          "nome": "Heads Will Roll (A-Trak Remix)",
+          "artista": "Yeah Yeah Yeahs"
+        },
+        {
+          "id": 4,
+          "nome": "Galvanize",
+          "artista": "The Chemical Brothers"
+        },
+        {
+          "id": 5,
+          "nome": "Intoxicated",
+          "artista": "Martin Solveig & GTA"
+        },
+        {
+          "id": 6,
+          "nome": "Stay High (Habits Remix)",
+          "artista": "Tove Lo vs Hippie Sabotage"
+        }
+      ]
     },
     {
       "id": 9,
@@ -441,33 +488,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "Lose Yourself",
-          "artista": "Eminem"
+          "nome": "Blinding Lights",
+          "artista": "The Weeknd"
         },
         {
           "id": 2,
-          "nome": "No Woman No Cry",
-          "artista": "Bob Marley"
+          "nome": "Under the Bridge",
+          "artista": "Red Hot Chili Peppers"
         },
         {
           "id": 3,
-          "nome": "Sweet Child O' Mine",
-          "artista": "Guns N' Roses"
+          "nome": "Seven Nation Army",
+          "artista": "The White Stripes"
         },
         {
           "id": 4,
-          "nome": "Smells Like Teen Spirit",
-          "artista": "Nirvana"
+          "nome": "Hey Ya!",
+          "artista": "Outkast"
         },
         {
           "id": 5,
-          "nome": "Sicko Mode",
-          "artista": "Travis Scott"
+          "nome": "Take Me Out",
+          "artista": "Franz Ferdinand"
         },
         {
           "id": 6,
-          "nome": "Bohemian Rhapsody",
-          "artista": "Queen"
+          "nome": "HUMBLE.",
+          "artista": "Kendrick Lamar"
         }
       ]
     },
@@ -499,33 +546,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "Sweet Child O' Mine",
-          "artista": "Guns N' Roses"
-        },
-        {
-          "id": 2,
-          "nome": "Lose Yourself",
-          "artista": "Eminem"
-        },
-        {
-          "id": 3,
-          "nome": "God's Plan",
-          "artista": "Drake"
-        },
-        {
-          "id": 4,
-          "nome": "Smells Like Teen Spirit",
+          "nome": "Come As You Are",
           "artista": "Nirvana"
         },
         {
+          "id": 2,
+          "nome": "Hotel California",
+          "artista": "Eagles"
+        },
+        {
+          "id": 3,
+          "nome": "Rolling in the Deep",
+          "artista": "Adele"
+        },
+        {
+          "id": 4,
+          "nome": "Radioactive",
+          "artista": "Imagine Dragons"
+        },
+        {
           "id": 5,
-          "nome": "As It Was",
-          "artista": "Harry Styles"
+          "nome": "Can’t Stop the Feeling!",
+          "artista": "Justin Timberlake"
         },
         {
           "id": 6,
-          "nome": "Blinding Lights",
-          "artista": "The Weeknd"
+          "nome": "Numb",
+          "artista": "Linkin Park"
         }
       ]
     },
@@ -558,33 +605,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "Take Five",
-          "artista": "Dave Brubeck"
+          "nome": "Wish You Were Here",
+          "artista": "Pink Floyd"
         },
         {
           "id": 2,
-          "nome": "Smells Like Teen Spirit",
-          "artista": "Nirvana"
+          "nome": "Back to Black",
+          "artista": "Amy Winehouse"
         },
         {
           "id": 3,
-          "nome": "Autumn Leaves",
-          "artista": "Bill Evans"
+          "nome": "Come Together",
+          "artista": "The Beatles"
         },
         {
           "id": 4,
-          "nome": "Three Little Birds",
-          "artista": "Bob Marley"
+          "nome": "Feel Good Inc.",
+          "artista": "Gorillaz"
         },
         {
           "id": 5,
-          "nome": "Redemption Song",
-          "artista": "Bob Marley"
+          "nome": "Ain't No Sunshine",
+          "artista": "Bill Withers"
         },
         {
           "id": 6,
-          "nome": "Sweet Child O' Mine",
-          "artista": "Guns N' Roses"
+          "nome": "Electric Feel",
+          "artista": "MGMT"
         }
       ]
     },
@@ -616,33 +663,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "Sicko Mode",
-          "artista": "Travis Scott"
+          "nome": "Lean On",
+          "artista": "Major Lazer & DJ Snake"
         },
         {
           "id": 2,
-          "nome": "Rap da Felicidade",
-          "artista": "Cidinho e Doca"
+          "nome": "Titanium",
+          "artista": "David Guetta feat. Sia"
         },
         {
           "id": 3,
-          "nome": "Strobe",
-          "artista": "deadmau5"
+          "nome": "Midnight City",
+          "artista": "M83"
         },
         {
           "id": 4,
-          "nome": "Baile de Favela",
-          "artista": "MC João"
+          "nome": "Turn Down for What",
+          "artista": "DJ Snake & Lil Jon"
         },
         {
           "id": 5,
-          "nome": "Animals",
-          "artista": "Martin Garrix"
+          "nome": "Lalala",
+          "artista": "bbno$ & Y2K"
         },
         {
           "id": 6,
-          "nome": "One More Time",
-          "artista": "Daft Punk"
+          "nome": "Trem Bala",
+          "artista": "Ana Vilela"
         }
       ]
     },
@@ -673,33 +720,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "One More Time",
-          "artista": "Daft Punk"
+          "nome": "Blue in Green",
+          "artista": "Miles Davis"
         },
         {
           "id": 2,
-          "nome": "Autumn Leaves",
-          "artista": "Bill Evans"
+          "nome": "Get Lucky",
+          "artista": "Daft Punk"
         },
         {
           "id": 3,
-          "nome": "Animals",
-          "artista": "Martin Garrix"
+          "nome": "Shelter",
+          "artista": "Porter Robinson & Madeon"
         },
         {
           "id": 4,
-          "nome": "Take Five",
-          "artista": "Dave Brubeck"
+          "nome": "Chameleon",
+          "artista": "Herbie Hancock"
         },
         {
           "id": 5,
-          "nome": "Strobe",
+          "nome": "Ghosts 'n' Stuff",
           "artista": "deadmau5"
         },
         {
           "id": 6,
-          "nome": "So What",
-          "artista": "Miles Davis"
+          "nome": "Porcelain",
+          "artista": "Moby"
         }
       ]
     },
@@ -731,32 +778,32 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "Baile de Favela",
-          "artista": "MC João"
+          "nome": "Shape of You",
+          "artista": "Ed Sheeran"
         },
         {
           "id": 2,
-          "nome": "Sweet Child O' Mine",
-          "artista": "Guns N' Roses"
+          "nome": "Enter Sandman",
+          "artista": "Metallica"
         },
         {
           "id": 3,
-          "nome": "Smells Like Teen Spirit",
-          "artista": "Nirvana"
+          "nome": "Happy",
+          "artista": "Pharrell Williams"
         },
         {
           "id": 4,
-          "nome": "Levitating",
-          "artista": "Dua Lipa"
+          "nome": "Lose Control",
+          "artista": "Missy Elliott feat. Ciara & Fatman Scoop"
         },
         {
           "id": 5,
-          "nome": "Tamborzão Pesadão",
-          "artista": "DJ GBR"
+          "nome": "Wave",
+          "artista": "Mallu Magalhães"
         },
         {
           "id": 6,
-          "nome": "Three Little Birds",
+          "nome": "Waiting in Vain",
           "artista": "Bob Marley"
         }
       ]
@@ -787,33 +834,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "Bohemian Rhapsody",
-          "artista": "Queen"
+          "nome": "Imagine",
+          "artista": "John Lennon"
         },
         {
           "id": 2,
-          "nome": "Sweet Child O' Mine",
-          "artista": "Guns N' Roses"
+          "nome": "Wonderwall",
+          "artista": "Oasis"
         },
         {
           "id": 3,
-          "nome": "Smells Like Teen Spirit",
-          "artista": "Nirvana"
+          "nome": "Chandelier",
+          "artista": "Sia"
         },
         {
           "id": 4,
-          "nome": "As It Was",
-          "artista": "Harry Styles"
+          "nome": "Viva La Vida",
+          "artista": "Coldplay"
         },
         {
           "id": 5,
-          "nome": "Levitating",
-          "artista": "Dua Lipa"
+          "nome": "Hey Jude",
+          "artista": "The Beatles"
         },
         {
           "id": 6,
-          "nome": "Blinding Lights",
-          "artista": "The Weeknd"
+          "nome": "Royals",
+          "artista": "Lorde"
         }
       ]
     },
@@ -845,32 +892,32 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "God's Plan",
-          "artista": "Drake"
+          "nome": "Sunflower",
+          "artista": "Post Malone"
         },
         {
           "id": 2,
-          "nome": "As It Was",
+          "nome": "Watermelon Sugar",
           "artista": "Harry Styles"
         },
         {
           "id": 3,
-          "nome": "One More Time",
+          "nome": "Around the World",
           "artista": "Daft Punk"
         },
         {
           "id": 4,
-          "nome": "Take Five",
-          "artista": "Dave Brubeck"
+          "nome": "My Favorite Things",
+          "artista": "John Coltrane"
         },
         {
           "id": 5,
-          "nome": "So What",
+          "nome": "Freddie Freeloader",
           "artista": "Miles Davis"
         },
         {
           "id": 6,
-          "nome": "Lose Yourself",
+          "nome": "Without Me",
           "artista": "Eminem"
         }
       ]
@@ -903,33 +950,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "No Woman No Cry",
-          "artista": "Bob Marley"
+          "nome": "Waiting in Vain",
+          "artista": "Bob Marley & The Wailers"
         },
         {
           "id": 2,
-          "nome": "Bohemian Rhapsody",
-          "artista": "Queen"
+          "nome": "Somebody to Love",
+          "artista": "Jefferson Airplane"
         },
         {
           "id": 3,
-          "nome": "As It Was",
+          "nome": "Sign of the Times",
           "artista": "Harry Styles"
         },
         {
           "id": 4,
-          "nome": "Strobe",
+          "nome": "Raise Your Weapon",
           "artista": "deadmau5"
         },
         {
           "id": 5,
-          "nome": "Redemption Song",
-          "artista": "Bob Marley"
+          "nome": "Heart-Shaped Box",
+          "artista": "Nirvana"
         },
         {
           "id": 6,
-          "nome": "Smells Like Teen Spirit",
-          "artista": "Nirvana"
+          "nome": "Karma Police",
+          "artista": "Radiohead"
         }
       ]
     },
@@ -1017,33 +1064,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "As It Was",
-          "artista": "Harry Styles"
+          "nome": "Footprints",
+          "artista": "Wayne Shorter"
         },
         {
           "id": 2,
-          "nome": "Levitating",
-          "artista": "Dua Lipa"
+          "nome": "Physical",
+          "artista": "Olivia Newton-John"
         },
         {
           "id": 3,
-          "nome": "Strobe",
-          "artista": "deadmau5"
-        },
-        {
-          "id": 4,
-          "nome": "Blinding Lights",
+          "nome": "Starboy",
           "artista": "The Weeknd"
         },
         {
+          "id": 4,
+          "nome": "Waltz for Debby",
+          "artista": "Bill Evans"
+        },
+        {
           "id": 5,
-          "nome": "Animals",
-          "artista": "Martin Garrix"
+          "nome": "Golden",
+          "artista": "Harry Styles"
         },
         {
           "id": 6,
-          "nome": "One More Time",
-          "artista": "Daft Punk"
+          "nome": "Cantaloupe Island",
+          "artista": "Herbie Hancock"
         }
       ]
     },
@@ -1076,33 +1123,33 @@
       "portifolio": [
         {
           "id": 1,
-          "nome": "Rap da Felicidade",
-          "artista": "Cidinho e Doca"
+          "nome": "Favela Chegou",
+          "artista": "MC Livinho & Anitta"
         },
         {
           "id": 2,
-          "nome": "Blinding Lights",
+          "nome": "Can't Feel My Face",
           "artista": "The Weeknd"
         },
         {
           "id": 3,
-          "nome": "Levitating",
+          "nome": "Don't Start Now",
           "artista": "Dua Lipa"
         },
         {
           "id": 4,
-          "nome": "Baile de Favela",
-          "artista": "MC João"
+          "nome": "Vai Malandra",
+          "artista": "Anitta"
         },
         {
           "id": 5,
-          "nome": "Three Little Birds",
+          "nome": "Buffalo Soldier",
           "artista": "Bob Marley"
         },
         {
           "id": 6,
-          "nome": "Tamborzão Pesadão",
-          "artista": "DJ GBR"
+          "nome": "Fuleragem",
+          "artista": "MC WM"
         }
       ]
     }
